@@ -21,6 +21,10 @@ Contents
 
 body{
     background-color: $black;
+    *::selection {
+      background: #1abc9c;
+      color: white;
+    }
 }
 
 main.container, main.content > .container{
@@ -32,10 +36,11 @@ main.container, main.content > .container{
 
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: 'Avenir';
   font-style: normal;
-  font-weight: 400;
-  src: local('Noto Serif'), local('NotoSerif'), url(http://themes.googleusercontent.com/static/fonts/notoserif/v1/eCpfeMZI7q4jLksXVRWPQxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+  font-weight: normal;
+  src: url('../../font/avenirltstd-light-webfont.eot');
+  src: local('☺'), url('../../font/avenirltstd-light-webfont.woff') format('woff'), url('../../font/avenirltstd-light-webfont.ttf') format('truetype'), url('../../font/avenirltstd-light-webfont.svg#webfontS2cE5GsC') format('svg')
 }
 
 
@@ -49,14 +54,12 @@ main.container, main.content > .container{
 
 
 .a-hover{
-        color: $grayDark;
-        @include transition(0.3s linear);
-
-        &:hover{
-            color: $grayDark;
-            text-decoration:none;
-            @include opacity(50);
-        }    
+    color: black;
+    &:hover{
+        @include transition(0.1s linear);
+        color: $grayCharcoal;
+        text-decoration:none;
+    }    
 }
 
 // 2. Header Section
@@ -70,13 +73,54 @@ main.container, main.content > .container{
     }
 }
 
-.content h1{
-    font-family: Georgia, "Times New Roman", Times, serif;
-     @extend .center-txt;
-    font-size: 6em;  
-    margin-top: 1em;
+.header-pic {
+  margin: auto;
+  display: block;
+  top: -110px;
+  left: 50%;
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 3px solid white;
+  z-index: 400;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.header-pic > img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+section:first-child {
     border-bottom: 1px solid $grayDarker;
-    padding-bottom: 0.6em;
+    margin-bottom: 3em;
+}
+
+.content ul {
+    margin-top: 2em;
+    font-family: 'Avenir';
+    @extend .center-txt;
+    li {
+        display: inline;
+        list-style: none;
+        padding-right: 10px;
+        a {
+            @extend .a-hover;
+        }
+    }
+}
+
+.content #name{
+    font-family: 'Avenir', Helvetica;
+    font-weight: normal;
+     @extend .center-txt;
+    font-size: 2em;  
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     letter-spacing: 0.04em;
 }
 
@@ -90,9 +134,9 @@ main.container, main.content > .container{
 // --------------------------------------------------
 
 .entries{
-     @extend .center-txt;
+     //@extend .center-txt;
     list-style: none;
-    font-family: 'Noto Serif';
+    font-family: 'Avenir';
     margin:2em 0 0;
 
     li{
@@ -102,15 +146,13 @@ main.container, main.content > .container{
     }
 
     span{
+        font-family: 'Avenir';
         text-transform: uppercase;
-        font-size: 0.9em;
-        letter-spacing: 0.1em;
     }
 
     h3{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Avenir';
         font-size: 2em;
-        margin-top: 0.2em;
         @extend .a-hover;
     }
 
@@ -120,7 +162,7 @@ main.container, main.content > .container{
 
     div{
         line-height: 1.7em;
-        margin-top: 1.2em;
+        margin-bottom: 3em;
     }
 }
 
@@ -150,36 +192,50 @@ main.container, main.content > .container{
 // 3. b Post Style
 // --------------------------------------------------
 
-.home-icon{
-     @extend .center-txt;
-     font-size: 2.5em;
-     margin: 1.5em 0 -1.1em;
-     a{
-        @extend .a-hover; 
-     } 
-}
-
 .post{
-    h5{
-         @extend .center-txt;
-        margin:5em 0 -6em 0;
-        font-family: 'Noto Serif';
+    h2{
+        @extend .center-txt;
+        font-family: 'Avenir';
         text-transform: uppercase;
         font-weight: normal;
-        letter-spacing: 0.6em;
+        color: $grayCadet;
+        font-size: 1em;
     }
 
-    h2{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    h1{
+        font-family: 'Avenir';
         @extend .center-txt;
-        font-size: 5em;
-        padding: 1.5em 0 0.5em;
-        letter-spacing: 0.05em;
+        font-size: 3em;
+        color: black;
     }
 
     section{
-        font-family: 'Noto Serif';
-        line-height: 1.9em;
+        font-family: 'Avenir';
+        line-height: 32px;
+        font-size: 1.4em;
+        h1 {
+            text-align: left;
+            font-size: 1.5em;
+        }
+        p {
+            margin: 2em 0;
+            text-align: justify;
+        }
+        a {
+            @extend .a-hover;
+            border-bottom: 1px solid black;
+        }
+        img {
+            width: 700px;
+        }
+    }
+
+    div{
+        @extend .center-txt;
+        font-family: 'Avenir';
+        line-height: 1.7em;
+        margin-bottom: 3em;
+        color: $grayCadet;
     }
 }
 
@@ -188,12 +244,12 @@ main.container, main.content > .container{
 
 footer .container{
     @extend .center-txt;
-    font-family: 'Noto Serif';
+    font-family: 'Avenir';
     color: $white;
     padding: 2em 0;
-    font-size: 0.8em;
+    font-size: 1em;
     a{
         color: $white;
-        text-decoration: underline;
+        text-decoration: none;
     }    
 }
