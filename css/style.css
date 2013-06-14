@@ -1734,7 +1734,7 @@ Contents
 
 */
 body {
-  background-color: black; }
+  background-color: white; }
 body *::selection {
   background: #1abc9c;
   color: white; }
@@ -1752,9 +1752,9 @@ main.container, main.content > .container {
 .center-txt, .content ul, .content #name, .pages, .post h2, .post h1, .post div, footer .container {
   text-align: center; }
 
-.a-hover, .content ul li a, .entries h3, .entries a, .post section a {
+.a-hover, .content ul li a, .content #name a, .entries h3, .entries a, .post section a {
   color: black; }
-.a-hover:hover, .content ul li a:hover, .entries h3:hover, .entries a:hover, .post section a:hover {
+.a-hover:hover, .content ul li a:hover, .content #name a:hover, .entries h3:hover, .entries a:hover, .post section a:hover {
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
   -o-transition: 0.1s linear;
@@ -1800,12 +1800,12 @@ section:first-child {
   padding-right: 10px; }
 
 .content #name {
+  color: #eeeeee;
   font-family: 'Avenir', Helvetica;
   font-weight: normal;
   font-size: 2em;
   margin-top: 1em;
-  margin-bottom: 0.5em;
-  letter-spacing: 0.04em; }
+  margin-bottom: 0.5em; }
 
 .top-strip {
   background-color: black;

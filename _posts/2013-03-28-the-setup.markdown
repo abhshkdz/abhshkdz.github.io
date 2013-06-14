@@ -8,7 +8,7 @@ logo:       "/img/the-setup/the-setup.png"
 
 #Who am I, and what do I do?
 
-I’m Abhishek Das, a B.Tech. student at IIT Roorkee. I write code, kill mosquitoes and wear many hats. But most of my time at the keyboard is spent producing software. A lot of these are internal projects for SDSLabs (a student group constantly striving to innovate and foster technical activities @IITR) and the rest are on Github. I ♥ open source.
+I’m Abhishek Das, a B.Tech. student at IIT Roorkee. I write code, kill mosquitoes and wear many hats. But most of my time at the keyboard is spent producing software. A lot of these are internal projects for SDSLabs (a student group constantly striving to innovate and foster technical activities @IITR) and the rest are on Github. I ♥ open-source.
 
 I’m also a pianist and have qualified upto Grade 6 from Trinity School of Music. I’ve been playing the piano since I was 5, and I’m 21 now.
 
@@ -26,7 +26,7 @@ I recently started experimenting with the Arduino Mega 2560 and Leap Motion Cont
 
 ![Ubuntu+Cinnamon](/img/the-setup/ubuntu+cinnamon.png)
 
-I am currently using Ubuntu + Cinnamon on my laptop. I browse the web with Google Chrome. My most used command line tools are probably git (on steroids with [SCM Breeze][1]), ssh, node, curl and autojump. Vim (bundled with the Ultimate Vim configuration) and Sublime Text 2 (with the simple Flatland theme) are my favourite code editors. I use a combination of Dropbox, Copy, Google Drive and SpiderOak to maintain a backup of all my data in the cloud. WorkFlowy is my preferred cloud-based note-taking application. [I love it so much I even built an open-source version of it!][2]
+I am currently using Ubuntu + Cinnamon on my laptop. I browse the web with Google Chrome. My most used command line tools are probably git (on steroids with [SCM Breeze][1]), ssh, node, curl and autojump. Vim (bundled with the [Ultimate Vim configuration][2]) and Sublime Text 2 (with the simple Flatland theme) are my favourite code editors. I use a combination of Dropbox, Copy, Google Drive and SpiderOak to maintain a backup of all my data in the cloud. WorkFlowy is my preferred cloud-based note-taking application. [I love it so much I even built an open-source version of it!][3]
 
 My Nexus 7 runs Android 4.2.2 Jelly Bean. My most frequently used apps are Feedly, Evernote, Keep, Pocket, Mantano Reader Premium, OctoDroid, HootSuite, ConnectBot and Chrome. Installed games include Flow, Super Hexagon, NFS Most Wanted, Temple Run, Riptide, Cut the Rope, Angry Birds and Subway Surfers.
 
@@ -38,8 +38,9 @@ I’m pretty happy with what I have, within the constraints of reality.
 
 If we’re willing to throw that out, I’d love a laptop with the profile and weight of the Chromebook Pixel with days upon days of battery capacity. Lots of RAM, SSD, and a fast but (more important) energy-efficient ARM core.
 
-And if we’re talking super crazy, I’ll take the [thought-controlled software and wireless brain connection][3], too, please.
+And if we’re talking super crazy, I’ll take the [thought-controlled software and wireless brain connection][4], too, please.
 
 [1]: https://github.com/ndbroadbent/scm_breeze
-[2]: https://github.com/abhshkdz/hackflowy
-[3]: http://chris.wanstrath.usesthis.com/
+[2]: https://github.com/amix/vimrc
+[3]: https://github.com/abhshkdz/hackflowy
+[4]: http://chris.wanstrath.usesthis.com/

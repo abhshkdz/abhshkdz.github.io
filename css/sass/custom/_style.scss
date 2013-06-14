@@ -20,7 +20,7 @@ Contents
 // --------------------------------------------------
 
 body{
-    background-color: $black;
+    background-color: white;
     *::selection {
       background: #1abc9c;
       color: white;
@@ -115,13 +115,16 @@ section:first-child {
 }
 
 .content #name{
+    color: $grayLighter;
     font-family: 'Avenir', Helvetica;
     font-weight: normal;
      @extend .center-txt;
     font-size: 2em;  
     margin-top: 1em;
     margin-bottom: 0.5em;
-    letter-spacing: 0.04em;
+    a {
+        @extend .a-hover;
+    }
 }
 
 .top-strip{
