@@ -1734,7 +1734,7 @@ Contents
 
 */
 body {
-  background-color: white; }
+  background-color: black; }
 body *::selection {
   background: #1abc9c;
   color: white; }
@@ -1809,7 +1809,8 @@ section:first-child {
 
 .top-strip {
   background-color: black;
-  height: 1em; }
+  height: 1em;
+  width: 100%; }
 
 .entries {
   list-style: none;

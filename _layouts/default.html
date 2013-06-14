@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8"/>
-		<title>{% if page.title %} {{ page.title }} - {% endif %}Abhishek Das</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="author" href="/humans.txt">
-		<meta name="description" content="Description Goes Here">
-		<link rel="stylesheet" href="/css/style.css">
+    <head>
+        <title>{% if page.title %} {{ page.title }} - {% endif %}Abhishek Das</title>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="author" content="Abhishek Das">
+        <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee">    
+        <meta name="description" content="{{ page.excerpt }}">
+
+
+        <!--Open Graph Related Stuff-->
+        <meta property="og:title" content="{{ page.title }}" >
+        <meta property="og:url" content="http://abhishekdas.com{{ page.url }}" >
+        {% if page.date %}
+            <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}' >
+            <meta property="og:type" content="article">
+        {% endif %}
+        
+        <meta property="og:site_name" content="AbhishekDas.com" >
+        <meta property="og:image" content="http://abhishekdas.com/img/avatar.jpg" >
+
+        <link rel="stylesheet" href="/css/style.css">
 		<!--[if IE 7]>
 			<html class="ie7"> 
 			<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
@@ -22,7 +38,16 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="/ico/favicon.png">	    
-	</head>
+	
+        <!--Authorship-->
+        <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
+        <link rel="me" href="//facebook.com/abhshkdz">
+
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+    </head>
 	<body>
 	<!-- Header
 	    ================================================== -->
