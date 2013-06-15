@@ -279,10 +279,25 @@ footer .container{
   main.container ul li {
     font-size: 0.8em;
   }
+  footer .container {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 360px) {
+  main.container ul li {
+    font-size: 0.7em;
+  }
+  footer .container {
+    font-size: 0.7em;
+  }
 }
 
 @media (max-width: 320px) {
   main.container ul li {
+    font-size: 0.6em;
+  }
+  footer .container {
     font-size: 0.6em;
   }
 }
