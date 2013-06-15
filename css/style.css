@@ -1883,77 +1883,13 @@ footer .container a {
   color: white;
   text-decoration: none; }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */ }
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */ }
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */ }
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */ }
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */ }
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */ }
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  /* Styles */ }
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */ }
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* Styles */ }
-/* Print =================================================== */
-@media print {
-  * {
-    background: transparent !important;
-    color: black !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important; }
+@media (max-width: 1000px) {
+  main.container {
+    width: 70%; } }
+@media (max-width: 520px) {
+  article.post section {
+    font-size: 1em;
+    line-height: 1.5em; }
 
-  @page {
-    margin: 0.5cm; }
-
-  h2, h3 {
-    orphans: 3;
-    widows: 3;
-    page-break-after: avoid; }
-
-  p {
-    orphans: 3;
-    widows: 3; }
-
-  pre, blockquote {
-    border: 1px solid #555555;
-    page-break-inside: avoid; }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-
-  a, a:visited {
-    text-decoration: underline; }
-
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-
-  a[href^="javascript:"]:after, a[href^="#"]:after {
-    content: ""; }
-
-  img {
-    max-width: 100% !important;
-    page-break-inside: avoid; }
-
-  thead {
-    display: table-header-group; }
-
-  tr {
-    page-break-inside: avoid; } }
+  main.container ul li {
+    font-size: 0.8em; } }
