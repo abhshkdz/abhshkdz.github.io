@@ -1,9 +1,11 @@
 ---
-layout:     post
-title:      "The Setup!"
-date:       2013-03-28 09:35:00
-excerpt:    "What do I use to get stuff done?"
+
+layout:     post  
+title:      "The Setup!"  
+date:       2013-03-28 09:35:00  
+excerpt:    "What do I use to get stuff done?"  
 logo:       "/img/the-setup/the-setup.png"
+
 ---
 
 #Who am I, and what do I do?
