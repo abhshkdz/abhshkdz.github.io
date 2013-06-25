@@ -1788,6 +1788,8 @@ main.container, main.content > .container {
   width: 95px;
   height: 95px;
   border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
   overflow: hidden;
   border: 3px solid white;
   z-index: 400;
@@ -1798,7 +1800,9 @@ main.container, main.content > .container {
 .header-pic > img {
   width: 100%;
   height: auto;
-  border-radius: 100%; }
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%; }
 
 section:first-child {
   border-bottom: 1px solid #222222; }
