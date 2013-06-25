@@ -3,11 +3,11 @@ layout: default
 ---
 
 <article class="post">
-    <h2 class="when">{{ page.date | date: "%d %B %Y" }}</h5>
     <h1 class="content">{{page.title}}</h2>
     <div>{{ page.excerpt }}</div>
     <section>
         {{ content }}
-        <hr>
     </section>
+    <h2 class="when">{{ page.date | date: "%d %B %Y" }}</h2>
+        <hr>
 </article>
