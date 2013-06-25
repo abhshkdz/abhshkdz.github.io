@@ -310,6 +310,9 @@ footer .container{
 }
 
 @media (max-width: 360px) {
+  .content #name b {
+    font-weight: bold;
+  }
   main.container ul li {
     font-size: 0.7em;
   }

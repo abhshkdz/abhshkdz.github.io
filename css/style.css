@@ -1923,6 +1923,9 @@ footer .container a {
   footer .container {
     font-size: 0.8em; } }
 @media (max-width: 360px) {
+  .content #name b {
+    font-weight: bold; }
+
   main.container ul li {
     font-size: 0.7em; }
 
