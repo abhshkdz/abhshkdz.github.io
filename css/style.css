@@ -1735,7 +1735,8 @@ Contents
 
 */
 body {
-  background-color: black; }
+  background-color: black;
+  font-family: 'AvenirNext-Regular', Helvetica, sans-serif; }
 body *::selection {
   background: #1abc9c;
   color: white; }
@@ -1744,11 +1745,22 @@ main.container, main.content > .container {
   width: 50em; }
 
 @font-face {
-  font-family: 'Avenir';
+  font-family: 'AvenirNext-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("../../font/avenirltstd-light-webfont.eot");
-  src: local("☺"), url("../../font/avenirltstd-light-webfont.woff") format("woff"), url("../../font/avenirltstd-light-webfont.ttf") format("truetype"), url("../../font/avenirltstd-light-webfont.svg#webfontS2cE5GsC") format("svg"); }
+  src: url("../../font/avenirnext-regular.woff"); }
+
+@font-face {
+  font-family: 'AvenirNext-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../font/avenirnext-thin.woff"); }
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../font/avenirnext-bold.woff"); }
 
 .center-txt, .content ul, .content #name, .pages, .post h2, .post h1, .post div, footer .container {
   text-align: center; }
@@ -1756,10 +1768,10 @@ main.container, main.content > .container {
 .a-hover, .content ul li a, .content #name a, .entries h3, .entries a, .post section a {
   color: black; }
 .a-hover:hover, .content ul li a:hover, .content #name a:hover, .entries h3:hover, .entries a:hover, .post section a:hover {
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
   color: #36454f;
   text-decoration: none; }
 
@@ -1789,24 +1801,33 @@ main.container, main.content > .container {
   border-radius: 100%; }
 
 section:first-child {
-  border-bottom: 1px solid #222222;
-  margin-bottom: 3em; }
+  border-bottom: 1px solid #222222; }
 
 .content ul {
-  margin-top: 2em;
-  font-family: 'Avenir'; }
+  margin-top: 2em; }
 .content ul li {
   display: inline;
   list-style: none;
   padding-right: 10px; }
 
+.content .nav-bar a {
+  color: #333333; }
+.content .nav-bar a:hover {
+  color: #555555; }
+
 .content #name {
-  color: #eeeeee;
-  font-family: 'Avenir', Helvetica;
+  font-family: 'AvenirNext-Thin';
   font-weight: normal;
-  font-size: 2em;
+  font-size: 2.15em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
+.content #name a {
+  color: #333333; }
+.content #name a:hover {
+  color: #555555; }
+.content #name b {
+  font-family: 'AvenirNext-Bold';
+  font-weight: normal; }
 
 .top-strip {
   background-color: black;
@@ -1815,16 +1836,13 @@ section:first-child {
 
 .entries {
   list-style: none;
-  font-family: 'Avenir';
-  margin: 2em 0 0; }
+  margin: 0; }
 .entries li {
-  margin-bottom: 3em;
-  padding-top: 1.5em; }
+  margin-bottom: 3em; }
 .entries span {
-  font-family: 'Avenir';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #91a3b0; }
 .entries h3 {
-  font-family: 'Avenir';
   font-size: 2em; }
 .entries div {
   line-height: 1.7em;
@@ -1844,18 +1862,17 @@ section:first-child {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 3em; }
 
+.post {
+  margin-top: 3em; }
 .post h2 {
-  font-family: 'Avenir';
   text-transform: uppercase;
   font-weight: normal;
   color: #91a3b0;
   font-size: 1em; }
 .post h1 {
-  font-family: 'Avenir';
   font-size: 3em;
   color: black; }
 .post section {
-  font-family: 'Avenir';
   line-height: 32px;
   font-size: 1.4em; }
 .post section h1 {
@@ -1874,13 +1891,11 @@ section:first-child {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.33); }
 .post div {
-  font-family: 'Avenir';
   line-height: 1.7em;
   margin-bottom: 3em;
   color: #91a3b0; }
 
 footer .container {
-  font-family: 'Avenir';
   color: white;
   padding: 2em 0;
   font-size: 1em; }

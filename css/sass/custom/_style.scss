@@ -22,6 +22,7 @@ Contents
 
 body{
     background-color: $black;
+    font-family: 'AvenirNext-Regular', Helvetica, sans-serif;
     *::selection {
       background: #1abc9c;
       color: $white;
@@ -37,11 +38,24 @@ main.container, main.content > .container{
 
 
 @font-face {
-  font-family: 'Avenir';
+  font-family: 'AvenirNext-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('../../font/avenirltstd-light-webfont.eot');
-  src: local('☺'), url('../../font/avenirltstd-light-webfont.woff') format('woff'), url('../../font/avenirltstd-light-webfont.ttf') format('truetype'), url('../../font/avenirltstd-light-webfont.svg#webfontS2cE5GsC') format('svg')
+  src: url('../../font/avenirnext-regular.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../font/avenirnext-thin.woff');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../font/avenirnext-bold.woff');
 }
 
 
@@ -57,7 +71,7 @@ main.container, main.content > .container{
 .a-hover{
     color: $black;
     &:hover{
-        @include transition(0.1s linear);
+        @include transition(0.2s linear);
         color: $grayCharcoal;
         text-decoration:none;
     }    
@@ -98,12 +112,10 @@ main.container, main.content > .container{
 
 section:first-child {
     border-bottom: 1px solid $grayDarker;
-    margin-bottom: 3em;
 }
 
 .content ul {
     margin-top: 2em;
-    font-family: 'Avenir';
     @extend .center-txt;
     li {
         display: inline;
@@ -115,16 +127,30 @@ section:first-child {
     }
 }
 
+.content .nav-bar a {
+    color: $grayDark;
+    &:hover {
+        color: $gray;
+    }
+}
+
 .content #name{
-    color: $grayLighter;
-    font-family: 'Avenir', Helvetica;
+    font-family: 'AvenirNext-Thin';
     font-weight: normal;
      @extend .center-txt;
-    font-size: 2em;  
+    font-size: 2.15em;  
     margin-top: 1em;
     margin-bottom: 0.5em;
     a {
         @extend .a-hover;
+        color: $grayDark;
+        &:hover {
+            color: $gray;
+        }
+    }
+    b {
+        font-family: 'AvenirNext-Bold';
+        font-weight: normal;
     }
 }
 
@@ -139,24 +165,19 @@ section:first-child {
 // --------------------------------------------------
 
 .entries{
-     //@extend .center-txt;
     list-style: none;
-    font-family: 'Avenir';
-    margin:2em 0 0;
+    margin:0;
 
     li{
-        //border-bottom: 1px solid $grayLighter;
         margin-bottom: 3em;
-        padding-top: 1.5em;
     }
 
     span{
-        font-family: 'Avenir';
         text-transform: uppercase;
+        color: $grayCadet;
     }
 
     h3{
-        font-family: 'Avenir';
         font-size: 2em;
         @extend .a-hover;
     }
@@ -198,9 +219,9 @@ section:first-child {
 // --------------------------------------------------
 
 .post{
+    margin-top: 3em;
     h2{
         @extend .center-txt;
-        font-family: 'Avenir';
         text-transform: uppercase;
         font-weight: normal;
         color: $grayCadet;
@@ -208,14 +229,12 @@ section:first-child {
     }
 
     h1{
-        font-family: 'Avenir';
         @extend .center-txt;
         font-size: 3em;
         color: $black;
     }
 
     section{
-        font-family: 'Avenir';
         line-height: 32px;
         font-size: 1.4em;
         h1 {
@@ -242,7 +261,6 @@ section:first-child {
 
     div{
         @extend .center-txt;
-        font-family: 'Avenir';
         line-height: 1.7em;
         margin-bottom: 3em;
         color: $grayCadet;
@@ -254,7 +272,6 @@ section:first-child {
 
 footer .container{
     @extend .center-txt;
-    font-family: 'Avenir';
     color: $white;
     padding: 2em 0;
     font-size: 1em;
