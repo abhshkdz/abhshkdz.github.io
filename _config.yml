@@ -1,2 +1,2 @@
 pygments: true
-permalink: /blog/:title/
+permalink: /posts/:title/
