@@ -1765,9 +1765,9 @@ main.container, main.content > .container {
 .center-txt, .content ul, .content #name, .pages, .post h2, .post h1, .post div, footer .container {
   text-align: center; }
 
-.a-hover, .content ul li a, .content #name a, .entries h3, .entries a, .post section a {
+.a-hover, .content ul li a, .content #name a, .content .entries h3, .content .entries a, .post section a {
   color: black; }
-.a-hover:hover, .content ul li a:hover, .content #name a:hover, .entries h3:hover, .entries a:hover, .post section a:hover {
+.a-hover:hover, .content ul li a:hover, .content #name a:hover, .content .entries h3:hover, .content .entries a:hover, .post section a:hover {
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -o-transition: 0.2s linear;
@@ -1834,17 +1834,19 @@ section:first-child {
   height: 1em;
   width: 100%; }
 
-.entries {
+.content .entries {
   list-style: none;
-  margin: 0; }
-.entries li {
-  margin-bottom: 3em; }
-.entries span {
+  margin: 3em; }
+.content .entries li {
+  margin-bottom: 3em;
+  display: block;
+  padding-right: 0; }
+.content .entries span {
   text-transform: uppercase;
   color: #91a3b0; }
-.entries h3 {
+.content .entries h3 {
   font-size: 2em; }
-.entries div {
+.content .entries div {
   line-height: 1.7em;
   margin-bottom: 3em; }
 

@@ -2,7 +2,7 @@
 
 layout:     post
 title:      "The Setup."
-date:       2013-03-28 09:35:00
+date:       2013-03-28 00:00:00
 excerpt:    "What do I use to get stuff done?"
 logo:       "/img/the-setup/the-setup.png"
 

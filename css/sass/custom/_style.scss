@@ -164,12 +164,14 @@ section:first-child {
 // 3. Entries
 // --------------------------------------------------
 
-.entries{
+.content .entries{
     list-style: none;
-    margin:0;
+    margin: 3em;
 
     li{
         margin-bottom: 3em;
+        display: block;
+        padding-right: 0;
     }
 
     span{
