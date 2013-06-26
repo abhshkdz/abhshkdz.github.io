@@ -185,6 +185,7 @@ section:first-child {
 
     h3{
         font-size: 2em;
+        font-weight: normal;
         @extend .a-hover;
     }
 
@@ -226,12 +227,16 @@ section:first-child {
 
 .post{
     margin-top: 3em;
-    h2{
+    .when{
         @extend .center-txt;
         text-transform: uppercase;
         font-weight: normal;
         color: $grayCadet;
         font-size: 1em;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
     }
 
     h1{
