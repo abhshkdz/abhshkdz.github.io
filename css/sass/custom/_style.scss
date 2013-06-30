@@ -84,7 +84,7 @@ main.container, main.content > .container{
     background-color: $white;
 
     & > .container{
-       min-height: 58em;  
+       min-height: 56em;  
     }
 }
 
@@ -289,7 +289,33 @@ footer .container{
     a{
         color: $white;
         text-decoration: none;
-    }    
+    }
+    .footer-icons {
+      @extend .center-txt;
+      margin: 0 0 5px 0;
+      list-style: none;
+      li {
+        display: inline;
+        margin: 0 5px;
+        img {
+          width: 25px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+        }
+        img:hover {
+          -webkit-filter: opacity(0.8);
+          opacity: 0.8;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
 }
 
 // 5. Media Queries

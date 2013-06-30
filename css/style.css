@@ -1762,7 +1762,7 @@ main.container, main.content > .container {
   font-weight: normal;
   src: url("../../font/avenirnext-bold.woff"); }
 
-.center-txt, .content ul, .content #name, .pages, .post .when, .post h1, .post div, footer .container {
+.center-txt, .content ul, .content #name, .pages, .post .when, .post h1, .post div, footer .container, footer .container .footer-icons {
   text-align: center; }
 
 .a-hover, .content ul li a, .content #name a, .content .entries h3, .content .entries a, .post section a {
@@ -1778,7 +1778,7 @@ main.container, main.content > .container {
 .content {
   background-color: white; }
 .content > .container {
-  min-height: 58em; }
+  min-height: 56em; }
 
 .header-pic {
   margin: auto;
@@ -1911,6 +1911,27 @@ footer .container {
 footer .container a {
   color: white;
   text-decoration: none; }
+footer .container .footer-icons {
+  margin: 0 0 5px 0;
+  list-style: none; }
+footer .container .footer-icons li {
+  display: inline;
+  margin: 0 5px; }
+footer .container .footer-icons li img {
+  width: 25px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+footer .container .footer-icons li img:hover {
+  -webkit-filter: opacity(0.8);
+  opacity: 0.8;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
 
 @media (max-width: 1000px) {
   main.container {
