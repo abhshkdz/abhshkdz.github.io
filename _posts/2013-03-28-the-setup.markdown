@@ -30,9 +30,9 @@ I recently started experimenting with the Arduino Mega 2560 and Leap Motion Cont
 
 I am currently using Ubuntu + Cinnamon on my laptop. I browse the web with Google Chrome. My most used command line tools are probably git (on steroids with [SCM Breeze][1]), ssh, node, curl and autojump. Vim (bundled with the [Ultimate Vim configuration][2]) and Sublime Text 2 (with the simple Flatland theme) are my favourite code editors. I use a combination of Dropbox, Copy, Google Drive and SpiderOak to maintain a backup of all my data in the cloud. WorkFlowy is my preferred cloud-based note-taking application. [I love it so much I even built an open-source version of it!][3]
 
-My Nexus 7 runs Android 4.2.2 Jelly Bean. My most frequently used apps are Feedly, Evernote, Keep, Pocket, Mantano Reader Premium, OctoDroid, HootSuite, ConnectBot and Chrome. Installed games include Flow, Super Hexagon, NFS Most Wanted, Temple Run, Riptide, Cut the Rope, Angry Birds and Subway Surfers.
+My Nexus 7 runs Android 4.3 Jelly Bean. My most frequently used apps are Feedly, Evernote, Keep, Pocket, Mantano Reader Premium, OctoDroid, HootSuite, ConnectBot and Chrome. Installed games include Flow, Super Hexagon, NFS Most Wanted, Temple Run, Riptide, Cut the Rope, Angry Birds and Subway Surfers.
 
-Most of my non-coding time across all of these devices, is spent on the web. I’m a Hacker News addict. Gmail, Facebook, Twitter & GitHub are my most used web-apps.
+Most of my non-coding time across all of these devices, is spent on the web. I’m a Hacker News addict. Gmail, Google+, Twitter & GitHub are my most used web-apps.
 
 # What would be my dream setup?
 
