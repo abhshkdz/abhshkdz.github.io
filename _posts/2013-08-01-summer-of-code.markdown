@@ -18,6 +18,8 @@ The ICU Visualization & Analytics Project under Emory University mainly deals wi
 
 ![screenshot](/img/summer-of-code/icu-visualizations-screenshot.png)
 
+![screenshot](/img/summer-of-code/icu-visualizations-screenshot2.png)
+
 # PHP Security Project
 
 The [PHP Security Project][2], on the other hand, demands a sound knowledge of PHP and web security. The project has about 10 developers onboard and the mailing list is always flooded with doubts, debates and discussions. It is a project that addresses the OWASP Top Ten vulnerability list and provides decoupled libraries for developers to use and secure their applications. I've been actively involved in the development of Secure Database library and HTTP Request / Response handling library. The next library I work on is going to be one that handles CSRF. While employing page-based unique keys has been considered the classic way to fight CSRF, recently a lot of security experts have come up with their own solutions. I'm going through some of these papers at the moment to decide on the most secure and future-proof solution. Later this month, I'll get my hands dirty and work on it's implementation. This is a very important library and has to be handled perfectly.
