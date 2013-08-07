@@ -28,6 +28,6 @@ The agenda of the summit ranged from sessions for developers to those on marketi
 
 Lighter side of things included the walks at the beach every night and the cultural evening. Standup comedy by the super-talented Kenneth Sebastian set the ball rolling for the cultural show. Performances by groups from different parts of India followed and it was an excellent showcase of talent.
 
-Before the summit, I didn't know what to expect and prepare for. I wasn't even sure of my role as a GSA. I'm glad I learnt a few things at the summit, and made a lot of new friends. This was my first visit to Goa as well as my first stay at The Leela, and I'm sure it definitely won't be the last, for both!
+Before the summit, I didn't know what to expect and prepare for. I wasn't even sure of my role as a GSA. I'm glad I learnt a few things at the summit, and made a lot of new friends. This was my first visit to Goa as well as my first interaction with Googlers, and I'm sure it definitely won't be the last, for both!
 
 ![](/img/google-india-community-summit/swag.jpg)
