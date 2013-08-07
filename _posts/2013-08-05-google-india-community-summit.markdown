@@ -12,7 +12,7 @@ Back in May, Google initiated it's Google Student Ambassador Program in India. H
 
 ![](/img/google-india-community-summit/gics-logo.jpg)
 
-The mail I received on 1 July established me as a **Google Student Ambassador**. In total, there were 266 other GSAs from 245 institutes across India. I was to act as a point of contact between Google and the institute, and evangelize Google products and the web in and around my campus. Most importantly, I was invited to attend the Google India Community Summit to be held at The Leela, Goa from August 1-4, 2013.
+The mail I received on 1 July established me as a **Google Student Ambassador**. In total, there were 266 other GSAs from 245 institutes across India. I was to act as a point of contact between Google and the institute, and evangelize Google products and the web in and around my campus. Most importantly, I was invited to attend the [Google India Community Summit](http://www.google.com/intl/ALL_in/events/gics/) to be held at The Leela, Goa from August 1-4, 2013.
 
 Google is a crazy company. And I mean that in a big way. Anyone who has been even remotely associated with the company or has followed it for some time would agree without a second thought. And it has a culture that keeps everyone motivated and passionate to build great products and do the best work of their lives. Every session of the summit reflected this crazy thinking, passion and motivation.
 
@@ -24,7 +24,7 @@ Google is a crazy company. And I mean that in a big way. Anyone who has been eve
 
 Deepak Sridhar, head of the Google Student Ambassador Program in India, had been in touch with all the GSAs from the beginning and had meticulously planned out the entire event with his team. "Do Cool Things That Matter" was what he said when he first addressed the gathering.
 
-The agenda of the summit ranged from sessions for developers to those on marketing, ethics, search engine optimization and designing guidelines to live product demos to photowalks with professional photographers to theatre workshops. Googlers had flown in from Egypt, Mountain View, London, Ukraine, France & Africa to engage with us. A few who couldn't make it joined us on Hangouts.
+The [agenda](http://www.google.com/intl/ALL_in/events/gics/gsa/) of the summit ranged from sessions for developers to those on marketing, ethics, search engine optimization and designing guidelines to live product demos to photowalks with professional photographers to theatre workshops. Googlers had flown in from Egypt, Mountain View, London, Ukraine, France & Africa to engage with us. A few who couldn't make it joined us on Hangouts.
 
 Lighter side of things included the walks at the beach every night and the cultural evening. Standup comedy by the super-talented Kenneth Sebastian set the ball rolling for the cultural show. Performances by groups from different parts of India followed and it was an excellent showcase of talent.
 
