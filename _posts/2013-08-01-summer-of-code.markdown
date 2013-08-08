@@ -4,7 +4,7 @@ layout:     post
 title:      "Summer of Code"
 date:       2013-08-01 00:00:00
 excerpt:    "ICU Visualization Project & PHP Security Project"
-logo:       "/img/the-setup/the-setup.png"
+logo:       "/img/summer-of-code/icu-visualizations-mockup.png"
 
 ---
 

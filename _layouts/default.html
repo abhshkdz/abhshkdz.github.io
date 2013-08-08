@@ -9,8 +9,12 @@
 
         <meta name="author" content="Abhishek Das">
         <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee">
+        {% if page.excerpt %}
         <meta name="description" content="{{ page.excerpt }}">
-
+        {% else %}
+        <meta name="description" content="{{ site.description }}">
+        {% endif %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
         <!--Open Graph Related Stuff-->
         <meta property="og:title" content="{{ page.title }}" >
         <meta property="og:url" content="http://abhishekdas.com{{ page.url }}" >
@@ -20,7 +24,11 @@
         {% endif %}
 
         <meta property="og:site_name" content="AbhishekDas.com" >
+        {% if page.logo %}
+        <meta property="og:image" content="{{ site.url }}{{page.logo }}" >
+        {% else %}
         <meta property="og:image" content="http://abhishekdas.com/img/avatar.jpg" >
+        {% endif %}
 
         <link rel="stylesheet" href="/css/style.css">
         <!--[if IE 7]>
@@ -90,6 +98,9 @@
                     </li>
                     <li>
                         <a target="_blank" href="//plus.google.com/u/0/100610196494221761914"><img src="/ico/gp-white.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/feed.xml"><img src="/ico/feed-white.png" alt=""></a>
                     </li>
                 </ul>
                 © 2013 - ABHISHEK DAS<br>
