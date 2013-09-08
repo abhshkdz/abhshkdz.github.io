@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 <article class="post">
-    <h1 class="content">{{page.title}}</h2>
+    <h1 class="content">{{page.title}}</h1>
     <div>{{ page.excerpt }}</div>
     <section>
         {{ content }}
     </section>
-    <div class="when">{{ page.date | date: "%d %B %Y" }}</h2>
-        <hr>
+    <div class="when">{{ page.date | date: "%d %B %Y" }}</div>
+    <hr>
+    <div id="google_comments"></div>
 </article>
