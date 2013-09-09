@@ -18,7 +18,7 @@ $(document).ready(function(){
 	$( document ).ready(function() {
 		gapi.comments.render('google_comments', {
 			href: window.location,
-			width: '700',
+			width: $('article.post').width(),
 			first_party_property: 'BLOGGER',
 			view_type: 'FILTERED_POSTMOD'
 		});
