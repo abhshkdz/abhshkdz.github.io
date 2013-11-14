@@ -1,7 +1,7 @@
 //custom js goes here
 $(document).ready(function(){
 
-	var body = window.location.search.replace( "?", "" ).split('=')[1];
+	/*var body = window.location.search.replace( "?", "" ).split('=')[1];
 	if (body != '' && body != undefined)
 	{
 		$.ajax({
@@ -11,9 +11,9 @@ $(document).ready(function(){
 				body: unescape(body)
 			}
 		})
-	}
+	}*/
 
-	
+
 
 	$( document ).ready(function() {
 		if (typeof gapi !== 'undefined')
