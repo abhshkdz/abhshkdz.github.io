@@ -31,7 +31,12 @@
         {% endif %}
 
         <!--Twitter Card Stuff-->
-        <meta name='twitter:card' content='photo' />
+        <meta name='twitter:card' content='summary_large_image' />
+        {% if page.title %}
+        <meta name='twitter:title' content='{{ page.title }}' />
+        {% else %}
+        <meta name='twitter:title' content='Abhishek Das' />
+        {% endif %}
         {% if page.logo %}
         <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}' />
         {% else %}
