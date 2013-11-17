@@ -10,7 +10,7 @@ logo:       "/img/summer-of-code/icu-visualizations-mockup.png"
 
 This summer has proved to be a busy one for me. I've been working in parallel on two major open-source projects. One is Emory University's Intensive Care Unit Visualization & Analytics project, for which I was selected as a Google Summer of Code developer, and the other is OWASP's PHP Security Project. It has been a huge learning experience so far.
 
-# ICU Visualization & Analytics
+## ICU Visualization & Analytics
 
 ![mockup](/img/summer-of-code/icu-visualizations-mockup.png)
 
@@ -22,7 +22,7 @@ The application is JS-heavy and the stack consists of Node, Socket.IO, Backbone,
 
 ![screenshot](/img/summer-of-code/icu-visualizations-screenshot2.png)
 
-# PHP Security Project
+## PHP Security Project
 
 The [PHP Security Project][2], on the other hand, demands a sound knowledge of PHP and web security. The project has about 10 developers onboard and the mailing list is always flooded with doubts, debates and discussions. It is a project that addresses the [OWASP Top 10 list](https://www.owasp.org/index.php/Top_10_2013-Top_10) and provides decoupled libraries, and a demonstrative framework providing easy to use standard security practices for PHP applications. I've been actively involved in the development of the Database Communication library and the HTTP Request / Response handling library.
 

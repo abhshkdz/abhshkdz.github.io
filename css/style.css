@@ -1887,6 +1887,14 @@ section:first-child {
 .post section h1 {
   text-align: left;
   font-size: 1.5em; }
+.post section h2 {
+  height: 50px;
+  line-height: 50px;
+  margin-left: -25px;
+  border-left: 5px solid #EEE;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0; }
 .post section p {
   margin: 2em 0;
   text-align: justify; }
@@ -1902,7 +1910,7 @@ section:first-child {
   border-radius: 0;
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
-  margin: 20px 0; }
+  margin: 30px 0; }
 .post div {
   line-height: 1.7em;
   margin-bottom: 3em;

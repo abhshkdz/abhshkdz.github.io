@@ -8,13 +8,13 @@ logo:       "/img/the-setup/lab.png"
 
 ---
 
-# Who am I, and what do I do?
+## Who am I, and what do I do?
 
 I’m Abhishek Das, a B.Tech. student at IIT Roorkee. I write code, kill mosquitoes and wear many hats. But most of my time at the keyboard is spent producing software. A lot of these are internal projects for SDSLabs (a student group constantly striving to innovate and foster technical activities @IITR) and the rest are on Github. I ♥ open-source.
 
 I’m also a pianist and have qualified upto Grade 6 from Trinity School of Music. I’ve been playing the piano since I was 5, and I’m 21 now.
 
-# What hardware do I use?
+## What hardware do I use?
 
 ![](/img/the-setup/lab.png)
 
@@ -24,7 +24,7 @@ I am an occasional Counter Strike 1.6 assaulter and use a Razer DeathAdder mouse
 
 I recently started experimenting with the Arduino Mega 2560 and Leap Motion Controller.
 
-# And what software?
+## And what software?
 
 ![Ubuntu+Cinnamon](/img/the-setup/ubuntu+cinnamon.png)
 
@@ -34,7 +34,7 @@ My Nexus 7 runs Android 4.3 Jelly Bean. My most frequently used apps are Feedly,
 
 Most of my non-coding time across all of these devices, is spent on the web. I’m a Hacker News addict. Gmail, Google+, Twitter & GitHub are my most used web-apps.
 
-# What would be my dream setup?
+## What would be my dream setup?
 
 I’m pretty happy with what I have, within the constraints of reality.
 
