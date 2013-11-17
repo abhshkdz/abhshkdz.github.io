@@ -248,11 +248,8 @@ section:first-child {
     section{
         line-height: 32px;
         font-size: 1.4em;
-        h1 {
-            text-align: left;
-            font-size: 1.5em;
-        }
         h2{
+            font-size: 1.5em;
             height: 50px;
             line-height: 50px;
             margin-left: -25px;
@@ -260,6 +257,9 @@ section:first-child {
             padding-left: 20px;
             margin-top: 0;
             margin-bottom: 0;
+        }
+        h3 {
+            font-size: 1.2em;
         }
         p {
             margin: 2em 0;
@@ -347,6 +347,9 @@ footer .container{
 }
 
 @media (max-width: 520px) {
+  .post h1 {
+    font-size: 2.0em;
+  }
   article.post section {
     font-size: 1em;
     line-height: 1.5em;
@@ -356,6 +359,10 @@ footer .container{
   }
   footer .container {
     font-size: 0.8em;
+  }
+  article.post h2 {
+    height: 30px;
+    line-height: 30px;
   }
 }
 
