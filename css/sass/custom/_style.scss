@@ -22,7 +22,8 @@ Contents
 
 body{
     background-color: $black;
-    font-family: 'AvenirNext-Regular', Helvetica, sans-serif;
+    font-family: 'Lato', Georgia, sans-serif;
+    font-weight: 300;
     *::selection {
       background: #1abc9c;
       color: $white;
@@ -30,7 +31,7 @@ body{
 }
 
 main.container, main.content > .container{
-    width:50em;
+    max-width:740px;
 }
 
 // 1. a Font
@@ -38,26 +39,59 @@ main.container, main.content > .container{
 
 
 @font-face {
-  font-family: 'AvenirNext-Regular';
+  font-family: 'Lato';
   font-style: normal;
-  font-weight: normal;
-  src: url('../../font/avenirnext-regular.woff');
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
 }
-
 @font-face {
-  font-family: 'AvenirNext-Thin';
+  font-family: 'Lato';
   font-style: normal;
-  font-weight: normal;
-  src: url('../../font/avenirnext-thin.woff');
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
 }
-
 @font-face {
-  font-family: 'AvenirNext-Bold';
+  font-family: 'Lato';
   font-style: normal;
-  font-weight: normal;
-  src: url('../../font/avenirnext-bold.woff');
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
 }
-
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://themes.googleusercontent.com/static/fonts/lato/v7/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/ZvcMqxEwPfh2qDWBPxn6nmFp2sMiApZm5Dx7NpSTOZk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/RFda8w1V0eDZheqfcyQ4EHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/ZvcMqxEwPfh2qDWBPxn6nnl4twXkwp3_u9ZoePkT564.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/ZvcMqxEwPfh2qDWBPxn6ngi3Hume1-TKjJz2lX0jYjo.woff) format('woff');
+}
 
 // 1. b Extends
 // --------------------------------------------------
@@ -139,8 +173,8 @@ section:first-child {
 }
 
 .content #name{
-    font-family: 'AvenirNext-Thin';
-    font-weight: normal;
+    font-family: 'Lato';
+    font-weight: 200;
      @extend .center-txt;
     font-size: 2.15em;  
     margin-top: 1em;
@@ -153,8 +187,7 @@ section:first-child {
         }
     }
     b {
-        font-family: 'AvenirNext-Bold';
-        font-weight: normal;
+        font-family: 'Lato', sans-serif;
     }
 }
 
@@ -184,8 +217,9 @@ section:first-child {
     }
 
     h3{
+        font-family: 'Lato', sans-serif;
         font-size: 2em;
-        font-weight: normal;
+        font-weight: 300;
         @extend .a-hover;
     }
 
@@ -236,22 +270,31 @@ section:first-child {
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-weight: normal;
+        font-family: 'Lato', Helvetica, sans-serif;
     }
 
     h1{
-        @extend .center-txt;
-        font-size: 2.7em;
-        color: $black;
+        font-size: 44px;
+        line-height: 1;
+        color: #1a1a1a;
+    }
+
+    h2.excerpt {
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 1.1;
+      color: #808080;
+      margin-top: 0.5em;
+      margin-bottom: 2em;
     }
 
     section{
-        line-height: 32px;
+        line-height: 40px;
         font-size: 1.4em;
+        font-family: 'Merriweather', sans-serif;
         h2{
-            font-size: 1.5em;
-            height: 50px;
-            line-height: 50px;
+            font-size: 34px;
+            line-height: 1.1;
             margin-left: -25px;
             border-left: 5px solid #EEE;
             padding-left: 20px;
@@ -263,7 +306,7 @@ section:first-child {
         }
         p {
             margin: 2em 0;
-            text-align: justify;
+            text-align: left;
         }
         a {
             @extend .a-hover;
@@ -342,17 +385,21 @@ footer .container{
 
 @media (max-width: 1000px) {
   main.container {
-    width: 70%;
+    width: 85%;
   }
 }
 
 @media (max-width: 520px) {
   .post h1 {
-    font-size: 2.0em;
+    font-size: 2.7em;
+  }
+  .post h2.excerpt {
+    font-size: 1.6em;
+    margin-bottom: 1em;
   }
   article.post section {
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.9em;
   }
   main.container ul li {
     font-size: 0.8em;
@@ -361,8 +408,7 @@ footer .container{
     font-size: 0.8em;
   }
   article.post h2 {
-    height: 30px;
-    line-height: 30px;
+    font-size: 1.4em;
   }
 }
 

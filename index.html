@@ -3,11 +3,33 @@ layout:     default
 ---
 <!-- Content
     ================================================== -->
-<ul class="entries">
-    {% for post in site.posts %}
-        <li>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <span>{{ post.date | date: "%d %B %Y" }}</span>
-        </li>
-    {% endfor %}
-</ul>
+<div class="content">
+    <main class="container">
+        <div class="row-fluid">
+            <section class="content">
+              <h1 id="name"><a href="/">ABHISHEK<b>DAS</b></a></h1>
+              <a href="/">
+                <span class="header-pic">
+                  <img src="/img/avatar.jpg" alt="">
+                </span>
+              </a>
+              <ul class="nav-bar">
+                  <li><a target="_blank" href="//about.me/abhshkdz">ABOUT</a></li>
+                  <li><a href="/">POSTS</a></li>
+                  <li><a target="_blank" href="//github.com/abhshkdz">PROJECTS</a></li>
+                  <li><a target="_blank" href="//x.abhishekdas.com">NOTES</a></li>
+              </ul>
+            </section>
+
+            <ul class="entries">
+                {% for post in site.posts %}
+                    <li>
+                        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <span>{{ post.date | date: "%d %B %Y" }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </main>
+</div>
