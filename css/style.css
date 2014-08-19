@@ -1729,9 +1729,10 @@ Contents
 
 */
 body {
-  background-color: black;
+  background-color: white;
   font-family: 'Lato', Georgia, sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  height: 100%; }
 body *::selection {
   background: #1abc9c;
   color: white; }
@@ -1739,11 +1740,6 @@ body *::selection {
 main.container, main.content > .container {
   max-width: 740px; }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url(https://themes.googleusercontent.com/static/fonts/lato/v7/boeCNmOCCh-EWFLSfVffDg.woff) format("woff"); }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -1760,11 +1756,6 @@ main.container, main.content > .container {
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"), url(https://themes.googleusercontent.com/static/fonts/lato/v7/wkfQbvfT_02e2IWO3yYueQ.woff) format("woff"); }
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Lato Black"), local("Lato-Black"), url(https://themes.googleusercontent.com/static/fonts/lato/v7/BVtM30trf7q_jfqYeHfjtA.woff) format("woff"); }
-@font-face {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
@@ -1779,28 +1770,18 @@ main.container, main.content > .container {
   font-style: normal;
   font-weight: 700;
   src: local("Merriweather Bold"), local("Merriweather-Bold"), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/ZvcMqxEwPfh2qDWBPxn6nnl4twXkwp3_u9ZoePkT564.woff) format("woff"); }
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Merriweather Heavy"), local("Merriweather-Heavy"), url(https://themes.googleusercontent.com/static/fonts/merriweather/v6/ZvcMqxEwPfh2qDWBPxn6ngi3Hume1-TKjJz2lX0jYjo.woff) format("woff"); }
-.center-txt, .content ul, .content #name, .pages, .post .when, .post div, footer .container, footer .container .footer-icons {
+.center-txt, .pages, .post .when, .post div, footer .container, footer .container .footer-icons {
   text-align: center; }
 
-.a-hover, .content ul li a, .content #name a, .content .entries h3, .content .entries a, .post section a {
-  color: black; }
-.a-hover:hover, .content ul li a:hover, .content #name a:hover, .content .entries h3:hover, .content .entries a:hover, .post section a:hover {
+.a-hover, ul.nav-bar li a, .content #name a, .content .entries .title, .content .entries a, .post section a {
+  color: #36454f; }
+.a-hover:hover, ul.nav-bar li a:hover, .content #name a:hover, .content .entries .title:hover, .content .entries a:hover, .post section a:hover {
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
   color: #36454f;
   text-decoration: none; }
-
-.content {
-  background-color: white; }
-.content > .container {
-  min-height: 56em; }
 
 .header-pic {
   margin: auto;
@@ -1826,15 +1807,13 @@ main.container, main.content > .container {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%; }
 
-section:first-child {
-  border-bottom: 1px solid #222222; }
-
-.content ul {
-  margin-top: 2em; }
-.content ul li {
+ul.nav-bar {
+  margin: 1em 0 0 0; }
+ul.nav-bar li {
   display: inline;
   list-style: none;
-  padding-right: 10px; }
+  padding-right: 10px;
+  font-size: 1em; }
 
 .content .nav-bar a {
   color: #333333; }
@@ -1843,39 +1822,36 @@ section:first-child {
 
 .content #name {
   font-family: 'Lato';
-  font-weight: 200;
-  font-size: 2.15em;
-  margin-top: 1em;
-  margin-bottom: 0.5em; }
+  font-weight: 300;
+  font-size: 4em;
+  margin-top: 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #3498db; }
 .content #name a {
   color: #333333; }
 .content #name a:hover {
   color: #555555; }
-.content #name b {
-  font-family: 'Lato', sans-serif; }
 
 .top-strip {
   background-color: black;
-  height: 1em;
+  height: 0.8em;
   width: 100%; }
 
 .content .entries {
   list-style: none;
-  margin: 3em; }
+  margin: 3em 0 0 0; }
 .content .entries li {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   display: block;
   padding-right: 0; }
-.content .entries span {
-  text-transform: uppercase;
-  color: #91a3b0; }
-.content .entries h3 {
+.content .entries span.date {
+  float: right;
+  color: #91a3b0;
+  font-size: 0.9em;
+  text-transform: uppercase; }
+.content .entries .title {
   font-family: 'Lato', sans-serif;
-  font-size: 2em;
-  font-weight: 300; }
-.content .entries div {
-  line-height: 1.7em;
-  margin-bottom: 3em; }
+  font-size: 1.3em; }
 
 .pages {
   list-style: none; }
@@ -1901,11 +1877,11 @@ section:first-child {
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
   font-family: 'Lato', Helvetica, sans-serif; }
 .post h1 {
-  font-size: 44px;
+  font-size: 2.5em;
   line-height: 1;
   color: #1a1a1a; }
 .post h2.excerpt {
-  font-size: 32px;
+  font-size: 1.7em;
   font-weight: 300;
   line-height: 1.3;
   color: #808080;
@@ -1913,10 +1889,10 @@ section:first-child {
   margin-bottom: 2em; }
 .post section {
   line-height: 40px;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: 'Merriweather', sans-serif; }
 .post section h2 {
-  font-size: 34px;
+  font-size: 1.4em;
   line-height: 1.1;
   margin-left: -25px;
   border-left: 5px solid #EEE;
@@ -1941,6 +1917,8 @@ section:first-child {
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
   margin: 30px 0; }
+.post section ul li {
+  line-height: 40px; }
 .post div {
   line-height: 1.7em;
   margin-bottom: 3em;
@@ -1975,44 +1953,35 @@ footer .container .footer-icons li img:hover {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-#google_comments {
-  margin-bottom: 50px; }
-
+@media (max-width: 800px) {
+  .entries span.date {
+    display: none; } }
 @media (max-width: 1000px) {
   main.container {
     width: 85%; } }
 @media (max-width: 520px) {
   .post h1 {
-    font-size: 2.7em; }
+    font-size: 2.2em; }
 
   .post h2.excerpt {
-    font-size: 1.6em;
+    font-size: 1.3em;
     margin-bottom: 1em; }
 
   article.post section {
     font-size: 1.3em;
     line-height: 1.9em; }
 
-  main.container ul li {
-    font-size: 0.8em; }
-
-  footer .container {
+  main.container ul.nav-bar ul li {
     font-size: 0.8em; }
 
   article.post h2 {
     font-size: 1.4em; } }
 @media (max-width: 360px) {
-  .content #name b {
-    font-weight: bold; }
-
-  main.container ul li {
-    font-size: 0.7em; }
-
-  footer .container {
-    font-size: 0.7em; } }
+  main.container ul.nav-bar ul li {
+    font-size: 0.8em; } }
 @media (max-width: 320px) {
-  main.container ul li {
-    font-size: 0.6em; }
+  .content h1#name {
+    font-size: 2.2em; }
 
-  footer .container {
-    font-size: 0.6em; } }
+  main.container ul.nav-bar li {
+    font-size: 0.8em; } }
