@@ -1,0 +1,45 @@
+---
+
+layout:     post
+title:      "Google Summer of Code Reunion Summit"
+date:       2014-11-03 00:00:00
+excerpt:    "4-day unconference for GSoC mentors & students in San Jose, CA"
+logo:       "/img/gsoc-reunion-summit/tshirt-wall.jpg"
+
+---
+
+In celebration of the 10th anniversary of Google's prestigious Summer of Code program, they organized a reunion summit for mentors and students from the past 10 iterations of Summer of Code in San Jose, California from October 23-26. I attended the event as a student and a representative of the [OWASP foundation](https://www.owasp.org/index.php/Main_Page).
+
+![Hilton](/img/gsoc-reunion-summit/hilton.jpg)
+
+I arrived in San Jose early morning on 23rd and checked in at the Hilton. I knew I'd be staying at the heart of Silicon Valley but was nonetheless pleasantly surprised to see the Adobe HQ from my hotel room!
+
+The event was to be held at the Marriot, which is a block away from the Hilton. The evening was spent registering for the event and socializing with other developers who had flown in from all over the world. It was a delightful experience to randomly bump into developers and get to know about their organizations and open-source projects.
+
+![ID Card](/img/gsoc-reunion-summit/id.jpg)
+
+Next day was a fun outing to Great America. Google had bought out the entire park for the whole day just for the summit attendees! The GSoC celebration event was in the evening at the San Jose Tech Museum of Innovation. It was a wonderful (semi-)formal gettogether, full of geek speak and inspiring talks. Among the speakers were Chris DiBona, Peter Norvig, Dirk Hohndel and Linus Torvalds! Chris talked about how he came up with the idea of Summer of Code and the immense impact it has had over the past 10 years as it continues to grow. Norvig's short inspiring talk mentioned how a bad craftsman blames his tools and how a good one wouldn't differentiate between the two. Hohndel emphasized the need and importance of valuing criticism. And Torvalds implored budding developers to develop good taste and to know what to keep and more importantly, what to throw. Needless to say, it was a crazy evening. Selfies with the guests followed alongside lavish drinks and buffet.
+
+![Peter Norvig](/img/gsoc-reunion-summit/peter-norvig.jpg)
+
+The unconference sessions started Saturday morning. I loved the idea of having spontaneous sessions with lots of free interaction rather than the rigidity that is usually associated with regular conferences. The first one I attended was by [Grant Grundler](//google.com/+GrantGrundler) on Chrome OS. He talked about the future of Chrome OS and Android, the development cycle of a hardware-based product such as a Chromebook, the support model of Chrome OS and ended with a Q&A.
+
+Next up was one on data visualization libraries. People talked about the libraries they were using and the applications they'd built using them. Others asked questions and lots of new ideas came up. We even maintained a collaborative etherpad.
+
+There was a session on [Processing](https://processing.org/) by Manindra Moharana, who I've personally known from my DCE days (2010-11), and Andres Colubri. They introduced Processing, demoed artwork developers had created using it and showed how easy it was to get started.
+
+![Processing Guys](/img/gsoc-reunion-summit/processing.jpg)
+
+Among other sessions I attended were ones on bioinformatics (scope, ongoing work and future), artificial intelligence (again a brainstorming and ideation meetup), big data, robotics and [Google Cardboard](https://cardboard.withgoogle.com/)! There were several lightning talks going on alongside at the Ballroom where organization representatives introduced their projects in under 3 minutes, always fun to listen to and get familiar with their work.
+
+Sunday morning began with the much awaited trip to the Googleplex.
+
+![Google HQ](/img/gsoc-reunion-summit/google-hq.jpg)
+
+![Cycles](/img/gsoc-reunion-summit/cycles.jpg)
+
+Sessions continued till the afternoon after which we had to bid farewell. Carol conducted the feedback session and delivered the closing address.
+
+It was an absolutely awesome event. The feeling of getting to meet FOSS superstars in person, people who I'd been following on GitHub or Twitter for a while, was inexplicable. The idea of having a sticker exchange as well as a chocolate room was perfect. And most importantly, the organisers got all the basic things spot on: get open-source developers from different backgrounds in one place and make it as comfortable as possible for them to interact and have productive discussions with each other (no shuttling between the conference venue and accommodation, free and fast WiFi, awesome food and drinks, a formal celebratory dinner, schwag, and so on). A big shout out to Carol, Chris, Stephanie, and the entire [Google Open Source Programs](https://developers.google.com/open-source/) team for an amazing event!
+
+![GSoC T-Shirt Wall](/img/gsoc-reunion-summit/tshirt-wall.jpg)
