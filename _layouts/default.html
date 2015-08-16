@@ -16,6 +16,7 @@
         {% endif %}
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
         <!--Open Graph Related Stuff-->
+        <meta property="fb:app_id" content="1666933880208467"/>
         <meta property="og:title" content="{{ page.title }}" >
         <meta property="og:url" content="{{ site.url }}{{ page.url }}" >
         {% if page.excerpt %}
@@ -24,11 +25,12 @@
         <meta name='og:description' content='{{ site.description }}'/>
         {% endif %}
         {% if page.date %}
-        <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}' >
         <meta property="og:type" content="article">
+        <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}' >
+        <meta property="article:publisher" content="https://www.facebook.com/abhshkdz"/>
+        <meta property="article:author" content="abhshkdz"/>
         {% endif %}
-
-        <meta property="og:site_name" content="AbhishekDas.com" >
+        <meta property="og:site_name" content="Abhishek Das" >
         {% if page.logo %}
         <meta property="og:image" content="{{ site.url }}{{page.logo }}" >
         {% else %}
@@ -66,8 +68,23 @@
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <link rel="apple-touch-icon" href="/img/apple-touch-icon.jpg" />
-        <link rel="shortcut icon" href="/ico/favicon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
         <!--Authorship-->
         <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
@@ -99,16 +116,6 @@
 
                         {{ content }}
                     </div>
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- bottom_ad -->
-                    <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-client="ca-pub-2153382225941350"
-                         data-ad-slot="1124026026"
-                         data-ad-format="auto"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
                 </main>
             </div>
 
@@ -118,8 +125,7 @@
 
         <!-- Javascripts
             ================================================= -->
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/custom.js"></script>
+        <!-- <script src="/js/jquery.min.js"></script> -->
 
         <!-- Analytics
         ================================================== -->
