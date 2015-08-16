@@ -150,13 +150,14 @@ ul.nav-bar {
         float: right;
         color: $grayCadet;
         font-size: 0.9em;
+        line-height: 2em;
         text-transform: uppercase;
     }
 
     .title{
         font-family: 'Roboto', sans-serif;
         font-size: 1.3em;
-        line-height: 1.5em;
+        line-height: 1.4em;
         font-weight: 300;
         @extend .a-hover;
     }
@@ -323,7 +324,7 @@ footer .container{
 // 5. Media Queries
 // --------------------------------------------------
 
-@media (max-width: 800px) {
+@media (max-width: 640px) {
   .entries span.date {
     display: none;
   }

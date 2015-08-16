@@ -1815,11 +1815,12 @@ ul.nav-bar li {
   float: right;
   color: #91a3b0;
   font-size: 0.9em;
+  line-height: 2em;
   text-transform: uppercase; }
 .content .entries .title {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   font-weight: 300; }
 
 .pages {
@@ -1928,7 +1929,7 @@ footer .container .footer-icons li img:hover {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-@media (max-width: 800px) {
+@media (max-width: 640px) {
   .entries span.date {
     display: none; } }
 @media (max-width: 1000px) {
