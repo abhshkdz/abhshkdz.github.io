@@ -1,5 +1,6 @@
 permalink: /posts/:title/
 name: Abhishek Das
-description: Blog of Abhishek Das, student at IIT Roorkee. Developer. Geek. Explorer.
+description: Machine learning researcher. On a quest to build real artificial intelligence.
 url: http://abhishekdas.com
 markdown: redcarpet
+include: ['_pages']
