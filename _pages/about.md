@@ -44,7 +44,7 @@ other projects ([neural-vqa][19], [HackFlowy][20], [graf][21], [etc][22]).
 I often [tweet][23], and post pictures from my wanderings
 on [Instagram][24] and [Tumblr][25].
 
-<hr>
+---
 
 
 

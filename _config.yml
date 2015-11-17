@@ -1,6 +1,8 @@
 permalink: /posts/:title/
-name: Abhishek Das
+name: Abhishek Das blog posts
 description: Machine learning researcher. On a quest to build real artificial intelligence.
 url: http://abhishekdas.com
 markdown: redcarpet
 include: ['_pages']
+gems:
+  - jekyll-sitemap
