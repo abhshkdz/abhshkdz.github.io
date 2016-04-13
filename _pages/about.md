@@ -9,10 +9,8 @@ learning models and its applications in computer vision
 and natural language processing. 
 
 I am currently being advised by [Professor Dhruv Batra][2]
-& [Professor Devi Parikh][3] as a visiting student at the
-[Machine Learning & Perception Lab][1], Virginia Tech, where
-I'm working on modeling attentional mechanisms for visual question
-answering.
+as a visiting student at the [Machine Learning & Perception Lab][1],
+Virginia Tech.
 
 Prior to joining Virginia Tech, I had the privilege of collaborating with 
 [Professor Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
