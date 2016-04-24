@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/abhshkdz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://abhishekdas.com
+  * I am abhshkdz (https://keybase.io/abhshkdz) on keybase.
+  * I have a public key with fingerprint D157 90AC C1DE B429 0F42  F832 DBF8 E58C F038 7DEF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010130c1051c5e02eb95e210d4bdca4c72ba103f7c9b2b95a11e9e1a6e7052c9a7c50a",
+            "fingerprint": "d15790acc1deb4290f42f832dbf8e58cf0387def",
+            "host": "keybase.io",
+            "key_id": "dbf8e58cf0387def",
+            "kid": "010130c1051c5e02eb95e210d4bdca4c72ba103f7c9b2b95a11e9e1a6e7052c9a7c50a",
+            "uid": "b3e6e5ad87c5f1c68c18c67bdd2c4e19",
+            "username": "abhshkdz"
+        },
+        "service": {
+            "hostname": "abhishekdas.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1461531725,
+    "expire_in": 157680000,
+    "prev": "c3371a8408e6ee629ecb5c3f46ccad0aa209a6bf1c54c2804d8ecaf250c1ede6",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbbExBGN6qalqtaNCIuvVo0HTJzJz7ugSJuiQIibhV1pyZ/3RPtz1n
+7dltURVCKBKXBKER+tAQgohIg4i4VDxUiQeXB8p6UHFPXBJEmNMQLx7Ny2T+//u+
++b4/f0dhdig/61S/c0+3lXmDszqvtaRDS0Yo8xoly+NrpUijFIfeC2o5+Klo3OFS
+REIYYRkxjFTMVEAELFMFghFXLM6ownRiUYxkW2emRUSPYgwmYKqBjlTCTKozFVEp
+LNmOWw3JRNJxU0KWY1U3EWUMc7AUYiJbIbYhE27ZBqgGs5Fs6BxsQYx5fsAQ5izq
+w0THEzXxiPba+wf+P/tO98pZMmigUm6Iso2ZZjBsME23OCdMAWwGQB+SLq0DgaZW
+zI/F+TqpKSyJar3DIBhskOQvwvFjEOfUn8i8OkFPJL2Ux7xa0YylUolIwE2tTQTg
+BrCiv2WiluNyMUlBqIek73iuFMECyVJOoIsVDasy1okalmBNwklC1AkQqq4ZSJzg
+G6gXkkyWdUwNBRkiF2jEBGapTLYVjTHKEaUEmVSzRFRVYcRACjeAUZuoYqTAQZOC
+YKtdT2gT4ZNWC03fqXZpKp0Eqen61aq+oaz8UL+cPsGKhfLzBv5ZvPS03J9L9/cv
+aug8sFPJPHwUnrWsY/28Q0M/FTy9dGbH2/NHD12rmV1+vOn7AF5dGm2/lCnPFNQX
+3HSaayoi8pbSoyvClY2j46OO1BWO2TXix8txF6df6Nq+aIj5avmsTFnViu0bmu58
+qWzuJvS0UrRjrLu65U1N64LCe9uGf8mze96uJK0FWs7Mj+NHHdvz4ljOV1fZtPhF
+Q8vyKZNzN4cP7xt2su1ZSY18pafiAz1/P76Ktw1JTrjdd8wJp2jOyd1T73ZbD558
+u11yHG89eFktfn9idm7FwubsGUMNyeafd5s9bYUjN74emLk16Hnn4wdsL5y9Manr
+TP+Grvmtc4ul9rLvW18nvqYXvvsFdSI9BA==
+=jybT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/abhshkdz
+
+==================================================================
+
