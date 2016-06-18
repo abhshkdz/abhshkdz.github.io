@@ -6,5 +6,4 @@ author:
   email: das.abhshk@gmail.com
 description: Machine learning researcher. On a quest to build real artificial intelligence.
 permalink: /posts/:title/
-markdown: redcarpet
 include: ['_pages']
