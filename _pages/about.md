@@ -8,15 +8,15 @@ My research interests focus on the development of deep
 learning models and its applications in computer vision
 and natural language processing. 
 
-I am currently being advised by [Professor Dhruv Batra][2]
-as a visiting student at the [Machine Learning & Perception Lab][1],
-Virginia Tech.
+I am currently being advised by [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3]
+as a visiting student at [Virginia Tech][1].
 
 Prior to joining Virginia Tech, I had the privilege of collaborating with 
 [Professor Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
 research fellow) at the [Goodhill Lab][6], Queensland Brain Institute,
 where I studied how neural activity represents spatial information
-in the visual system, and analyzed neuron-dropping.
+in the visual system, and analyzed neuron-dropping (dependency of
+neural decoding accuracy on number of recorded neurons).
 
 A significant portion of my motivation to study deep learning
 comes from the loose analogies between machine learning concepts and 
