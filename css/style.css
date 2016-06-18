@@ -1964,6 +1964,7 @@ footer .container .footer-icons li img:hover {
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 .highlight {
+  text-align: left;
   background: #ffffff; }
 
 .highlight .c {
