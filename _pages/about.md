@@ -43,7 +43,24 @@ on [Instagram][24] and [Tumblr][25].
 
 ---
 
+# Publications
 
+<h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
+
+<p class="pubd">
+    Abhishek Das*, Harsh Agrawal*, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra <br>
+    <i>ICML 2016 Workshop on Visualization for Deep Learning (<b>Best student paper</b>)</i><br>
+    <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
+    <a target="_blank" href="http://arxiv.org/abs/1606.03556">Paper</a>, 
+    Press: <a target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">New Scientist</a>, 
+    <a target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">MIT Tech Review</a>
+</p>
+
+<img src="/img/vqa-hat/teaser.jpg" style="width:33%;">
+<img src="/img/vqa-hat/interface_2.jpg" style="width:65%;">
+<img src="/img/vqa-hat/att_comparison_2row.jpg" style="width:98%;">
+
+---
 
 [1]: //mlp.ece.vt.edu/
 [2]: //computing.ece.vt.edu/~dbatra/
@@ -70,3 +87,7 @@ on [Instagram][24] and [Tumblr][25].
 [23]: //twitter.com/abhshkdz
 [24]: //instagram.com/abhshkdz
 [25]: //x.abhishekdas.com/
+[26]: https://computing.ece.vt.edu/~abhshkdz/vqa-hat
+[27]: http://arxiv.org/abs/1606.03556
+[28]: https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/
+[29]: https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/

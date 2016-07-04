@@ -229,6 +229,12 @@ ul.nav-bar {
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
         color: #333;
+        h1{
+            font-size: 1.8em;
+            line-height: 1.5em;
+            font-weight: 300;
+            color: #1a1a1a;
+        }
         h2{
             font-size: 1.4em;
             line-height: 1.1;
@@ -238,6 +244,13 @@ ul.nav-bar {
             margin-top: 0;
             margin-bottom: 0;
         }
+        h2.pubt {
+            font-size: 1.2em;
+            line-height: 1.2em;
+            border: none;
+            padding-left: 0;
+            margin-left: 0;
+        }
         h3 {
             font-size: 1.2em;
         }
@@ -245,6 +258,9 @@ ul.nav-bar {
             font-size: 16px;
             margin: 2em 0;
             text-align: left;
+        }
+        p.pubd {
+            margin: 0em;
         }
         a {
             @extend .a-hover;

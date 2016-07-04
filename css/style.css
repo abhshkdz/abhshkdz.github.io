@@ -1864,6 +1864,11 @@ ul.nav-bar li {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   color: #333; }
+.post section h1 {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #1a1a1a; }
 .post section h2 {
   font-size: 1.4em;
   line-height: 1.1;
@@ -1872,12 +1877,20 @@ ul.nav-bar li {
   padding-left: 20px;
   margin-top: 0;
   margin-bottom: 0; }
+.post section h2.pubt {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  border: none;
+  padding-left: 0;
+  margin-left: 0; }
 .post section h3 {
   font-size: 1.2em; }
 .post section p {
   font-size: 16px;
   margin: 2em 0;
   text-align: left; }
+.post section p.pubd {
+  margin: 0em; }
 .post section a {
   border-bottom: 1px solid #000; }
 .post section img {
