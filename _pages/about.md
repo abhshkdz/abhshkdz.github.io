@@ -69,13 +69,13 @@ on [Instagram][24] and [Tumblr][25].
 [5]: //researchers.uq.edu.au/researcher/2490
 [6]: //cns.qbi.uq.edu.au/
 [7]: //developers.google.com/open-source/gsoc/
-[8]: //abhishekdas.com/posts/summer-of-code/
-[9]: //abhishekdas.com/posts/gsoc-reunion-2014/
+[8]: /posts/summer-of-code/
+[9]: /posts/gsoc-reunion-2014/
 [10]: //blog.sdslabs.co/2012/09/hacku/
 [11]: //blog.sdslabs.co/2014/02/code-fun-do/
-[12]: //abhishekdas.com/posts/deloitte-cctc-3/
+[12]: /posts/deloitte-cctc-3/
 [13]: //www.facebook.com/SDSLabs/posts/527540147292475
-[14]: //abhishekdas.local/posts/google-india-community-summit/
+[14]: /posts/google-india-community-summit/
 [15]: //blog.sdslabs.co/2013/10/syntax-error-2013/
 [16]: //sdslabs.co/
 [17]: //erdos.sdslabs.co/
