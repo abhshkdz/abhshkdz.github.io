@@ -4,11 +4,9 @@ title:      About
 permalink:  /about/
 ---
 
-My research interests focus on the development of deep
-learning models and its applications in computer vision
-and natural language processing. I am currently working
-with [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3]
-as a visiting student at [Virginia Tech][1].
+![cover](/img/cover.jpg)
+
+As of Fall 2016, I am a graduate student at Virginia Tech advised by [Prof. Dhruv Batra][2]. My research interests focus on the development of deep learning models and its applications in computer vision and natural language processing.
 
 Prior to joining Virginia Tech, I had the privilege of collaborating with 
 [Professor Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
