@@ -136,6 +136,15 @@ ul.nav-bar {
 // 3. Entries
 // --------------------------------------------------
 
+span.authors {
+    color: #808080;
+}
+
+span.conf {
+    font-style: italic;
+    // color: #e74c3c;
+}
+
 .content .entries{
     list-style: none;
     margin: 3em 0 0 0;

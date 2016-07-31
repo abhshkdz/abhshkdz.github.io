@@ -46,8 +46,8 @@ on [Instagram][24] and [Tumblr][25].
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
 
 <p class="pubd">
-    Abhishek Das*, Harsh Agrawal*, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra <br>
-    <i>ICML 2016 Workshop on Visualization for Deep Learning (<b>Best student paper</b>)</i><br>
+    <span class="authors">Abhishek Das*, Harsh Agrawal*, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
+    <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
     <a target="_blank" href="http://arxiv.org/abs/1606.03556">Paper</a>, 
     Press: <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">The Verge</a>, 
@@ -55,9 +55,7 @@ on [Instagram][24] and [Tumblr][25].
     <a target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">MIT Tech Review</a>
 </p>
 
-<img src="/img/vqa-hat/teaser.jpg" style="width:33%;">
-<img src="/img/vqa-hat/interface_2.jpg" style="width:65%;">
-<img src="/img/vqa-hat/att_comparison_2row.jpg" style="width:98%;">
+<img src="/img/vqa-hat/teaser.jpg">
 
 ---
 

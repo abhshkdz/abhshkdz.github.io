@@ -1804,6 +1804,12 @@ ul.nav-bar li {
   height: 0.5em;
   width: 100%; }
 
+span.authors {
+  color: #808080; }
+
+span.conf {
+  font-style: italic; }
+
 .content .entries {
   list-style: none;
   margin: 3em 0 0 0; }
