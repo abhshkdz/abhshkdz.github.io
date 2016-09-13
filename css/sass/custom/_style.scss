@@ -269,11 +269,17 @@ span.conf {
             text-align: left;
         }
         p.pubd {
-            margin: 0em;
+            margin: 5px 0 0 0;
+            color: #808080 !important;
+            line-height: 24px;
+            a {
+                color: #808080;
+                @extend .a-hover;
+            }
         }
         a {
             @extend .a-hover;
-            border-bottom: 1px solid $black;
+            border-bottom: 1px solid #ccc;
         }
         img {
             width: 700px;
