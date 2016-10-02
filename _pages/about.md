@@ -6,14 +6,18 @@ permalink:  /about/
 
 ![cover](/img/cover.jpg)
 
-As of Fall 2016, I am a graduate student at Virginia Tech advised by [Prof. Dhruv Batra][2]. My research interests focus on the development of deep learning models and its applications in computer vision and natural language processing.
+As of Fall 2016, I am a graduate student at Virginia Tech advised by [Prof. Dhruv Batra][2] and a member of the [Machine Learning and Perception Lab][1].
+I will soon be transferring to Georgia Institute of Technology following my advisor's [move][32].
+
+My research interests focus on the development of deep learning models and its applications in computer vision and natural language processing.
+A PDF version of my CV is available [here][33].
 
 Prior to joining Virginia Tech, I had the privilege of collaborating with 
-[Professor Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
+[Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
 research fellow) at the [Goodhill Lab][6], Queensland Brain Institute,
 where I studied how neural activity represents spatial information
 in the visual system, and analyzed neuron-dropping (dependency of
-neural decoding accuracy on number of recorded neurons).
+neural decoding on number of recorded neurons).
 
 A significant portion of my motivation to study deep learning
 comes from the loose analogies between machine learning concepts and 
@@ -24,7 +28,7 @@ My long-term goal is to have a better understanding
 of how the brain works and use that knowledge and underlying
 principles to build artificial intelligence.
 
-I graduated from Indian Institute of Technology Roorkee in 2015
+I graduated from [Indian Institute of Technology Roorkee][31] in 2015
 with a B.Tech. in Electrical Engineering. Through the course of my
 undergrad, I've been fortunate to have participated in the
 Google Summer of Code program in [2013][8] and [2014][9],
@@ -91,3 +95,6 @@ on [Instagram][24] and [Tumblr][25].
 [28]: https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/
 [29]: https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/
 [30]: http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes
+[31]: http://iitr.ac.in/
+[32]: https://www.facebook.com/dhruv.batra.1253/posts/1783087161932290
+[33]: https://computing.ece.vt.edu/~abhshkdz/Abhishek_Das_CV.pdf
