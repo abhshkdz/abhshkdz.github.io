@@ -47,6 +47,16 @@ on [Instagram][24] and [Tumblr][25].
 
 # Publications
 
+<h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
+<p class="pubd">
+    <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
+    <a target="_blank" href="https://arxiv.org/abs/1610.02391">Paper</a>, 
+    <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
+    <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
+</p>
+
+<img src="/img/grad-cam/teaser.jpg">
+
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
 
 <p class="pubd">
