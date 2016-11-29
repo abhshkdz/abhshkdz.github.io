@@ -39,28 +39,33 @@ first hackathon [Syntax Error][15], and been an active member of [SDSLabs][16].
 
 On the side, I built and continue to help maintain [Erdős][17],
 a competitive learning platform for math geeks, and a bunch of
-other projects ([neural-vqa][19], [HackFlowy][20], [graf][21], [etc][22]).
+other projects ([aideadlin.es][34], [neural-vqa][19], [HackFlowy][20], [graf][21], [etc][22]).
 I often [tweet][23], and post pictures from my wanderings
 on [Instagram][24] and [Tumblr][25].
 
 ---
+
+<a name="/publications"></a>
 
 # Publications
 
 <h2 class="pubt">Visual Dialog</h2>
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
-    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>
+    <span class="conf">arXiv 2016</span><br>
+    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a> 
+    (Dataset, code and pretrained models coming soon)
 </p>
 
 <div id="vimeo-embed">
     <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-
+<hr>
 <h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
+    <span class="conf">arXiv 2016</span><br>
     <a target="_blank" href="https://arxiv.org/abs/1610.02391">Paper</a>, 
     <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
     <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
@@ -68,6 +73,7 @@ on [Instagram][24] and [Tumblr][25].
 
 <img src="/img/grad-cam/teaser.jpg">
 
+<hr>
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
 
 <p class="pubd">
@@ -119,3 +125,4 @@ on [Instagram][24] and [Tumblr][25].
 [31]: http://iitr.ac.in/
 [32]: https://www.facebook.com/dhruv.batra.1253/posts/1783087161932290
 [33]: https://computing.ece.vt.edu/~abhshkdz/Abhishek_Das_CV.pdf
+[34]: http://aideadlin.es/
