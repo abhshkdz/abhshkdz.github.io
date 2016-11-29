@@ -47,6 +47,17 @@ on [Instagram][24] and [Tumblr][25].
 
 # Publications
 
+<h2 class="pubt">Visual Dialog</h2>
+<p class="pubd" style="margin-bottom:20px;">
+    <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
+    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>
+</p>
+
+<div id="vimeo-embed">
+    <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+
 <h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>

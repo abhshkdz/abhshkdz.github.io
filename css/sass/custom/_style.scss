@@ -128,7 +128,7 @@ ul.nav-bar {
 .top-strip{
     background-color: $black;
     // background-color: #3498db;
-    height: 0.5em;
+    height: 0.25em;
     width: 100%;
 }
 
@@ -310,6 +310,25 @@ span.conf {
     div.highlight {
         text-align: left;
     }
+}
+
+#vimeo-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+#vimeo-embed iframe,
+#vimeo-embed object,
+#vimeo-embed embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 // 4. Footer
