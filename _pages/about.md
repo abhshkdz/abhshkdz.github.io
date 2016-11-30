@@ -19,15 +19,6 @@ where I studied how neural activity represents spatial information
 in the visual system, and analyzed neuron-dropping (dependency of
 neural decoding on number of recorded neurons).
 
-A significant portion of my motivation to study deep learning
-comes from the loose analogies between machine learning concepts and 
-their neuroscientific counterparts, such as Dropout (regularization)
-and redundancy in neural activity, high-level information representation
-by a deep convolutional network and neural spiking activity.
-My long-term goal is to have a better understanding
-of how the brain works and use that knowledge and underlying
-principles to build artificial intelligence.
-
 I graduated from [Indian Institute of Technology Roorkee][31] in 2015
 with a B.Tech. in Electrical Engineering. Through the course of my
 undergrad, I've been fortunate to have participated in the
