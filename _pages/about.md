@@ -56,7 +56,7 @@ on [Instagram][24] and [Tumblr][25].
 <h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">arXiv 2016</span><br>
+    <span class="conf">NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
     <a target="_blank" href="https://arxiv.org/abs/1610.02391">Paper</a>, 
     <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
     <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
