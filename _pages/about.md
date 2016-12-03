@@ -70,8 +70,8 @@ on [Instagram][24] and [Tumblr][25].
 <p class="pubd">
     <span class="authors">Abhishek Das*, Harsh Agrawal*, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
     <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
-    <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
     <a target="_blank" href="http://arxiv.org/abs/1606.03556">Paper</a>, 
+    <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
     Press: <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">The Verge</a>, 
     <a target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">Nautilus</a>,
     <a target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">New Scientist</a>, 
