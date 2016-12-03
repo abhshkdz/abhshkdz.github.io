@@ -62,7 +62,7 @@ on [Instagram][24] and [Tumblr][25].
     <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
 </p>
 
-<img src="/img/grad-cam/teaser.jpg">
+<img src="/img/grad-cam/teaser.png">
 
 <hr>
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
