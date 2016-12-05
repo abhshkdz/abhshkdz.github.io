@@ -44,8 +44,8 @@ on [Instagram][24] and [Tumblr][25].
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">ArXiv 2016</span><br>
-    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a> 
-    (Dataset, code and pretrained models coming soon)
+    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>,
+    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a>
 </p>
 
 <div id="vimeo-embed">
