@@ -50,7 +50,7 @@ on [Instagram][24] and [Tumblr][25].
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">ArXiv 2016</span><br>
     <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>,
-    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a>
+    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">Chat interface code</a>
 </p>
 
 <div id="vimeo-embed">
