@@ -34,10 +34,11 @@ served as a [Google Student Ambassador][14] and organized our institute's
 first hackathon [Syntax Error][15], and been an active member of [SDSLabs][16].
 
 On the side, I built and continue to help maintain [Erdős][17],
-a competitive learning platform for math geeks, and a bunch of
-other projects ([aideadlin.es][34], [neural-vqa][19], [HackFlowy][20], [graf][21], [etc][22]).
-I often [tweet][23], and post pictures from my wanderings
-on [Instagram][24] and [Tumblr][25].
+a competitive math learning platform, and [neural-vqa][19], an efficient, GPU-based
+Torch code for visual question answering. I also maintain countdown timers
+to a bunch of CV/NLP/ML/AI conference deadlines ([aideadlin.es][34]),
+and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
+I often [tweet][23], and post pictures from my travels on [Instagram][24] and [Tumblr][25].
 
 ---
 
@@ -50,7 +51,7 @@ on [Instagram][24] and [Tumblr][25].
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">ArXiv 2016</span><br>
     <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>,
-    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">Chat interface code</a>
+    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">Chat interface</a>
 </p>
 
 <div id="vimeo-embed">
