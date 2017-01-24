@@ -6,13 +6,16 @@ permalink:  /about/
 
 ![cover](/img/cover.jpg)
 
+CS PhD Student, Georgia Tech  
+abhshkdz \_at\_ gatech.edu
+
 I am a Computer Science Ph.D. student at Georgia Tech, advised by [Prof. Dhruv Batra][2]
 and a member of the [Machine Learning and Perception Lab][1]. My research interests focus
 on the development of deep learning models and its applications in computer vision and natural language processing.
 Before transferring to Georgia Tech, 
 I spent one wonderful year at Virginia Tech as an intern and later as a graduate student
 working with Prof. Batra.
-My CV is available [here][33].
+<!-- My CV is available [here][33]. -->
 
 Prior to joining grad school, I had the privilege of collaborating with 
 [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
