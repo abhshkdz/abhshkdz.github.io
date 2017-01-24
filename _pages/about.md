@@ -9,13 +9,12 @@ permalink:  /about/
 I am a Computer Science Ph.D. student at Georgia Tech, advised by [Prof. Dhruv Batra][2]
 and a member of the [Machine Learning and Perception Lab][1]. My research interests focus
 on the development of deep learning models and its applications in computer vision and natural language processing.
-A PDF version of my CV is available [here][33].
-
-Prior to transferring to Georgia Tech following my advisor's [move][32], 
+Before transferring to Georgia Tech, 
 I spent one wonderful year at Virginia Tech as an intern and later as a graduate student
 working with Prof. Batra.
+My CV is available [here][33].
 
-I've had the privilege of collaborating with 
+Prior to joining grad school, I had the privilege of collaborating with 
 [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
 research fellow) as an intern at the [Goodhill Lab][6], Queensland Brain Institute,
 where I studied neural coding in zebrafish tectum.
@@ -28,12 +27,12 @@ won several hackathons and security contests ([Yahoo! HackU!][10],
 and been an active member of [SDSLabs][16].
 
 On the side, I often [tweet][23], and post pictures from my travels on
-[Instagram][24] and [Tumblr][25]. I continue to help maintain [Erdős][17],
+[Instagram][24] and [Tumblr][25]. I help maintain [Erdős][17],
 a competitive math learning platform I built during my undergrad,
-and [neural-vqa][19], an efficient, GPU-based Torch code for
-visual question answering. I also maintain countdown timers
+and [neural-vqa][19], efficient Torch code for
+visual question answering. I also maintain countdowns
 to a bunch of CV/NLP/ML/AI conference deadlines ([aideadlin.es][34]),
-and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
+and several side projects ([HackFlowy][20], [graf][21], [etc][22]).
 
 ---
 
@@ -45,8 +44,10 @@ and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">ArXiv 2016</span><br>
+    <span class="links">
     <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>,
-    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">Chat interface</a>
+    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>, <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">Mechanical Turk interface</a>]
+    </span>
 </p>
 
 <div id="vimeo-embed">
@@ -58,9 +59,11 @@ and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
+    <span class="links">
     <a target="_blank" href="https://arxiv.org/abs/1610.02391">Paper</a>, 
     <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
     <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
+    </span>
 </p>
 
 <img src="/img/grad-cam/teaser.png">
@@ -69,8 +72,9 @@ and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
 
 <p class="pubd">
-    <span class="authors">Abhishek Das*, Harsh Agrawal*, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
+    <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
     <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
+    <span class="links">
     <a target="_blank" href="http://arxiv.org/abs/1606.03556">Paper</a>, 
     <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
     Press: <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">The Verge</a>, 
@@ -78,6 +82,7 @@ and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
     <a target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">New Scientist</a>, 
     <a target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">MIT Tech Review</a>,
     <a target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165">TechRadar</a>
+    </span>
 </p>
 
 <img src="/img/vqa-hat/teaser.jpg">

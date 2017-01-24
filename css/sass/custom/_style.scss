@@ -33,7 +33,7 @@ body{
 }
 
 main.container, main.content > .container{
-    max-width:670px;
+    max-width:700px;
 }
 
 // 1. a Font
@@ -138,11 +138,12 @@ ul.nav-bar {
 
 span.authors {
     color: #808080;
+    margin: 5px 0;
 }
 
 span.conf {
-    font-style: italic;
-    // color: #e74c3c;
+    color: #9A2617;
+    font-weight: bold;
 }
 
 .content .entries{
@@ -271,10 +272,15 @@ span.conf {
         p.pubd {
             margin: 5px 0 0 0;
             color: #808080 !important;
-            line-height: 24px;
+            line-height: 22px;
             a {
-                color: #808080;
-                @extend .a-hover;
+                color: #1496BB;
+                border-bottom: 1px solid #ccc;
+                &:hover{
+                    @include transition(0.2s linear);
+                    color: #107896;
+                    text-decoration:none;
+                }
             }
         }
         a {

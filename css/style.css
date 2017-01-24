@@ -1735,14 +1735,14 @@ body *::selection {
   color: #fff; }
 
 main.container, main.content > .container {
-  max-width: 670px; }
+  max-width: 700px; }
 
 .center-txt, .pages, .post .when, .post div, footer .container, footer .container .footer-icons {
   text-align: center; }
 
-.a-hover, ul.nav-bar li a, .content #name a, .content .entries .title, .content .entries a, .post section p.pubd a, .post section a {
+.a-hover, ul.nav-bar li a, .content #name a, .content .entries .title, .content .entries a, .post section a {
   color: #333; }
-.a-hover:hover, ul.nav-bar li a:hover, .content #name a:hover, .content .entries .title:hover, .content .entries a:hover, .post section p.pubd a:hover, .post section a:hover {
+.a-hover:hover, ul.nav-bar li a:hover, .content #name a:hover, .content .entries .title:hover, .content .entries a:hover, .post section a:hover {
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
   -o-transition: 0.2s linear;
@@ -1805,10 +1805,12 @@ ul.nav-bar li {
   width: 100%; }
 
 span.authors {
-  color: #808080; }
+  color: #808080;
+  margin: 5px 0; }
 
 span.conf {
-  font-style: italic; }
+  color: #9A2617;
+  font-weight: bold; }
 
 .content .entries {
   list-style: none;
@@ -1898,9 +1900,17 @@ span.conf {
 .post section p.pubd {
   margin: 5px 0 0 0;
   color: #808080 !important;
-  line-height: 24px; }
+  line-height: 22px; }
 .post section p.pubd a {
-  color: #808080; }
+  color: #1496BB;
+  border-bottom: 1px solid #ccc; }
+.post section p.pubd a:hover {
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  color: #107896;
+  text-decoration: none; }
 .post section a {
   border-bottom: 1px solid #ccc; }
 .post section img {
