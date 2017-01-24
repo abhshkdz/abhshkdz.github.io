@@ -4,6 +4,6 @@ url: http://abhishekdas.com
 author:
   name: Abhishek Das
   email: das.abhshk@gmail.com
-description: PhD student at Virginia Tech. Learning to build machines that can see, think and talk.
+description: CS PhD student at Georgia Tech. Learning to build machines that can see, think and talk.
 permalink: /posts/:title/
 include: ['_pages']
