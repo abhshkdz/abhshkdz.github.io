@@ -7,38 +7,33 @@ permalink:  /about/
 ![cover](/img/cover.jpg)
 
 I am a Computer Science Ph.D. student at Georgia Tech, advised by [Prof. Dhruv Batra][2]
-and a member of the [Machine Learning and Perception Lab][1].
-<!-- I will soon be transferring to Georgia Institute of Technology following my advisor's [move][32]. -->
-
-My research interests focus on the development of deep learning models and its applications in computer vision and natural language processing.
+and a member of the [Machine Learning and Perception Lab][1]. My research interests focus
+on the development of deep learning models and its applications in computer vision and natural language processing.
 A PDF version of my CV is available [here][33].
 
 Prior to transferring to Georgia Tech following my advisor's [move][32], 
 I spent one wonderful year at Virginia Tech as an intern and later as a graduate student
 working with Prof. Batra.
 
-I've also had the privilege of collaborating with 
+I've had the privilege of collaborating with 
 [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5] (postdoctoral
 research fellow) as an intern at the [Goodhill Lab][6], Queensland Brain Institute,
-where I studied how neural activity represents spatial information
-in the visual system, and analyzed neuron-dropping (dependency of
-neural decoding on number of recorded neurons).
+where I studied neural coding in zebrafish tectum.
 
-I graduated from [Indian Institute of Technology Roorkee][31] in 2015
-with a B.Tech. in Electrical Engineering. Through the course of my
-undergrad, I've been fortunate to have participated in the
+I graduated from [Indian Institute of Technology Roorkee][31] in 2015.
+Through the course of my undergrad, I've been lucky to have participated in the
 Google Summer of Code program in [2013][8] and [2014][9],
 won several hackathons and security contests ([Yahoo! HackU!][10], 
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
-served as a [Google Student Ambassador][14] and organized our institute's
-first hackathon [Syntax Error][15], and been an active member of [SDSLabs][16].
+and been an active member of [SDSLabs][16].
 
-On the side, I built and continue to help maintain [Erdős][17],
-a competitive math learning platform, and [neural-vqa][19], an efficient, GPU-based
-Torch code for visual question answering. I also maintain countdown timers
+On the side, I often [tweet][23], and post pictures from my travels on
+[Instagram][24] and [Tumblr][25]. I continue to help maintain [Erdős][17],
+a competitive math learning platform I built during my undergrad,
+and [neural-vqa][19], an efficient, GPU-based Torch code for
+visual question answering. I also maintain countdown timers
 to a bunch of CV/NLP/ML/AI conference deadlines ([aideadlin.es][34]),
 and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
-I often [tweet][23], and post pictures from my travels on [Instagram][24] and [Tumblr][25].
 
 ---
 
