@@ -87,6 +87,74 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 <img src="/img/vqa-hat/teaser.jpg">
 
+<hr>
+
+<a name="/talks"></a>
+
+# Talks
+
+<h2 class="talkt" style="font-weight:300;">ICML 2016 Workshop on Visualization for Deep Learning</h2>
+<p class="talkd">
+    <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a>
+</p>
+<hr>
+
+<a name="/projects"></a>
+
+# Side projects
+
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa">neural-vqa</a></h2>
+<p class="talkd">
+    neural-vqa is an efficient, GPU-based Torch implementation of the visual question answering model from the NIPS 2015 paper 'Exploring Models and Data for Image Question Answering' by Ren et al.
+    <a target="_blank" href="https://github.com/abhshkdz/neural-vqa"><img src="/img/projects/neural-vqa.jpg"></a>
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
+<p class="talkd">
+    aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via changes to the data file in the repo.
+    <a target="_blank" href="http://aideadlin.es"><img style="margin-top: 10px;" src="/img/projects/ai-deadlines.png"></a>
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://erdos.sdslabs.co">Erdős</a></h2>
+<p class="talkd">
+    Erdős by <a target="_blank" href="//sdslabs.co">SDSLabs</a> is a competitive math learning platform, similar in spirit to <a href="https://projecteuler.net/">Project Euler</a>, albeit more feature-packed (support for holding competitions, has a social layer) and prettier.
+    <a target="_blank" href="https://erdos.sdslabs.co"><img style="margin-top:10px;" src="/img/projects/erdos.png"></a>
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/graf">graf</a></h2>
+<p class="talkd">
+    graf is a simple git log analysis Ruby gem. It plots pretty contribution bar graphs in the terminal.
+    <a target="_blank" href="https://github.com/abhshkdz/graf"><img style="margin-top:10px;" src="/img/projects/graf.gif"></a>
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/HackFlowy">HackFlowy</a></h2>
+<p class="talkd">
+    <a href="//workflowy.com">WorkFlowy.com</a> is a beautiful, list-based note-taking website that has a 500-item monthly limit on the free tier :-(. This project is an open-source clone of WorkFlowy. "Make lists. Not war." :-)
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/AirMaps">AirMaps</a></h2>
+<p class="talkd">
+    AirMaps was a fun hackathon project that lets users navigate through Google Earth with gestures and speech commands using a Kinect sensor. It was the <a target="_blank" href="https://blog.sdslabs.co/2014/02/code-fun-do">winning entry in Microsoft Code.Fun.Do</a>.
+    <a target="_blank" href="https://github.com/abhshkdz/AirMaps"><img style="margin-top:10px;" src="/img/projects/airmaps.jpg"></a>
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/sdslabs/hackview">HackView</a></h2>
+<p class="talkd">
+    HackView was another fun hackathon-winning project built during Yahoo! HackU! 2012 that involves a webRTC-based peer-to-peer multi-person video chat and collaborative doc editor, and was faster than any other video chat provider (at the time, before Google launched Hangouts).
+</p>
+
+<hr>
+<h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/8tracks-downloader">8tracks-downloader</a></h2>
+<p class="talkd">
+    Ugly-looking, but super-effective bash script for downloading entire playlists from 8tracks. (Still works as of 10/2016).
+</p>
+
 ---
 
 [1]: //mlp.ece.vt.edu/

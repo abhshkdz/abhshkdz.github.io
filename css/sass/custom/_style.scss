@@ -254,12 +254,15 @@ span.conf {
             margin-top: 0;
             margin-bottom: 0;
         }
-        h2.pubt {
+        h2.pubt, h2.talkt {
             font-size: 1.2em;
             line-height: 1.2em;
             border: none;
             padding-left: 0;
             margin-left: 0;
+        }
+        h2.talkt {
+            margin-bottom: 10px;
         }
         h3 {
             font-size: 1.2em;
@@ -268,6 +271,11 @@ span.conf {
             font-size: 16px;
             margin: 2em 0;
             text-align: left;
+        }
+        p.talkd {
+            margin: 5px 0 0 0;
+            color: #808080 !important;
+            line-height: 22px;
         }
         p.pubd {
             margin: 5px 0 0 0;
