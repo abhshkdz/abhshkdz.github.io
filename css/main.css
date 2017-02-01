@@ -140,7 +140,7 @@ ul.nav-bar li {
 
 @media (max-width: 1000px) {
   .container ul.nav-bar li {
-    font-size: 0.7em;
+    font-size: 0.71em;
   }
 
   .container {
