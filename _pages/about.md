@@ -4,14 +4,14 @@ title:      About
 permalink:  /about/
 ---
 
-![cover](/img/cover.jpg)
+<!-- ![cover](/img/cover.jpg)
 
 Computer Science PhD Student  
 [Machine Learning and Perception Lab][1], Georgia Tech  
-abhshkdz \_at\_ gatech.edu
+abhshkdz \_at\_ gatech.edu -->
 
-I am a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
-My research focuses on the development of deep learning models and its applications in computer vision and natural language processing.
+I am Abhishek Das, a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
+My research focuses on deep learning models and its applications in computer vision and natural language processing.
 Before transferring to Georgia Tech, 
 I spent one year at Virginia Tech as an intern and later as a graduate student
 working with [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3].
