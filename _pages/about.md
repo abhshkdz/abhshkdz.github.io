@@ -186,8 +186,8 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [9]: /posts/gsoc-reunion-2014/
 [10]: //blog.sdslabs.co/2012/09/hacku
 [11]: //blog.sdslabs.co/2014/02/code-fun-do
-[12]: /posts/deloitte-cctc-3/
-[13]: //www.facebook.com/SDSLabs/posts/527540147292475
+[12]: //www.facebook.com/SDSLabs/posts/527540147292475
+[13]: /posts/deloitte-cctc-3/
 [14]: /posts/google-india-community-summit/
 [15]: //blog.sdslabs.co/2013/10/syntax-error-2013
 [16]: //sdslabs.co/
