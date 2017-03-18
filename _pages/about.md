@@ -199,7 +199,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [22]: //github.com/abhshkdz
 [23]: //twitter.com/abhshkdz
 [24]: //instagram.com/abhshkdz
-[25]: //x.abhishekdas.com/
+[25]: http://x.abhishekdas.com/
 [26]: https://computing.ece.vt.edu/~abhshkdz/vqa-hat
 [27]: http://arxiv.org/abs/1606.03556
 [28]: https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/
