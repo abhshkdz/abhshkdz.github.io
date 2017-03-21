@@ -40,12 +40,24 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<h2 class="pubt">Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning</h2>
+<p class="pubd">
+    <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
+    <span class="conf">ArXiv 2017</span><br>
+    <span class="links">
+    <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
+    </span>
+</p>
+
+<img src="/img/visdial/qbot_abot.jpg">
+
+<hr>
 <h2 class="pubt">Visual Dialog</h2>
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">CVPR 2017 (Spotlight)</span><br>
     <span class="links">
-    <a target="_blank" href="https://arxiv.org/abs/1611.08669">Paper</a>,
+    <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>,
     <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
     </span>
 </p>
@@ -60,7 +72,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
     <span class="links">
-    <a target="_blank" href="https://arxiv.org/abs/1610.02391">Paper</a>, 
+    <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>,
     <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
     <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
     </span>
@@ -75,7 +87,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
     <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <span class="links">
-    <a target="_blank" href="http://arxiv.org/abs/1606.03556">Paper</a>, 
+    <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>,
     <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
     Press: <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">The Verge</a>, 
     <a target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">Nautilus</a>,
