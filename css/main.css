@@ -286,6 +286,9 @@ a:hover, a:focus {
   margin: 5px 0 0 0;
   color: #808080 !important;
   line-height: 22px; }
+.post section p.talkd .project-img {
+  margin-top: 5px;
+}
 .post section p.pubd {
   margin: 5px 0 0 0;
   color: #808080 !important;
