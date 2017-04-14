@@ -227,6 +227,12 @@ ul.nav-bar li {
   margin-top: 1.5em;
 }
 
+.presslink {
+  font-size: 13px;
+  color: #707070;
+  border-bottom: 1px solid #eee;
+}
+
 img {
   max-width: 100%;
 }

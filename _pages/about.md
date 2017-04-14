@@ -88,12 +88,33 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <span class="links">
     <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>,
-    <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>, 
-    Press: <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">The Verge</a>, 
-    <a target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">Nautilus</a>,
-    <a target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">New Scientist</a>, 
-    <a target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">MIT Tech Review</a>,
-    <a target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165">TechRadar</a>
+    <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>
+    Press:
+    <br>
+    <a style="border-bottom: 0;" target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">
+        <img src="/img/logos/nautilus.png" style="background: white; width: 70px;">
+        <span class="presslink">"Is Artificial Intelligence Permanently Inscrutable?" by Aaron Bornstein</span>
+    </a>
+    <br>
+    <a style="border-bottom: 0;" target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">
+        <img src="/img/logos/theverge.png" style="margin-right: 5px; background: white; width: 65px;">
+        <span class="presslink">"Deep learning is creating computer systems we don't fully understand" by James Vincent</span>
+    </a>
+    <br>
+    <a style="border-bottom: 0;" target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">
+        <img src="/img/logos/newscientist.jpg" style="background: white; width: 70px;">
+        <span class="presslink">"Robot eyes and humans fix on different things to decode a scene" by Aviva Rutkin</span>
+    </a>
+    <br>
+    <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">
+        <img src="/img/logos/mittechreview.svg" style="background: white; width: 50px;">
+        <span class="presslink">"AI Is Learning to See the World—But Not the Way Humans Do" by Jamie Condliffe</span>
+    </a>
+    <br>
+    <a style="border-bottom: 0;" target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165">
+        <img src="/img/logos/techradar.png" style="background: white; width: 60px;">
+        <span class="presslink">"Robots and humans see the world differently – but we don't know why" by Duncan Geere</span>
+    </a>
     </span>
 </p>
 
