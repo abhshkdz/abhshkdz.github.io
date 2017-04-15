@@ -227,6 +227,11 @@ ul.nav-bar li {
   margin-top: 1.5em;
 }
 
+.pressdiv div {
+  line-height: 1.2em;
+  margin: 0 0 2px 0;
+}
+
 .presslink {
   font-size: 13px;
   color: #707070;
