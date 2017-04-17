@@ -58,7 +58,9 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">CVPR 2017 (Spotlight)</span><br>
     <span class="links">
     <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>,
-    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
+    <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>,
+    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>], <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>,
+    Demo (coming soon!)
     </span>
 </p>
 
