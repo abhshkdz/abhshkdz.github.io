@@ -10,6 +10,59 @@ Computer Science PhD Student
 [Machine Learning and Perception Lab][1], Georgia Tech  
 abhshkdz \_at\_ gatech.edu -->
 
+<div class="row" id="timeline-logos">
+    <div class="col-xs-2">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//iitr.ac.in"><img src="/img/logos/iitr.jpg"></a>
+        </div>
+        <div class="logo-desc">
+            IIT Roorkee<br>
+            2011 - 2015
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//qbi.uq.edu.au"><img src="/img/logos/uq.png"></a>
+        </div>
+        <div class="logo-desc">
+            Queensland Brain Institute<br>
+            Summer 2015
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a href="//vt.edu"><img src="/img/logos/vt.png"></a>
+        </div>
+        <div class="logo-desc">
+            Virginia Tech<br>
+            2015 - 2016
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
+        </div>
+        <div class="logo-desc">
+            Georgia Tech<br>
+            2017 - Present
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <img src="/img/logos/fair.png">
+        </div>
+        <div class="logo-desc">
+            Facebook AI Research<br>
+            Summer 2017
+        </div>
+    </div>
+</div>
+
 I am Abhishek Das, a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
 My research focuses on deep learning models and its applications in computer vision and natural language processing.
 Before transferring to Georgia Tech, 
@@ -28,8 +81,8 @@ won several hackathons and security contests ([Yahoo! HackU!][10],
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
 and been an active member of [SDSLabs][16].
 
-On the side, I built [neural-vqa][19], an efficient Torch implementation for visual question answering,
-and maintain [aideadlin.es][34], which is a website that hosts countdowns to a bunch of CV/NLP/ML/AI conference deadlines,
+On the side, I built [neural-vqa][19], an efficient Torch implementation for visual question answering (and its extension [neural-vqa-attention][35]),
+and maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
 and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 I also help maintain [Erdős][17], a competitive math learning platform I created during my undergrad.
 I often [tweet][23], and post pictures from my travels on [Instagram][24] and [Tumblr][25].
@@ -271,3 +324,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [32]: https://www.facebook.com/dhruv.batra.1253/posts/1783087161932290
 [33]: https://computing.ece.vt.edu/~abhshkdz/Abhishek_Das_CV.pdf
 [34]: http://aideadlin.es/
+[35]: //github.com/abhshkdz/neural-vqa-attention
