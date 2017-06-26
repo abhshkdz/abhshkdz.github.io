@@ -63,12 +63,12 @@ abhshkdz \_at\_ gatech.edu -->
     </div>
 </div>
 
-I am Abhishek Das, a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
-My research focuses on deep learning models and its applications in computer vision and natural language processing.
+I am a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
+My research focuses on deep learning and its applications in computer vision and natural language processing.
 Before transferring to Georgia Tech, 
 I spent one year at Virginia Tech as an intern and later as a graduate student
 working with [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3].
-<!-- My CV is available [here][33]. -->
+My CV is available [here][33].
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
@@ -322,6 +322,6 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [30]: http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes
 [31]: http://iitr.ac.in/
 [32]: https://www.facebook.com/dhruv.batra.1253/posts/1783087161932290
-[33]: https://computing.ece.vt.edu/~abhshkdz/Abhishek_Das_CV.pdf
+[33]: https://computing.ece.vt.edu/~abhshkdz/cv.pdf
 [34]: http://aideadlin.es/
 [35]: //github.com/abhshkdz/neural-vqa-attention
