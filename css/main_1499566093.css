@@ -305,12 +305,22 @@ a:hover, a:focus {
   margin-top: 5px;
 }
 .post section p.pubd {
-  margin: 5px 0 0 0;
+  margin: 3px 0 0 0;
   color: #808080 !important;
-  line-height: 22px; }
+  line-height: 22px;
+  font-size: 14px;}
 .post section p.pubd a {
-  color: #1496BB;
-  border-bottom: 1px solid #ccc; }
+  color: #2465BF;
+  background: rgba(236, 240, 241, 0.7);
+  padding: 2px 5px;
+  border: none;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  display: inline-block; }
+.post section p.pubd .links {
+  display: block;
+  margin: 6px 0 0; }
 .post section p.pubd a:hover {
   -webkit-transition: 0.2s linear;
   -moz-transition: 0.2s linear;
@@ -320,11 +330,13 @@ a:hover, a:focus {
   text-decoration: none; }
 span.authors {
   color: #808080;
-  margin: 5px 0; }
+  margin: 5px 0;
+  font-size: 14px; }
 
 span.conf {
   color: #9A2617;
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 14px; }
 
 #vimeo-embed {
   position: relative;

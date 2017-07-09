@@ -6,8 +6,8 @@ permalink:  /about/
 
 <!-- ![cover](/img/cover.jpg)
 
-Computer Science PhD Student  
-[Machine Learning and Perception Lab][1], Georgia Tech  
+Computer Science PhD Student
+[Machine Learning and Perception Lab][1], Georgia Tech
 abhshkdz \_at\_ gatech.edu -->
 
 <div class="row" id="timeline-logos">
@@ -65,7 +65,7 @@ abhshkdz \_at\_ gatech.edu -->
 
 I am a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
 My research focuses on deep learning and its applications in computer vision and natural language processing.
-Before transferring to Georgia Tech, 
+Before transferring to Georgia Tech,
 I spent one year at Virginia Tech as an intern and later as a graduate student
 working with [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3].
 My CV is available [here][33].
@@ -75,9 +75,9 @@ as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
 at the [Goodhill Lab][6], Queensland Brain Institute.
 
 I graduated from [Indian Institute of Technology Roorkee][31] in 2015.
-During my undergrad years, I've been selected twice for 
+During my undergrad years, I've been selected twice for
 Google Summer of Code ([2013][8] and [2014][9]),
-won several hackathons and security contests ([Yahoo! HackU!][10], 
+won several hackathons and security contests ([Yahoo! HackU!][10],
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
 and been an active member of [SDSLabs][16].
 
@@ -98,7 +98,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
     <span class="conf">ArXiv 2017</span><br>
     <span class="links">
-    <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
+        <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
     </span>
 </p>
 
@@ -110,11 +110,12 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">CVPR 2017 (Spotlight)</span><br>
     <span class="links">
-    <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>,
-    <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>,
-    <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a> [<a target="_blank" href="http://visualdialog.org/data">dataset</a>],
-    <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>,
-    <a target="_blank" href="http://demo.visualdialog.org">Demo</a>
+        <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>
+        <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>
+        <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a>
+        <!-- <a target="_blank" href="http://visualdialog.org/data">dataset</a> -->
+        <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
+        <a target="_blank" href="http://demo.visualdialog.org">Demo</a>
     </span>
 </p>
 
@@ -128,9 +129,9 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
     <span class="links">
-    <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>,
-    <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>, 
-    <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
+        <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>
+        <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>
+        <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
     </span>
 </p>
 
@@ -143,10 +144,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
     <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>,
-        <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>,
+        <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>
+        <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>
+        <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a>
     </span>
-    Press:
+    <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
         <a style="border-bottom: 0;" target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">
             <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
