@@ -105,6 +105,20 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <img src="/img/visdial/qbot_abot.jpg">
 
 <hr>
+<h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
+<p class="pubd">
+    <span class="authors">Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra</span><br>
+    <span class="conf">ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
+    <span class="links">
+        <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>
+        <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>
+        <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
+    </span>
+</p>
+
+<img src="/img/grad-cam/teaser.png">
+
+<hr>
 <h2 class="pubt">Visual Dialog</h2>
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
@@ -122,20 +136,6 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div id="vimeo-embed">
     <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-
-<hr>
-<h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
-<p class="pubd">
-    <span class="authors">Ramprasaath R. Selvaraju, Abhishek Das, Ramakrishna Vedantam, Michael Cogswell, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
-    <span class="links">
-        <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>
-        <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>
-        <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
-    </span>
-</p>
-
-<img src="/img/grad-cam/teaser.png">
 
 <hr>
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
