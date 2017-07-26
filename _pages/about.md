@@ -105,7 +105,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <img src="/img/visdial/qbot_abot.jpg">
 
 <hr>
-<h2 class="pubt">Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization</h2>
+<h2 class="pubt">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
@@ -198,10 +198,24 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Talks
 
-<h2 class="talkt" style="font-weight:300;">ICML 2016 Workshop on Visualization for Deep Learning</h2>
-<p class="talkd">
-    <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a>
-</p>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="talkt">
+            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Speaker: Visual Question Answering Workshop CVPR 2017</a>
+        </div>
+        <div class="talkt">
+            CVPR 2017 Spotlight: Visual Dialog
+        </div>
+        <div class="talkt">
+            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
+                ICML 2016 Workshop on Visualization for Deep Learning
+            </a>
+        </div>
+        <p class="talkd">
+            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a>
+        </p>
+    </div>
+</div>
 <hr>
 
 <a name="/projects"></a>

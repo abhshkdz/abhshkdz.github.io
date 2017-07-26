@@ -286,7 +286,13 @@ a:hover, a:focus {
   line-height: 17px;
 }*/
 
-.post section h2.pubt, .post section h2.talkt {
+.post section .talkt {
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.post section h2.pubt {
   font-size: 1.2em;
   line-height: 1.2em;
   border: none;
@@ -294,11 +300,8 @@ a:hover, a:focus {
   margin-left: 0;
 }
 
-.post section h2.talkt {
-  margin-bottom: 10px;
-}
 .post section p.talkd {
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
   color: #808080 !important;
   line-height: 22px; }
 .post section p.talkd .project-img {
