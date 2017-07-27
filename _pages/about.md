@@ -199,16 +199,28 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 # Talks
 
 <div class="row">
-    <div class="col-xs-12">
+    <div class="col-xs-6">
         <div class="talkt">
-            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Speaker: Visual Question Answering Workshop CVPR 2017</a>
+            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Speaker: VQA Workshop, CVPR 2017</a>
         </div>
+        <p class="talkd">
+            <img src="/img/talks/visdial_cvpr17_vqaw.jpg">
+        </p>
+    </div>
+    <div class="col-xs-6">
         <div class="talkt">
             CVPR 2017 Spotlight: Visual Dialog
         </div>
+        <p class="talkd">
+            <img src="/img/talks/visdial_cvpr17.jpg">
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
         <div class="talkt">
             <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
-                ICML 2016 Workshop on Visualization for Deep Learning
+                Visualization for Deep Learning Workshop, ICML 2016
             </a>
         </div>
         <p class="talkd">
