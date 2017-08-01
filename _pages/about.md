@@ -201,7 +201,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div class="row">
     <div class="col-xs-6">
         <div class="talkt">
-            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Speaker: VQA Workshop, CVPR 2017</a>
+            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Talk: VQA Workshop, CVPR 2017</a>
         </div>
         <p class="talkd">
             <img src="/img/talks/visdial_cvpr17_vqaw.jpg">
