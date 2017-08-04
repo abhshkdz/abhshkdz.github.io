@@ -96,7 +96,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <h2 class="pubt">Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
-    <span class="conf">ICCV 2017</span><br>
+    <span class="conf">ICCV 2017 (Spotlight)</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
     </span>
