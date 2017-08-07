@@ -209,10 +209,14 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </div>
     <div class="col-xs-6">
         <div class="talkt">
-            CVPR 2017 Spotlight: Visual Dialog
+            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
+                CVPR 2017 Spotlight: Visual Dialog
+            </a>
         </div>
         <p class="talkd">
-            <img src="/img/talks/visdial_cvpr17.jpg">
+            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
+                <img src="/img/talks/visdial_cvpr17.jpg">
+            </a>
         </p>
     </div>
 </div>
