@@ -93,6 +93,18 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<h2 class="pubt">Evaluating Visual Conversational Agents via Cooperative Human-AI Games</h2>
+<p class="pubd">
+    <span class="authors">Prithvijit Chattopadhyay<sup>*</sup>, Deshraj Yadav<sup>*</sup>, Viraj Prabhu, Arjun Chandrasekaran, Abhishek Das, Stefan Lee, Dhruv Batra, Devi Parikh</span><br>
+    <span class="conf">HCOMP 2017</span><br>
+    <span class="links">
+        <a target="_blank" href="//arxiv.org/abs/1708.05122">Paper</a>
+    </span>
+</p>
+
+<img src="/img/guesswhich/teaser.jpg">
+
+<hr>
 <h2 class="pubt">Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
