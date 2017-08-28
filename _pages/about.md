@@ -339,7 +339,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [3]: //computing.ece.vt.edu/~parikh/
 [4]: //www.qbi.uq.edu.au/professor-geoffrey-goodhill
 [5]: //researchers.uq.edu.au/researcher/2490
-[6]: //cns.qbi.uq.edu.au/
+[6]: http://cns.qbi.uq.edu.au/
 [7]: //developers.google.com/open-source/gsoc/
 [8]: /posts/summer-of-code/
 [9]: /posts/gsoc-reunion-2014/
