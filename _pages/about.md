@@ -99,6 +99,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">HCOMP 2017</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1708.05122">Paper</a>
+        <a target="_blank" href="//github.com/VT-vision-lab/guesswhich">Code</a>
     </span>
 </p>
 
