@@ -64,7 +64,7 @@ abhshkdz \_at\_ gatech.edu -->
 </div>
 
 I am a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2].
-My research focuses on deep learning and its applications in computer vision and natural language processing.
+My research focuses on deep learning and its applications in building agents that can see (computer vision), think (reasoning/interpretability), talk (language modeling) and act (reinforcement learning).
 Before transferring to Georgia Tech,
 I spent one year at Virginia Tech as an intern and later as a graduate student
 working with [Prof. Dhruv Batra][2] and [Prof. Devi Parikh][3].
