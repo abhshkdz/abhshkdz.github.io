@@ -146,9 +146,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </span>
 </p>
 
-<div id="vimeo-embed">
+<img src="/img/visdial/teaser.png">
+
+<!-- <div id="vimeo-embed">
     <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+</div> -->
 
 <hr>
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
