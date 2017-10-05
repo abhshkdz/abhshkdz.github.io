@@ -157,7 +157,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 <p class="pubd">
     <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
-    <span class="conf">EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
+    <span class="conf">CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>
         <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>
