@@ -217,36 +217,41 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 <div class="row">
     <div class="col-xs-6">
-        <div class="talkt">
-            <a target="_blank" href="http://visualqa.org/workshop.html">Invited Talk: VQA Workshop, CVPR 2017</a>
-        </div>
         <p class="talkd">
-            <img src="/img/talks/visdial_cvpr17_vqaw.jpg">
+            <img src="/img/talks/visdial_rl_iccv17.jpg">
         </p>
     </div>
     <div class="col-xs-6">
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
-                CVPR 2017 Spotlight: Visual Dialog
-            </a>
-        </div>
         <p class="talkd">
-            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
-                <img src="/img/talks/visdial_cvpr17.jpg">
-            </a>
+            <img src="/img/talks/visdial_cvpr17_vqaw.jpg">
         </p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
+            <a target="_blank" href="https://www.facebook.com/deviparikh/videos/10101654153300369/">
+                ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
+            </a>
+        </div>
+        <div class="talkt">
+            <a target="_blank" href="http://visualqa.org/workshop.html">
+                Visual Question Answering Challenge Workshop, CVPR 2017
+            </a>
+        </div>
+        <div class="talkt">
+            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
+                CVPR 2017 Spotlight: Visual Dialog
+            </a>
+        </div>
+        <div class="talkt">
             <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
                 Visualization for Deep Learning Workshop, ICML 2016
             </a>
         </div>
-        <p class="talkd">
-            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a>
-        </p>
+        <!-- <p class="talkd"> -->
+            <!-- <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a> -->
+        <!-- </p> -->
     </div>
 </div>
 <hr>
