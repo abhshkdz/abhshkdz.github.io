@@ -95,6 +95,17 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<h2 class="pubt">Embodied Question Answering</h2>
+<p class="pubd">
+    <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
+    <span class="links">
+        <a target="_blank" nohref>Paper [coming soon]</a>
+    </span>
+</p>
+
+<img src="/img/eqa/teaser.jpg">
+
+<hr>
 <h2 class="pubt">Evaluating Visual Conversational Agents via Cooperative Human-AI Games</h2>
 <p class="pubd">
     <span class="authors">Prithvijit Chattopadhyay<sup>*</sup>, Deshraj Yadav<sup>*</sup>, Viraj Prabhu, Arjun Chandrasekaran, Abhishek Das, Stefan Lee, Dhruv Batra, Devi Parikh</span><br>
