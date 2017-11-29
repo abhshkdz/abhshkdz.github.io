@@ -241,7 +241,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
-            <a target="_blank" href="https://www.facebook.com/deviparikh/videos/10101654153300369/">
+            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s">
                 ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
             </a>
         </div>
