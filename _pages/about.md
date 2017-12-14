@@ -54,7 +54,7 @@ abhshkdz \_at\_ gatech.edu -->
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <img src="/img/logos/fair.png">
+            <img src="/img/logos/fair2.png">
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
@@ -68,9 +68,11 @@ and working closely with [Prof. Devi Parikh][3]. My research focuses on deep lea
 and its applications in building agents that can see (computer vision),
 think (reasoning/interpretability), talk (language modeling) and
 act (reinforcement learning).
-Before transferring to Georgia Tech,
-I spent one year at Virginia Tech as an intern and later as a graduate student.
+<!-- Before transferring to Georgia Tech,
+I spent one year at Virginia Tech as an intern and later as a graduate student. -->
 My CV is available [here][33].
+
+I spent summer 2017 as a research intern at Facebook AI Research where I worked on developing embodied agents capable of navigating and answering questions in virtual environments.
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
@@ -388,6 +390,6 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [30]: http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes
 [31]: http://iitr.ac.in/
 [32]: https://www.facebook.com/dhruv.batra.1253/posts/1783087161932290
-[33]: https://computing.ece.vt.edu/~abhshkdz/cv.pdf
+[33]: https://drive.google.com/file/d/1nObeNzl-sTy8I5QN1Jv8wscebKLv-6RY/view?usp=sharing
 [34]: http://aideadlin.es/
 [35]: //github.com/abhshkdz/neural-vqa-attention
