@@ -20,10 +20,10 @@ permalink:  /
 
 # News
 
-- [Dec 2017] I was awarded the [Snap Research Fellowship][36].
-
-<!-- - [Oct 2017] I will be presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV, 2017. [Video][37] is now online.
-- [Jul 2017] I will be speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017. -->
+- [Dec 2017] Awarded the [Snap Research Fellowship][36].
+- [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
+- [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017.
+- [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017. ([Video][38])
 
 <hr>
 
@@ -171,6 +171,8 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 </p>
 
 <img src="/img/grad-cam/teaser.png">
+
+<a name="/visdial"></a>
 
 <hr>
 <h2 class="pubt">Visual Dialog</h2>
@@ -420,3 +422,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [35]: //github.com/abhshkdz/neural-vqa-attention
 [36]: https://snapresearchfellowship.splashthat.com/
 [37]: https://www.youtube.com/watch?v=R4hugGnNr7s
+[38]: https://www.youtube.com/watch?v=I9OlorMh7wU
