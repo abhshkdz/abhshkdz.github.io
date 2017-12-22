@@ -24,7 +24,7 @@ permalink:  /
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39].
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36].
 - [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
-- [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017.
+- [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017. ([Video][41])
 - [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017. ([Video][38])
 
 <hr>
@@ -278,7 +278,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
             </a>
         </div>
         <div class="talkt">
-            <a target="_blank" href="http://visualqa.org/workshop.html">
+            <a target="_blank" href="https://youtu.be/KAlGWMJnWyc?t=26m56s">
                 Visual Question Answering Challenge Workshop, CVPR 2017
             </a>
         </div>
@@ -427,3 +427,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [38]: https://www.youtube.com/watch?v=I9OlorMh7wU
 [39]: https://research.adobe.com/fellowship/
 [40]: http://embodiedqa.org/
+[41]: https://youtu.be/KAlGWMJnWyc?t=26m56s
