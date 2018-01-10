@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-<!-- - [Mar 2018] Presenting [Embodied Question Answering][40] at NVIDIA GTC. -->
+- [Mar 2018] [Speaking][42] on [Embodied Question Answering][40] at NVIDIA GTC.
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39].
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36].
 - [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
@@ -428,3 +428,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [39]: https://research.adobe.com/fellowship/
 [40]: http://embodiedqa.org/
 [41]: https://youtu.be/KAlGWMJnWyc?t=26m56s
+[42]: https://2018gputechconf.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=152715
