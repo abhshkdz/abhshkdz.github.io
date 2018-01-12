@@ -425,7 +425,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [36]: https://snapresearchfellowship.splashthat.com/
 [37]: https://www.youtube.com/watch?v=R4hugGnNr7s
 [38]: https://www.youtube.com/watch?v=I9OlorMh7wU
-[39]: https://research.adobe.com/fellowship/
+[39]: https://adoberesearch.ctlprojects.com/fellowship/previous-fellowship-award-winners/
 [40]: http://embodiedqa.org/
 [41]: https://youtu.be/KAlGWMJnWyc?t=26m56s
 [42]: https://2018gputechconf.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=152715
