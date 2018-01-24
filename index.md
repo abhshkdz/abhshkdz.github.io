@@ -90,7 +90,7 @@ My CV is available [here][33].
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
-            Summer 2017
+            Summer 2017, Spring 2018
         </div>
     </div>
 </div>
