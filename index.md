@@ -21,7 +21,7 @@ permalink:  /
 # News
 
 - [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
-- [Dec 2017] Awarded the [Adobe Research Fellowship][39].
+- [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's new story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
 - [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
 - [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017. ([Video][41])
@@ -430,3 +430,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [41]: https://youtu.be/KAlGWMJnWyc?t=26m56s
 [42]: https://2018gputechconf.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=152715
 [43]: https://www.ic.gatech.edu/news/600684/three-ic-students-earn-snap-research-awards
+[44]: https://www.ic.gatech.edu/news/601084/new-research-fellowships-offer-two-students-funding-access-adobes-creative-cloud
