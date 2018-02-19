@@ -95,7 +95,10 @@ My CV is available [here][33].
     </div>
 </div>
 
-I spent summer 2017 as a research intern at Facebook AI Research where I worked on developing embodied agents capable of navigating and answering questions in virtual environments.
+I spent summer 2017 at Facebook AI Research (FAIR, Menlo Park), working with
+[Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training
+embodied agents capable of navigating and answering questions in [House3D][45]
+virtual environments (see [embodiedqa.org][40] for more details).
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
@@ -432,3 +435,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [42]: https://2018gputechconf.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=152715
 [43]: https://www.ic.gatech.edu/news/600684/three-ic-students-earn-snap-research-awards
 [44]: https://www.ic.gatech.edu/news/601084/new-research-fellowships-offer-two-students-funding-access-adobes-creative-cloud
+[45]: https://github.com/facebookresearch/House3D
+[46]: https://gkioxari.github.io/
+[47]: https://research.fb.com/people/parikh-devi/
+[48]: https://research.fb.com/people/batra-dhruv/
