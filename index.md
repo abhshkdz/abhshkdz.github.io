@@ -125,6 +125,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <h2 class="pubt">Embodied Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
+    <span class="conf">CVPR 2018</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1711.11543">Paper</a>
         <a target="_blank" href="http://embodiedqa.org/">embodiedqa.org</a>
