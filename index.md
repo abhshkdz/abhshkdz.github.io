@@ -20,7 +20,8 @@ permalink:  /
 
 # News
 
-- [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
+- **[Jul 2018]** Organizing a [tutorial on Connecting Language and Vision to Actions][49] at ACL 2018.
+- **[Mar 2018]** Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
 - [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
@@ -131,7 +132,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">CVPR 2018</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1711.11543">Paper</a>
-        <a target="_blank" href="http://embodiedqa.org/">embodiedqa.org</a>
+        <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
     </span>
 </p>
 
@@ -430,7 +431,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [37]: https://www.youtube.com/watch?v=R4hugGnNr7s
 [38]: https://www.youtube.com/watch?v=I9OlorMh7wU
 [39]: https://adoberesearch.ctlprojects.com/fellowship/previous-fellowship-award-winners/
-[40]: http://embodiedqa.org/
+[40]: https://embodiedqa.org/
 [41]: https://youtu.be/KAlGWMJnWyc?t=26m56s
 [42]: https://2018gputechconf.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=152715
 [43]: https://www.ic.gatech.edu/news/600684/three-ic-students-earn-snap-research-awards
@@ -439,3 +440,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [46]: https://gkioxari.github.io/
 [47]: https://research.fb.com/people/parikh-devi/
 [48]: https://research.fb.com/people/batra-dhruv/
+[49]: https://lvatutorial.github.io/
