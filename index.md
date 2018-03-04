@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- **[Jul 2018]** Organizing a [tutorial on Connecting Language and Vision to Actions][49] at ACL 2018.
+- **[Jul 2018]** Organizing a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
 - **[Mar 2018]** Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
@@ -441,3 +441,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [47]: https://research.fb.com/people/parikh-devi/
 [48]: https://research.fb.com/people/batra-dhruv/
 [49]: https://lvatutorial.github.io/
+[50]: http://acl2018.org/tutorials/#connecting-language-and-vis
