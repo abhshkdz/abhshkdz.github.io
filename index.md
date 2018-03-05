@@ -10,7 +10,7 @@ permalink:  /
     </div>
     <div class="col-xs-12" style="margin-bottom: 0;">
         Computer Science PhD Student<br>
-        <a href="https://mlp.ece.vt.edu/">Machine Learning and Perception Lab</a>, Georgia Tech<br>
+        <a href="https://mlp.cc.gatech.edu/">Machine Learning and Perception Lab</a>, Georgia Tech<br>
         abhshkdz at gatech dot edu
     </div>
 </div>
@@ -392,7 +392,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 ---
 
-[1]: //mlp.ece.vt.edu/
+[1]: //mlp.cc.gatech.edu
 [2]: //computing.ece.vt.edu/~dbatra/
 [3]: //computing.ece.vt.edu/~parikh/
 [4]: //www.qbi.uq.edu.au/professor-geoffrey-goodhill
