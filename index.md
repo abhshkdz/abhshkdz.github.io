@@ -393,8 +393,8 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 ---
 
 [1]: //mlp.cc.gatech.edu
-[2]: //computing.ece.vt.edu/~dbatra/
-[3]: //computing.ece.vt.edu/~parikh/
+[2]: ///www.cc.gatech.edu/~dbatra/
+[3]: //www.cc.gatech.edu/~parikh/
 [4]: //www.qbi.uq.edu.au/professor-geoffrey-goodhill
 [5]: //researchers.uq.edu.au/researcher/2490
 [6]: http://cns.qbi.uq.edu.au/
