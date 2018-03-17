@@ -20,7 +20,8 @@ permalink:  /
 
 # News
 
-- **[Jul 2018]** Organizing a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
+- **[Jul 2018]** Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
+- **[Jun 2018]** Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
 - **[Mar 2018]** Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
@@ -442,3 +443,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [48]: https://research.fb.com/people/batra-dhruv/
 [49]: https://lvatutorial.github.io/
 [50]: http://acl2018.org/tutorials/#connecting-language-and-vis
+[51]: http://visualqa.org/workshop.html
