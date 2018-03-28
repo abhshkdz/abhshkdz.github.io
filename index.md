@@ -132,7 +132,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
     <span class="conf">CVPR 2018 (Oral)</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1711.11543">Paper</a>
+        <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
     </span>
 </p>
