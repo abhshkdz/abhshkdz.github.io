@@ -1,6 +1,6 @@
 ---
 layout:     page
-title:      
+title:
 permalink:  /
 ---
 
@@ -22,7 +22,7 @@ permalink:  /
 
 - **[Jul 2018]** Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
 - **[Jun 2018]** Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
-- [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42].
+- [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42]. ([Video][52])
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
 - [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017. ([Video][37])
@@ -279,6 +279,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
+            <a target="_blank" href="http://on-demand.gputechconf.com/gtc/2018/video/S8582/">
+                NVIDIA GTC 2018
+            </a>
+        </div>
+        <div class="talkt">
             <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s">
                 ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
             </a>
@@ -444,3 +449,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [49]: https://lvatutorial.github.io/
 [50]: http://acl2018.org/tutorials/#connecting-language-and-vis
 [51]: http://visualqa.org/workshop.html
+[52]: http://on-demand.gputechconf.com/gtc/2018/video/S8582/
