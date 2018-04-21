@@ -186,7 +186,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <h2 class="pubt">Visual Dialog</h2>
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">CVPR 2017 (Spotlight)</span><br>
+    <span class="conf">PAMI 2018, CVPR 2017 (Spotlight)</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>
         <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>
