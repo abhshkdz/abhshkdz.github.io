@@ -135,6 +135,33 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
     </span>
+    <!-- Press: -->
+    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
+        <a style="border-bottom: 0;" target="_blank" href="https://mlatgt.blog/2018/02/26/embodied-question-answering/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/mlgt.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Embodied Question Answering" by Abhishek Das</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://code.facebook.com/posts/1622140391226436/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"... a goal-driven approach to autonomous agents" by Dhruv Batra, Devi Parikh</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/611040/facebook-helped-create-an-ai-scavenger-hunt-that-could-lead-to-the-first-useful-home-robots/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
+                <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"... an AI scavenger hunt that could lead to the first useful home robots" by Will Knight</span>
+            </div>
+        </a>
+    </div>
 </p>
 
 <img src="/img/eqa/teaser.jpg">
@@ -249,7 +276,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
             </div>
         </a>
         <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
                 <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
             </div>
             <div class="col-lg-11 col-md-11 col-xs-10">
