@@ -21,6 +21,7 @@ permalink:  /
 # News
 
 - **[Jul 2018]** Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
+- **[Jun 2018]** Presenting our paper on [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018.
 - **[Jun 2018]** Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
 - [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42]. ([Video][52])
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
@@ -127,6 +128,8 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/embodied-qa"></a>
+
 <h2 class="pubt">Embodied Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
@@ -188,6 +191,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">ICCV 2017 (Oral)</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
+        <a target="_blank" href="//www.youtube.com/watch?v=R4hugGnNr7s">Presentation video</a>
     </span>
 </p>
 
@@ -221,6 +225,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <!-- <a target="_blank" href="http://visualdialog.org/data">dataset</a> -->
         <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
         <a target="_blank" href="http://demo.visualdialog.org">Demo</a>
+        <a target="_blank" href="//www.youtube.com/watch?v=I9OlorMh7wU">Presentation video</a>
     </span>
 </p>
 
