@@ -87,9 +87,9 @@ My CV is available [here][33].
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="logo-wrap">
+        <div class="logo-wrap" style="width:160px;">
             <span class="helper"></span>
-            <img src="/img/logos/fair2.png">
+            <img style="width:160px;" src="/img/logos/fair3.png">
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
