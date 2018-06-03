@@ -36,8 +36,8 @@ permalink:  /
 
 # Bio
 
-I am a Computer Science PhD student at Georgia Tech, advised by [Prof. Dhruv Batra][2],
-and working closely with [Prof. Devi Parikh][3]. My research focuses on deep learning
+I am a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
+and working closely with [Devi Parikh][3]. My research focuses on deep learning
 and its applications in building agents that can see (computer vision),
 think (reasoning/interpretability), talk (language modeling) and
 act (reinforcement learning).
