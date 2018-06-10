@@ -23,7 +23,7 @@ permalink:  /
 - **[Jul 2018]** Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
 - **[Jun 2018]** Presenting our paper on [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018.
 - **[Jun 2018]** Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
-- **[Jun 2018]** Announcing the 1st [Visual Dialog Challenge][53]!.
+- **[Jun 2018]** Organizing the 1st [Visual Dialog Challenge][53]!
 - [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42]. ([Video][52])
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
 - [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
