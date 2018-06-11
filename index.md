@@ -5,12 +5,12 @@ permalink:  /
 ---
 
 <div class="row">
-    <div class="col-xs-12">
-        <img src="/img/cover.jpg">
+    <div class="col-sm-6 col-xs-12">
+        <img src="/img/cover2.jpg">
     </div>
-    <div class="col-xs-12" style="margin-bottom: 0;">
+    <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         Computer Science PhD Student<br>
-        <a href="https://mlp.cc.gatech.edu/">Machine Learning and Perception Lab</a>, Georgia Tech<br>
+        Georgia Tech<br>
         abhshkdz at gatech dot edu
     </div>
 </div>
