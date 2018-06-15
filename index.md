@@ -138,6 +138,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="links">
         <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
+        <a target="_blank" href="https://github.com/facebookresearch/EmbodiedQA">Code</a>
     </span>
     <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
