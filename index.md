@@ -193,6 +193,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">ICCV 2017 (Oral)</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
+        <!-- <a target="_blank" href="//github.com/batra-mlp-lab/visdial-rl">Code</a> -->
         <a target="_blank" href="//www.youtube.com/watch?v=R4hugGnNr7s">Presentation video</a>
     </span>
 </p>
