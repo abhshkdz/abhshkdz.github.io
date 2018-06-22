@@ -307,7 +307,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </div>
     <div class="col-xs-6">
         <p class="talkd">
-            <img src="/img/talks/visdial_cvpr17_vqaw.jpg">
+            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
         </p>
     </div>
 </div>
