@@ -22,7 +22,7 @@ permalink:  /
 
 - **[Jul 2018]** Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
 - **[Jun 2018]** Organizing the 1st [Visual Dialog Challenge][53]!
-- [Jun 2018] Presenting our paper on [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018.
+- [Jun 2018] Presenting [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018. ([Video][54])
 - [Jun 2018] Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
 - [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42]. ([Video][52])
 - [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
@@ -139,6 +139,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
         <a target="_blank" href="https://github.com/facebookresearch/EmbodiedQA">Code</a>
+        <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h29m14s">Presentation video</a>
     </span>
     <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
@@ -486,3 +487,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [51]: http://visualqa.org/workshop.html
 [52]: http://on-demand.gputechconf.com/gtc/2018/video/S8582/
 [53]: https://visualdialog.org/challenge/2018
+[54]: https://youtu.be/gz2VoDrvX-A?t=1h29m14s
