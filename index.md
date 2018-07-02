@@ -315,6 +315,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
+            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h29m14s">
+                CVPR 2018 Oral: Embodied Question Answering
+            </a>
+        </div>
+        <div class="talkt">
             <a target="_blank" href="http://on-demand.gputechconf.com/gtc/2018/video/S8582/">
                 NVIDIA GTC 2018
             </a>
