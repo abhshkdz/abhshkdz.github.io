@@ -99,10 +99,10 @@ My CV is available [here][33].
     </div>
 </div>
 
-I spent summer 2017 at Facebook AI Research (FAIR, Menlo Park), working with
+I spent summer 2017 and spring 2018 at Facebook AI Research (FAIR, Menlo Park), working with
 [Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training
-embodied agents capable of navigating and answering questions in [House3D][45]
-virtual environments (see [embodiedqa.org][40] for more details).
+embodied agents capable of navigating and answering questions in
+simulated environments (see [embodiedqa.org][40] for more details).
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
