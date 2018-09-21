@@ -37,7 +37,7 @@ permalink:  /
 
 # Bio
 
-I am a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
+I am a 3rd year Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
 and working closely with [Devi Parikh][3]. My research focuses on deep learning
 and its applications in building agents that can see (computer vision),
 think (reasoning/interpretability), talk (language modeling) and
@@ -94,15 +94,12 @@ My CV is available [here][33].
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
-            Summer 2017, Spring 2018
+            S2017, W2018, S2018
         </div>
     </div>
 </div>
 
-I spent summer 2017 and spring 2018 at Facebook AI Research (FAIR, Menlo Park), working with
-[Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training
-embodied agents capable of navigating and answering questions in
-simulated environments (see [embodiedqa.org][40] for more details).
+I've spent three wonderful semesters as an intern at Facebook AI Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and question-answering in simulated environments (see [embodiedqa.org][40]), and Summer 2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on emergent communication protocols in large-scale multi-agent reinforcement learning.
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
@@ -492,3 +489,5 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [52]: http://on-demand.gputechconf.com/gtc/2018/video/S8582/
 [53]: https://visualdialog.org/challenge/2018
 [54]: https://youtu.be/gz2VoDrvX-A?t=1h29m14s
+[55]: https://research.fb.com/people/rabbat-mike/
+[56]: https://www.cs.mcgill.ca/~jpineau/
