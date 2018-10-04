@@ -127,6 +127,19 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 # Publications
 
 <a name="/embodied-qa"></a>
+<h2 class="pubt">Neural Modular Control for Embodied Question Answering</h2>
+<p class="pubd">
+    <span class="authors">Abhishek Das, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
+    <span class="conf">CoRL 2018 (Spotlight)</span><br>
+    <!-- <span class="links">
+        <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
+    </span> -->
+</p>
+
+<img src="/img/eqa/eqa-modular.png">
+
+<hr>
+<a name="/embodied-qa"></a>
 <h2 class="pubt">Embodied Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
