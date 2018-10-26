@@ -127,6 +127,20 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/multi-agent-comm"></a>
+<h2 class="pubt">TarMAC: Targeted Multi-Agent Communication</h2>
+<p class="pubd">
+    <span class="authors">Abhishek Das, Théophile Gervet, Joshua Romoff, Dhruv Batra, Devi Parikh, Michael Rabbat, Joelle Pineau</span><br>
+    <!-- <span class="conf">CoRL 2018 (Spotlight)</span><br> -->
+    <!-- <span class="links">
+        <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
+    </span> -->
+</p>
+<img src="/img/multi-agent-comm/model.jpg">
+<br><br>
+<img src="/img/multi-agent-comm/shapes.jpg">
+<hr>
+
 <a name="/eqa-modular"></a>
 <h2 class="pubt">Neural Modular Control for Embodied Question Answering</h2>
 <p class="pubd">
