@@ -138,7 +138,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 </p>
 <img src="/img/multi-agent-comm/model.jpg">
 <br><br>
-<img src="/img/multi-agent-comm/shapes.jpg">
+<img src="/img/multi-agent-comm/shapes.gif">
 <hr>
 
 <a name="/eqa-modular"></a>
