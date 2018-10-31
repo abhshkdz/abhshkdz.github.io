@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018.
+- [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018. ([Video][58])
 - [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
 - [Jul 2018] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
 - [Jun 2018] Organizing the 1st [Visual Dialog Challenge][53]!
@@ -150,6 +150,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1810.11181">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">Presentation video</a>
     </span>
 </p>
 
@@ -522,3 +523,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [55]: https://research.fb.com/people/rabbat-mike/
 [56]: https://www.cs.mcgill.ca/~jpineau/
 [57]: https://visualdialog.org/challenge/2018#winners
+[58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
