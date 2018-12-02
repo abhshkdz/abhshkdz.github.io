@@ -42,7 +42,7 @@ permalink:  /
 I am a 3rd year Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
 and working closely with [Devi Parikh][3]. My research focuses on deep learning
 and its applications in building agents that can see (computer vision),
-think (reasoning/interpretability), talk (language modeling) and
+think (reasoning/interpretability), talk (language modeling), and
 act (reinforcement learning).
 <!-- Before transferring to Georgia Tech,
 I spent one year at Virginia Tech as an intern and later as a graduate student. -->
@@ -341,6 +341,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 </div>
 <div class="row">
     <div class="col-xs-12">
+        <div class="talkt">
+            <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">
+                CoRL 2018 Spotlight: Neural Modular Control for Embodied Question Answering
+            </a>
+        </div>
         <div class="talkt">
             <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h29m14s">
                 CVPR 2018 Oral: Embodied Question Answering
