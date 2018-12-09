@@ -274,7 +274,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="conf">CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>
-        <a target="_blank" href="https://computing.ece.vt.edu/~abhshkdz/vqa-hat">Project+Dataset</a>
+        <a target="_blank" href="https://abhishekdas.com/vqa-hat/">Project+Dataset</a>
         <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a>
     </span>
     <!-- Press: -->
@@ -496,7 +496,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [23]: //twitter.com/abhshkdz
 [24]: //instagram.com/abhshkdz
 [25]: http://x.abhishekdas.com/
-[26]: https://computing.ece.vt.edu/~abhshkdz/vqa-hat
+[26]: https://abhishekdas.com/vqa-hat/
 [27]: http://arxiv.org/abs/1606.03556
 [28]: https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/
 [29]: https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/
