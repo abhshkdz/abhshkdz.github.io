@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Jan 2019] Awarded the [Facebook Graduate Fellowship][59].
 - [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018. ([Video][58])
 - [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
 - [Jul 2018] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
@@ -41,11 +42,11 @@ permalink:  /
 
 I am a 3rd year Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
 and working closely with [Devi Parikh][3]. My research focuses on deep learning
-and its applications in building agents that can see (computer vision),
-think (reasoning/interpretability), talk (language modeling), and
-act (reinforcement learning).
-<!-- Before transferring to Georgia Tech,
-I spent one year at Virginia Tech as an intern and later as a graduate student. -->
+and its applications in building agents that can <i>see</i> (computer vision),
+<i>think</i> (reasoning/interpretability), <i>talk</i> (language modeling), and
+<i>act</i> (reinforcement learning).
+
+My research is supported by fellowships from [Facebook][59], [Adobe][39], and [Snap][36].
 My CV is available [here][33].
 
 <div class="row" id="timeline-logos">
@@ -529,3 +530,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [56]: https://www.cs.mcgill.ca/~jpineau/
 [57]: https://visualdialog.org/challenge/2018#winners
 [58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
+[59]: https://research.fb.com/fellows/das-abhishek/
