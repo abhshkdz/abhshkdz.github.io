@@ -343,6 +343,11 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
+            <a target="_blank" href="https://www.youtube.com/watch?v=WxYBp3Xr_Nc">
+                Allen Institute for Artificial Intelligence: "Towards Agents that can See, Talk, and Act"
+            </a>
+        </div>
+        <div class="talkt">
             <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">
                 CoRL 2018 Spotlight: Neural Modular Control for Embodied Question Answering
             </a>
@@ -531,3 +536,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [57]: https://visualdialog.org/challenge/2018#winners
 [58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
 [59]: https://research.fb.com/fellows/das-abhishek/
+[60]: https://www.youtube.com/watch?v=WxYBp3Xr_Nc
