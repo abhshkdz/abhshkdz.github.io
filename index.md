@@ -395,22 +395,22 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 <div class="row">
     <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a></h2>
+        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
         <p class="talkd">
-            Torch implementation of an attention-based visual question answering model (Yang et al., CVPR16).
-            The model looks at an image, reads a question, and comes up with an answer to the question and a heatmap of where it looked in the image to answer it.
-            Some results <a href="https://computing.ece.vt.edu/~abhshkdz/neural-vqa-attention/figures/">here</a>.
-            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention"><img class="project-img" src="/img/projects/neural-vqa-attention.jpg"></a>
+            aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via pull requests to the data file in the repo.
+            <a target="_blank" href="http://aideadlin.es"><img style="margin-top: 10px;" src="/img/projects/ai-deadlines.png"></a>
         </p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-12">
-        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
+        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a></h2>
         <p class="talkd">
-            aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via changes to the data file in the repo.
-            <a target="_blank" href="http://aideadlin.es"><img style="margin-top: 10px;" src="/img/projects/ai-deadlines.png"></a>
+            Torch implementation of an attention-based visual question answering model (Yang et al., CVPR16).
+            The model looks at an image, reads a question, and comes up with an answer to the question and a heatmap of where it looked in the image to answer it.
+            Some results <a href="https://computing.ece.vt.edu/~abhshkdz/neural-vqa-attention/figures/">here</a>.
+            <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention"><img class="project-img" src="/img/projects/neural-vqa-attention.jpg"></a>
         </p>
     </div>
 </div>
@@ -536,4 +536,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [57]: https://visualdialog.org/challenge/2018#winners
 [58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
 [59]: https://research.fb.com/fellows/das-abhishek/
-[60]: https://www.youtube.com/watch?v=WxYBp3Xr_Nc
+[60]: https://www.youtube.com/watch?v=FSsEqEJKo8A&t=3497
