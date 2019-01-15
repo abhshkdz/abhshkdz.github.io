@@ -20,7 +20,8 @@ permalink:  /
 
 # News
 
-- [Jan 2019] Awarded the [Facebook Graduate Fellowship][59].
+- [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
+- [Jan 2019] Organizing the [2nd Visual Dialog Challenge][visdial-challenge-2]!
 - [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018. ([Video][58])
 - [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
 - [Jul 2018] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
@@ -535,5 +536,6 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [56]: https://www.cs.mcgill.ca/~jpineau/
 [57]: https://visualdialog.org/challenge/2018#winners
 [58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
-[59]: https://research.fb.com/fellows/das-abhishek/
-[60]: https://www.youtube.com/watch?v=FSsEqEJKo8A&t=3497
+[fb-fellow-page]: https://research.fb.com/fellows/das-abhishek/
+[joelle-corl18-talk-mention]: https://www.youtube.com/watch?v=FSsEqEJKo8A&t=3497
+[visdial-challenge-2]: https://visualdialog.org/challenge/2019
