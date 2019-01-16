@@ -21,6 +21,8 @@ permalink:  /
 # News
 
 - [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
+- [Jan 2019] Awarded the Microsoft Research PhD Fellowship (declined).
+- [Jan 2019] Awarded the NVIDIA Graduate Fellowship (declined).
 - [Jan 2019] Organizing the [2nd Visual Dialog Challenge][visdial-challenge-2]!
 - [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018. ([Video][58])
 - [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
