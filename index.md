@@ -47,7 +47,7 @@ and its applications in building agents that can <i>see</i> (computer vision),
 <i>think</i> (reasoning/interpretability), <i>talk</i> (language modeling), and
 <i>act</i> (reinforcement learning).
 
-My research is supported by fellowships from [Facebook][59], [Adobe][39], and [Snap][36].
+My research is supported by fellowships from [Facebook][fb-fellow-page], [Adobe][39], and [Snap][36].
 My CV is available [here][33].
 
 <div class="row" id="timeline-logos">
@@ -536,6 +536,6 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [56]: https://www.cs.mcgill.ca/~jpineau/
 [57]: https://visualdialog.org/challenge/2018#winners
 [58]: https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330
-[fb-fellow-page]: https://research.fb.com/fellows/das-abhishek/
+[fb-fellow-page]: https://research.fb.com/announcing-the-2019-facebook-fellows-and-emerging-scholars/
 [joelle-corl18-talk-mention]: https://www.youtube.com/watch?v=FSsEqEJKo8A&t=3497
 [visdial-challenge-2]: https://visualdialog.org/challenge/2019
