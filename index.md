@@ -142,6 +142,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1901.09107">Paper</a>
+        <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
     </span>
 </p>
 <img src="/img/avsd/avsd.jpg">
