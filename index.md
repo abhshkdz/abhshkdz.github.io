@@ -132,6 +132,21 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/avsd"></a>
+<h2 class="pubt">Audio-Visual Scene-Aware Dialog</h2>
+<p class="pubd">
+    <span class="authors">
+        Huda Alamri, Vincent Cartillier, Abhishek Das,
+        Jue Wang, Stefan Lee, Peter Anderson, Irfan Essa, Devi Parikh,
+        Dhruv Batra, Anoop Cherian, Tim K. Marks, Chiori Hori
+    </span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1901.09107">Paper</a>
+    </span>
+</p>
+<img src="/img/avsd/avsd.jpg">
+<hr>
+
 <a name="/multi-agent-comm"></a>
 <h2 class="pubt">TarMAC: Targeted Multi-Agent Communication</h2>
 <p class="pubd">
@@ -433,7 +448,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="https://erdos.sdslabs.co">Erdős</a></h2>
         <p class="talkd">
             Erdős by <a target="_blank" href="//sdslabs.co">SDSLabs</a> is a competitive math learning platform, similar in spirit to <a href="https://projecteuler.net/">Project Euler</a>, albeit more feature-packed (support for holding competitions, has a social layer) and prettier.
-            <a target="_blank" href="https://erdos.sdslabs.co"><img style="margin-top:10px;" src="/img/projects/erdos.png"></a>
+            <a target="_blank" href="https://erdos.sdslabs.co"><img style="margin-top:10px;" src="/img/projects/erdos.jpg"></a>
         </p>
     </div>
 </div>
