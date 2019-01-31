@@ -151,6 +151,10 @@ ul.nav-bar li {
   .container {
     max-width: 97%;
   }
+
+  .hide-link-on-small-screens {
+    display: none !important;
+  }
 }
 
 .post-content div {
@@ -392,6 +396,20 @@ span.conf {
 #timeline-logos {
   margin-top: 20px;
   margin-bottom: -10px;
+}
+
+#read-more-button {
+  text-align: center;
+  margin-top: -90px;
+  padding-top: 80px;
+  height: 110px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1.0));
+  position: relative;
+  z-index: 2;
+}
+
+#read-more-button > a {
+  cursor: pointer;
 }
 
 /* Syntax highlighting styles */

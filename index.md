@@ -37,6 +37,10 @@ permalink:  /
 - [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017. ([Video][41])
 - [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017. ([Video][38])
 
+<div id="read-more-button">
+    <a nohref>See older news</a>
+</div>
+
 <hr>
 
 <a name="/bio"></a>
@@ -66,14 +70,14 @@ My CV is available [here][33].
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//qbi.uq.edu.au"><img src="/img/logos/uq.png"></a>
+            <a href="//qbi.uq.edu.au"><img style="width:120px;" src="/img/logos/uq.png"></a>
         </div>
         <div class="logo-desc">
             Queensland Brain Institute<br>
             Summer 2015
         </div>
     </div>
-    <div class="col-xs-2">
+    <!-- <div class="col-xs-2">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//vt.edu"><img src="/img/logos/vt.png"></a>
@@ -82,7 +86,7 @@ My CV is available [here][33].
             Virginia Tech<br>
             2015 - 2016
         </div>
-    </div>
+    </div> -->
     <div class="col-xs-2">
         <div class="logo-wrap">
             <span class="helper"></span>
@@ -94,13 +98,23 @@ My CV is available [here][33].
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="logo-wrap" style="width:160px;">
+        <div class="logo-wrap">
             <span class="helper"></span>
-            <img style="width:160px;" src="/img/logos/fair3.png">
+            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
             S2017, W2018, S2018
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//deepmind.com"><img style="width:120px;" src="/img/logos/deepmind.png"></a>
+        </div>
+        <div class="logo-desc">
+            DeepMind<br>
+            W2019
         </div>
     </div>
 </div>
@@ -493,6 +507,15 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         </p>
     </div>
 </div>
+
+<script src="/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $('ul:gt(0) li:gt(12)').hide();
+    $('#read-more-button > a').click(function() {
+        $('ul:gt(0) li:gt(12)').show();
+        $('#read-more-button').hide();
+    });
+</script>
 
 ---
 
