@@ -147,6 +147,20 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/eqa-mp3d"></a>
+<h2 class="pubt">Embodied Question Answering in Photorealistic Environments with Point Clouds</h2>
+<p class="pubd">
+    <span class="authors">
+        Erik Wijmans*, Samyak Datta*, Oleksandr Maksymets, Abhishek Das, Georgia Gkioxari, Stefan Lee, Irfan Essa, Devi Parikh, Dhruv Batra
+    </span><br>
+    <span class="conf">CVPR 2019</span><br>
+    <span class="links">
+        <a target="_blank" nohref>Paper coming soon</a>
+    </span>
+</p>
+<img src="/img/eqa/eqa-mp3d.jpg">
+<hr>
+
 <a name="/avsd"></a>
 <h2 class="pubt">Audio-Visual Scene-Aware Dialog</h2>
 <p class="pubd">
@@ -155,6 +169,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         Jue Wang, Stefan Lee, Peter Anderson, Irfan Essa, Devi Parikh,
         Dhruv Batra, Anoop Cherian, Tim K. Marks, Chiori Hori
     </span><br>
+    <span class="conf">CVPR 2019</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1901.09107">Paper</a>
         <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
