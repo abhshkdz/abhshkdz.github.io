@@ -151,7 +151,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <h2 class="pubt">Embodied Question Answering in Photorealistic Environments with Point Clouds</h2>
 <p class="pubd">
     <span class="authors">
-        Erik Wijmans*, Samyak Datta*, Oleksandr Maksymets, Abhishek Das, Georgia Gkioxari, Stefan Lee, Irfan Essa, Devi Parikh, Dhruv Batra
+        Erik Wijmans*, Samyak Datta*, Oleksandr Maksymets*, Abhishek Das, Georgia Gkioxari, Stefan Lee, Irfan Essa, Devi Parikh, Dhruv Batra
     </span><br>
     <span class="conf">CVPR 2019</span><br>
     <span class="links">
@@ -176,6 +176,21 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </span>
 </p>
 <img src="/img/avsd/avsd.jpg">
+<hr>
+
+<a name="/avsd_icassp"></a>
+<h2 class="pubt">End-to-end Audio Visual Scene-Aware Dialog Using Multimodal Attention-based Video Features</h2>
+<p class="pubd">
+    <span class="authors">
+            Chiori Hori, Huda Alamri, Jue Wang, Gordon Wichern, Takaaki Hori, Anoop Cherian, Tim K. Marks, Vincent Cartillier, Raphael Lopes, Abhishek Das, Irfan Essa, Dhruv Batra, Devi Parikh
+    </span><br>
+    <span class="conf">ICASSP 2019</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1806.08409">Paper</a>
+        <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
+    </span>
+</p>
+<img src="/img/avsd/avsd_icassp.jpg">
 <hr>
 
 <a name="/multi-agent-comm"></a>
