@@ -39,7 +39,7 @@ permalink:  /
 - [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017. ([Video][38])
 
 <div id="read-more-button">
-    <a nohref>See older news</a>
+    <a nohref>Read more</a>
 </div>
 
 <hr>
@@ -153,7 +153,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     <span class="authors">
         Erik Wijmans*, Samyak Datta*, Oleksandr Maksymets*, Abhishek Das, Georgia Gkioxari, Stefan Lee, Irfan Essa, Devi Parikh, Dhruv Batra
     </span><br>
-    <span class="conf">CVPR 2019</span><br>
+    <span class="conf">CVPR 2019 (Oral)</span><br>
     <span class="links">
         <a target="_blank" nohref>Paper coming soon</a>
     </span>
