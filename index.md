@@ -12,6 +12,8 @@ permalink:  /
         Computer Science PhD Student<br>
         Georgia Tech<br>
         abhshkdz at gatech dot edu
+        <br><br>
+        Co-founder, <a href="//caliper.ai">Caliper</a><br>
     </div>
 </div>
 <hr>
@@ -20,6 +22,7 @@ permalink:  /
 
 # News
 
+- [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
 - [Feb 2019] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
 - [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
 - [Jan 2019] Awarded the Microsoft Research PhD Fellowship (declined).
@@ -612,3 +615,4 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [joelle-corl18-talk-mention]: https://www.youtube.com/watch?v=FSsEqEJKo8A&t=3497
 [visdial-challenge-2]: https://visualdialog.org/challenge/2019
 [ic-gt-article]: https://www.ic.gatech.edu/news/617061/see-and-say-abhishek-das-working-provide-crucial-communication-tools-intelligent-agents
+[caliper]: https://caliper.ai
