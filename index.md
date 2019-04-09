@@ -158,7 +158,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
     </span><br>
     <span class="conf">CVPR 2019 (Oral)</span><br>
     <span class="links">
-        <a target="_blank" nohref>Paper coming soon</a>
+        <a target="_blank" href="https://arxiv.org/abs/1904.03461">Paper</a>
     </span>
 </p>
 <img src="/img/eqa/eqa-mp3d.jpg">
