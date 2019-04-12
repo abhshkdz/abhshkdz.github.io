@@ -161,7 +161,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <a target="_blank" href="https://arxiv.org/abs/1904.03461">Paper</a>
     </span>
 </p>
-<img src="/img/eqa/eqa-mp3d.jpg">
+<img src="/img/eqa/eqa-mp3d.png">
 <hr>
 
 <a name="/avsd"></a>
