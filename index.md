@@ -150,6 +150,18 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/ds-vic"></a>
+<h2 class="pubt">Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</h2>
+<p class="pubd">
+    <span class="authors">Nirbhay Modhe, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam</span><br>
+    <span class="conf">ICLR 2019 Task-Agnostic RL Workshop</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1907.10580">Paper</a>
+    </span>
+</p>
+<img src="/img/ds-vic/teaser.jpg">
+<hr>
+
 <a name="/multi-agent-comm"></a>
 <h2 class="pubt">TarMAC: Targeted Multi-Agent Communication</h2>
 <p class="pubd">
@@ -409,6 +421,17 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 </div>
 <div class="row">
     <div class="col-xs-12">
+        <div class="talkt">
+            <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
+                ICML 2019 Imitation, Intent, and Interaction Workshop:
+                Targeted Multi-Agent Communication
+            </a>
+        </div>
+        <div class="talkt">
+            <a target="_blank" href="https://www.facebook.com/icml.imls/videos/444326646299556/">
+                ICML 2019 Oral: Targeted Multi-Agent Communication
+            </a>
+        </div>
         <div class="talkt">
             <a target="_blank" href="https://www.youtube.com/watch?v=WxYBp3Xr_Nc">
                 Allen Institute for Artificial Intelligence: "Towards Agents that can See, Talk, and Act"
