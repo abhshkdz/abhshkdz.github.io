@@ -125,6 +125,8 @@ My CV is available [here][33].
 
 I've spent three wonderful semesters as an intern at Facebook AI Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and question-answering in simulated environments (see [embodiedqa.org][40]), and Summer 2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on emergent communication protocols in large-scale multi-agent reinforcement learning.
 
+In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London working on grounded language learning with [Felix Hill](felix-hill), [Laura Rimell](laura-rimell), and [Stephen Clark](stephen-clark), and at Tesla Autopilot in Palo Alto working on differentiable neural architecture search with [Andrej Karpathy](andrej-karpathy).
+
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
 at the [Goodhill Lab][6], Queensland Brain Institute.
@@ -639,3 +641,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [visdial-challenge-2]: https://visualdialog.org/challenge/2019
 [ic-gt-article]: https://www.ic.gatech.edu/news/617061/see-and-say-abhishek-das-working-provide-crucial-communication-tools-intelligent-agents
 [caliper]: https://caliper.ai
+[felix-hill]: https://fh295.github.io
+[laura-rimell]: http://www.rimell.cc/laura/
+[stephen-clark]: https://sites.google.com/site/stephenclark609/
+[andrej-karpathy]: http://cs.stanford.edu/people/karpathy
