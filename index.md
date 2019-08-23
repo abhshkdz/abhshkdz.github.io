@@ -152,6 +152,15 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 
 # Publications
 
+<a name="/visdial-rl-plus-plus"></a>
+<h2 class="pubt">Improving Generative Visual Dialog by Answering Diverse Questions</h2>
+<p class="pubd">
+    <span class="authors">Vishvak Murahari, Prithvijit Chattopadhyay, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
+    <span class="conf">EMNLP 2019</span><br>
+</p>
+<img src="/img/visdial/visdial-rl-plus-plus.png">
+<hr>
+
 <a name="/ds-vic"></a>
 <h2 class="pubt">Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</h2>
 <p class="pubd">
