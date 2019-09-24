@@ -157,6 +157,9 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <p class="pubd">
     <span class="authors">Vishvak Murahari, Prithvijit Chattopadhyay, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
     <span class="conf">EMNLP 2019</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1909.10470">Paper</a>
+    </span>
 </p>
 <img src="/img/visdial/visdial-rl-plus-plus.png">
 <hr>
