@@ -22,6 +22,8 @@ permalink:  /
 
 # News
 
+- [Sep 2019] Organizing the 3rd [Visually-Grounded Interaction & Language Workshop][vigil19]
+- [Jun 2019] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019. ([Video][tarmac-icml-talk])
 - [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
 - [Feb 2019] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
 - [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
@@ -657,3 +659,5 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [laura-rimell]: http://www.rimell.cc/laura/
 [stephen-clark]: https://sites.google.com/site/stephenclark609/
 [andrej-karpathy]: http://cs.stanford.edu/people/karpathy
+[vigil19]: https://vigilworkshop.github.io
+[tarmac-icml-talk]: https://www.facebook.com/icml.imls/videos/444326646299556/
