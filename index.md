@@ -330,7 +330,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 <h2 class="pubt">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra</span><br>
-    <span class="conf">ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
+    <span class="conf">IJCV 2019, ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1610.02391">Paper</a>
         <a target="_blank" href="https://github.com/ramprs/grad-cam">Code</a>
