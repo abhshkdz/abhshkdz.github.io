@@ -22,6 +22,7 @@ permalink:  /
 
 # News
 
+<span style="color:#e74c3c;">I am on the job market for research scientist positions in industry.</span>
 - [Sep 2019] Organizing the 3rd [Visually-Grounded Interaction & Language Workshop][vigil19].
 - [Jun 2019] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
 - [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
