@@ -265,7 +265,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
         <a target="_blank" href="https://embodiedqa.org/paper.pdf">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
         <a target="_blank" href="https://github.com/facebookresearch/EmbodiedQA">Code</a>
-        <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h29m14s">Presentation video</a>
+        <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h19m58s">Presentation video</a>
     </span>
     <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
@@ -462,7 +462,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
             </a>
         </div>
         <div class="talkt">
-            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h29m14s">
+            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h19m58s">
                 CVPR 2018 Oral: Embodied Question Answering
             </a>
         </div>
@@ -648,7 +648,7 @@ I often [tweet][23], and post pictures from my travels on [Instagram][24] and [T
 [51]: http://visualqa.org/workshop.html
 [52]: http://on-demand.gputechconf.com/gtc/2018/video/S8582/
 [53]: https://visualdialog.org/challenge/2018
-[54]: https://youtu.be/gz2VoDrvX-A?t=1h29m14s
+[54]: https://youtu.be/gz2VoDrvX-A?t=1h19m58s
 [55]: https://research.fb.com/people/rabbat-mike/
 [56]: https://www.cs.mcgill.ca/~jpineau/
 [57]: https://visualdialog.org/challenge/2018#winners
