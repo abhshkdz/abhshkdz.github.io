@@ -378,7 +378,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my travels on [Ins
     <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
         <a style="border-bottom: 0;" target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0; line-height: 1.1em;">
                 <img src="/img/logos/nautilus.png" style="background: white; width: 57px;">
             </div>
             <div class="col-lg-11 col-md-11 col-xs-10">
