@@ -22,7 +22,8 @@ permalink:  /
 
 # News
 
-- [Sep 2019] Organizing the 3rd [Visually-Grounded Interaction & Language Workshop][vigil19].
+- [Nov 2019] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
+- [Sep 2019] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
 - [Jun 2019] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
 - [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
 - [Feb 2019] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
@@ -153,6 +154,18 @@ I often [tweet][23], [toot][mastodon], and post pictures from my travels on [Ins
 <a name="/publications"></a>
 
 # Publications
+
+<a name="/visdial-bert"></a>
+<h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
+<p class="pubd">
+    <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
+        <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
+    </span>
+</p>
+<img src="/img/visdial/visdial-bert.png">
+<hr>
 
 <a name="/visdial-rl-plus-plus"></a>
 <h2 class="pubt">Improving Generative Visual Dialog by Answering Diverse Questions</h2>
