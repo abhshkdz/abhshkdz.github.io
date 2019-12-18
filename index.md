@@ -145,7 +145,7 @@ On the side, I built [neural-vqa][19], an efficient Torch implementation for vis
 and maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
 and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 I also help maintain [Erdős][17], a competitive math learning platform I created during my undergrad.
-I often [tweet][23], [toot][mastodon], and post pictures from my travels on [Instagram][24] and [Tumblr][25].
+I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
 
 [Blog posts from a previous life.](/archive)
 
@@ -677,3 +677,4 @@ I often [tweet][23], [toot][mastodon], and post pictures from my travels on [Ins
 [vigil19]: https://vigilworkshop.github.io
 [tarmac-icml-talk]: https://www.facebook.com/icml.imls/videos/444326646299556/
 [mastodon]: https://mastodon.social/web/accounts/1011404
+[conquerearth]: https://conquer.earth/abhshkdz
