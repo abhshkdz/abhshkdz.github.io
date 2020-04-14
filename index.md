@@ -12,8 +12,6 @@ permalink:  /
         Computer Science PhD Student<br>
         Georgia Tech<br>
         abhshkdz at gatech dot edu
-        <br><br>
-        Co-founder, <a href="//caliper.ai">Caliper</a><br>
     </div>
 </div>
 <hr>
