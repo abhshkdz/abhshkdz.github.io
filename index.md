@@ -165,6 +165,18 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 <img src="/img/visdial/visdial-bert.png">
 <hr>
 
+<a name="/ds-vic"></a>
+<h2 class="pubt">IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</h2>
+<p class="pubd">
+    <span class="authors">Nirbhay Modhe, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam</span><br>
+    <span class="conf">IJCAI-PRICAI 2020, ICLR 2019 Task-Agnostic RL Workshop</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1907.10580">Paper</a>
+    </span>
+</p>
+<img src="/img/ds-vic/teaser.jpg">
+<hr>
+
 <a name="/visdial-rl-plus-plus"></a>
 <h2 class="pubt">Improving Generative Visual Dialog by Answering Diverse Questions</h2>
 <p class="pubd">
@@ -176,18 +188,6 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     </span>
 </p>
 <img src="/img/visdial/visdial-rl-plus-plus.png">
-<hr>
-
-<a name="/ds-vic"></a>
-<h2 class="pubt">Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</h2>
-<p class="pubd">
-    <span class="authors">Nirbhay Modhe, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam</span><br>
-    <span class="conf">ICLR 2019 Task-Agnostic RL Workshop</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1907.10580">Paper</a>
-    </span>
-</p>
-<img src="/img/ds-vic/teaser.jpg">
 <hr>
 
 <a name="/multi-agent-comm"></a>
