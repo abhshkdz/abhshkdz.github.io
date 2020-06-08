@@ -9,9 +9,9 @@ permalink:  /
         <img src="/img/cover2.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        Computer Science PhD Student<br>
-        Georgia Tech<br>
-        abhshkdz at gatech dot edu
+        Research Scientist<br>
+        Facebook AI Research<br>
+        abhshkdz at fb dot com
     </div>
 </div>
 <hr>
@@ -52,13 +52,15 @@ permalink:  /
 
 # Bio
 
-I am a 4th year Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
-and working closely with [Devi Parikh][3]. My research focuses on deep learning
-and its applications in building agents that can <i>see</i> (computer vision),
+I am a Research Scientist at Facebook AI Research (FAIR).
+Previously, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
+and working closely with [Devi Parikh][3].
+My PhD research was supported by fellowships from [Facebook][fb-fellow-page], [Adobe][39], and [Snap][36].
+
+My research focuses on deep learning
+and its applications in climate change, and in building agents that can <i>see</i> (computer vision),
 <i>think</i> (reasoning/interpretability), <i>talk</i> (language modeling), and
 <i>act</i> (reinforcement learning).
-
-My research is supported by fellowships from [Facebook][fb-fellow-page], [Adobe][39], and [Snap][36].
 My CV is available [here][33].
 
 <div class="row" id="timeline-logos">
