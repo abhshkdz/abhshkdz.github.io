@@ -199,6 +199,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     <span class="conf">ICML 2019</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1810.11187">Paper</a>
+        <a target="_blank" href="https://drive.google.com/open?id=1ZjKogiYrqFVuBmad3IzkNW18pvP2QcIG">Slides</a>
     </span>
 </p>
 <img src="/img/multi-agent-comm/model.jpg">
@@ -262,6 +263,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
         <a target="_blank" href="https://arxiv.org/abs/1810.11181">Paper</a>
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
         <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">Presentation video</a>
+        <a target="_blank" href="https://drive.google.com/open?id=1xTvgpVNxG7MPZQe6jtXuYUIT2WPtoh0U">Slides</a>
     </span>
 </p>
 
@@ -278,6 +280,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
         <a target="_blank" href="https://embodiedqa.org/">embodiedqa.org</a>
         <a target="_blank" href="https://github.com/facebookresearch/EmbodiedQA">Code</a>
         <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h19m58s">Presentation video</a>
+        <a target="_blank" href="https://drive.google.com/open?id=1UacybW4p_8PDPNUvnEl05_89tbeG0ItP">Slides</a>
     </span>
     <!-- Press: -->
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
@@ -332,8 +335,9 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     <span class="conf">ICCV 2017 (Oral)</span><br>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1703.06585">Paper</a>
-        <!-- <a target="_blank" href="//github.com/batra-mlp-lab/visdial-rl">Code</a> -->
+        <a target="_blank" href="//github.com/batra-mlp-lab/visdial-rl">Code</a>
         <a target="_blank" href="//www.youtube.com/watch?v=R4hugGnNr7s">Presentation video</a>
+        <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSaVBESEFHQW9vUk0">Slides</a>
     </span>
 </p>
 
@@ -364,10 +368,10 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
         <a target="_blank" href="//arxiv.org/abs/1611.08669">Paper</a>
         <a target="_blank" href="//github.com/batra-mlp-lab/visdial">Code</a>
         <a target="_blank" href="http://visualdialog.org/">visualdialog.org</a>
-        <!-- <a target="_blank" href="http://visualdialog.org/data">dataset</a> -->
         <a target="_blank" href="https://github.com/batra-mlp-lab/visdial-amt-chat">AMT chat interface</a>
         <a target="_blank" href="http://demo.visualdialog.org">Demo</a>
         <a target="_blank" href="//www.youtube.com/watch?v=I9OlorMh7wU">Presentation video</a>
+        <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSTWhRTTlMdVVIcFU">Slides</a>
     </span>
 </p>
 
