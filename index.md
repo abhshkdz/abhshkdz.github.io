@@ -55,7 +55,6 @@ permalink:  /
 I am a Research Scientist at Facebook AI Research (FAIR).
 Previously, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
 and working closely with [Devi Parikh][3].
-My PhD research was supported by fellowships from [Facebook][fb-fellow-page], [Adobe][39], and [Snap][36].
 
 My research focuses on deep learning
 and its applications in climate change, and in building agents that can <i>see</i> (computer vision),
@@ -64,7 +63,7 @@ and its applications in climate change, and in building agents that can <i>see</
 My CV is available [here][33].
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-2">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//iitr.ac.in"><img src="/img/logos/iitr.jpg"></a>
@@ -84,7 +83,7 @@ My CV is available [here][33].
             Summer 2015
         </div>
     </div>
-    <!-- <div class="col-xs-2">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a href="//vt.edu"><img src="/img/logos/vt.png"></a>
@@ -93,7 +92,7 @@ My CV is available [here][33].
             Virginia Tech<br>
             2015 - 2016
         </div>
-    </div> -->
+    </div>
     <div class="col-xs-2">
         <div class="logo-wrap">
             <span class="helper"></span>
@@ -101,7 +100,7 @@ My CV is available [here][33].
         </div>
         <div class="logo-desc">
             Georgia Tech<br>
-            2017 - Present
+            2017 - 2020
         </div>
     </div>
     <div class="col-xs-3">
@@ -114,21 +113,52 @@ My CV is available [here][33].
             S2017, W2018, S2018
         </div>
     </div>
-    <div class="col-xs-2">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a target="_blank" href="//deepmind.com"><img style="width:120px;" src="/img/logos/deepmind.png"></a>
         </div>
         <div class="logo-desc">
             DeepMind<br>
-            W2019
+            Winter 2019
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//www.tesla.com/autopilotAI"><img style="width:120px;" src="/img/logos/tesla.jpg"></a>
+        </div>
+        <div class="logo-desc">
+            Tesla Autopilot<br>
+            Summer 2019
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
+        </div>
+        <div class="logo-desc">
+            Facebook AI Research<br>
+            Present
         </div>
     </div>
 </div>
 
-I've spent three wonderful semesters as an intern at Facebook AI Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46], [Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and question-answering in simulated environments (see [embodiedqa.org][40]), and Summer 2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on emergent communication protocols in large-scale multi-agent reinforcement learning.
+During my PhD, I've spent three wonderful semesters as an intern at Facebook AI
+Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46],
+[Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and
+question-answering in simulated environments (see [embodiedqa.org][40]), and Summer
+2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on
+communication protocols in large-scale multi-agent reinforcement learning.
 
-In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London working on grounded language learning with [Felix Hill](felix-hill), [Laura Rimell](laura-rimell), and [Stephen Clark](stephen-clark), and at Tesla Autopilot in Palo Alto working on differentiable neural architecture search with [Andrej Karpathy](andrej-karpathy).
+In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London
+working on grounded language learning with [Felix Hill](felix-hill), [Laura Rimell](laura-rimell),
+and [Stephen Clark](stephen-clark), and at Tesla Autopilot in Palo Alto working on
+differentiable neural architecture search with [Andrej Karpathy](andrej-karpathy).
+
+My PhD research was supported by fellowships from [Facebook][fb-fellow-page],
+[Adobe][39], and [Snap][36].
 
 Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
@@ -141,8 +171,8 @@ won several hackathons and security contests ([Yahoo! HackU!][10],
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
 and been an active member of [SDSLabs][16].
 
-On the side, I built [neural-vqa][19], an efficient Torch implementation for visual question answering (and its extension [neural-vqa-attention][35]),
-and maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
+On the side, I maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
+and built [neural-vqa][19], an efficient Torch implementation for visual question answering (and its extension [neural-vqa-attention][35]),
 and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
 I also help maintain [Erdős][17], a competitive math learning platform I created during my undergrad.
 I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
@@ -535,9 +565,6 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
                 Visualization for Deep Learning Workshop, ICML 2016
             </a>
         </div>
-        <!-- <p class="talkd"> -->
-            <!-- <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/"><img src="/img/talks/vqahat_icml16_deepviz.png"></a> -->
-        <!-- </p> -->
     </div>
 </div>
 <hr>
