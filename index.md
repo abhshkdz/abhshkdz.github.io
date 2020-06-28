@@ -155,6 +155,34 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 # Publications
 
+<a name="/qa-probing"></a>
+<h2 class="pubt">Probing Emergent Semantics in Predictive Agents via Question Answering</h2>
+<p class="pubd">
+    <span class="authors">Abhishek Das<sup>*</sup>, Federico Carnevale<sup>*</sup>,
+        Hamza Merzic, Laura Rimell, Rosalia Schneider, Josh Abramson, Alden Hung,
+        Arun Ahuja, Stephen Clark, Gregory Wayne, Felix Hill
+    </span><br>
+    <span class="conf">ICML 2020</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2006.01016">Paper</a>
+    </span>
+</p>
+<img src="/img/qa-probing/qa-probing-teaser.jpg">
+<hr>
+
+<a name="/dancing-agents"></a>
+<h2 class="pubt">Feel The Music: Automatically Generating A Dance For An Input Song</h2>
+<p class="pubd">
+    <span class="authors">Purva Tendulkar, Abhishek Das, Aniruddha Kembhavi, Devi Parikh</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2006.11905">Paper</a>
+        <a target="_blank" href="https://github.com/purvaten/feel-the-music">Code</a>
+        <a target="_blank" href="https://sites.google.com/view/dancing-agents">Videos</a>
+    </span>
+</p>
+<img src="/img/dancing-agents/dancing-agents-teaser.jpg">
+<hr>
+
 <a name="/visdial-bert"></a>
 <h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
 <p class="pubd">
