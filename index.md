@@ -185,6 +185,18 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 # Publications
 
+<a name="/visdial-bert"></a>
+<h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
+<p class="pubd">
+    <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
+        <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
+    </span>
+</p>
+<img src="/img/visdial/visdial-bert.png">
+<hr>
+
 <a name="/qa-probing"></a>
 <h2 class="pubt">Probing Emergent Semantics in Predictive Agents via Question Answering</h2>
 <p class="pubd">
@@ -204,6 +216,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 <h2 class="pubt">Feel The Music: Automatically Generating A Dance For An Input Song</h2>
 <p class="pubd">
     <span class="authors">Purva Tendulkar, Abhishek Das, Aniruddha Kembhavi, Devi Parikh</span><br>
+    <span class="conf">ICCC 2020</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2006.11905">Paper</a>
         <a target="_blank" href="https://github.com/purvaten/feel-the-music">Code</a>
@@ -211,18 +224,6 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     </span>
 </p>
 <img src="/img/dancing-agents/dancing-agents-teaser.jpg">
-<hr>
-
-<a name="/visdial-bert"></a>
-<h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
-<p class="pubd">
-    <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
-        <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
-    </span>
-</p>
-<img src="/img/visdial/visdial-bert.png">
 <hr>
 
 <a name="/ds-vic"></a>
