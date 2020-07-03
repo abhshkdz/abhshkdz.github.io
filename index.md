@@ -189,6 +189,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 <h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
 <p class="pubd">
     <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
+    <span class="conf">ECCV 2020</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1912.02379">Paper</a>
         <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
