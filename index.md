@@ -195,7 +195,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
         <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
     </span>
 </p>
-<img src="/img/visdial/visdial-bert.png">
+<img src="/img/visdial/visdial-bert.jpg">
 <hr>
 
 <a name="/qa-probing"></a>
