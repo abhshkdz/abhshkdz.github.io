@@ -185,6 +185,18 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 # Publications
 
+<a name="/habitat-pointnav-aux"></a>
+<h2 class="pubt">Auxiliary Tasks Speed Up Learning PointGoal Navigation</h2>
+<p class="pubd">
+    <span class="authors">Joel Ye, Dhruv Batra, Erik Wijmans*, Abhishek Das*</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2007.04561">Paper</a>
+        <a target="_blank" href="https://github.com/joel99/habitat-pointnav-aux">Code</a>
+    </span>
+</p>
+<img src="/img/habitat/habitat-pointnav-aux.jpg">
+<hr>
+
 <a name="/visdial-bert"></a>
 <h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
 <p class="pubd">
