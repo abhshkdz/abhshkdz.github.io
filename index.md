@@ -153,9 +153,9 @@ question-answering in simulated environments (see [embodiedqa.org][40]), and Sum
 communication protocols in large-scale multi-agent reinforcement learning.
 
 In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London
-working on grounded language learning with [Felix Hill](felix-hill), [Laura Rimell](laura-rimell),
-and [Stephen Clark](stephen-clark), and at Tesla Autopilot in Palo Alto working on
-differentiable neural architecture search with [Andrej Karpathy](andrej-karpathy).
+working on grounded language learning with [Felix Hill][felix-hill], [Laura Rimell][laura-rimell],
+and [Stephen Clark][stephen-clark], and at Tesla Autopilot in Palo Alto working on
+differentiable neural architecture search with [Andrej Karpathy][andrej-karpathy].
 
 My PhD research was supported by fellowships from [Facebook][fb-fellow-page],
 [Adobe][39], and [Snap][36].
@@ -746,7 +746,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 [felix-hill]: https://fh295.github.io
 [laura-rimell]: http://www.rimell.cc/laura/
 [stephen-clark]: https://sites.google.com/site/stephenclark609/
-[andrej-karpathy]: http://cs.stanford.edu/people/karpathy
+[andrej-karpathy]: https://karpathy.ai/
 [vigil19]: https://vigilworkshop.github.io
 [tarmac-icml-talk]: https://www.facebook.com/icml.imls/videos/444326646299556/
 [mastodon]: https://mastodon.social/web/accounts/1011404
