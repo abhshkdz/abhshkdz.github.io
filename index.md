@@ -220,6 +220,8 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     <span class="conf">ICML 2020</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2006.01016">Paper</a>
+        <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">Presentation video</a>
+        <a target="_blank" href="https://docs.google.com/presentation/d/1yjfu2YBLTwJZXG4IiBiws4Z0EIts4X0J5DrYmYpBQ0A/edit?usp=sharing">Slides</a>
     </span>
 </p>
 <img src="/img/qa-probing/qa-probing-teaser.jpg">
@@ -528,6 +530,11 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 </div>
 <div class="row">
     <div class="col-xs-12">
+        <div class="talkt">
+            <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">
+                ICML 2020: Probing Emergent Semantics in Predictive Agents via Question Answering
+            </a>
+        </div>
         <div class="talkt">
             <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
                 ICML 2019 Imitation, Intent, and Interaction Workshop:
