@@ -4,6 +4,6 @@ url: http://abhishekdas.com
 author:
   name: Abhishek Das
   email: das.abhshk@gmail.com
-description: CS PhD student at Georgia Tech. Learning to build machines that can see, think, talk and act.
+description: Research Scientist at Facebook AI Research. Learning to build machines that can see, think, talk and act.
 permalink: /posts/:title/
 include: ['_pages']
