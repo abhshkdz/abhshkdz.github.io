@@ -321,7 +321,7 @@ a:hover, a:focus {
   font-size: 14px;}
 .post section p.pubd a {
   color: #2465BF;
-  background: rgba(236, 240, 241, 0.7);
+  background: #e5e5e5;
   padding: 2px 5px;
   border: none;
   margin-right: 2px;

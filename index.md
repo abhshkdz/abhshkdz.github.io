@@ -185,10 +185,36 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 # Publications
 
+<a name="/ocp-dataset"></a>
+<h2 class="pubt">The Open Catalyst 2020 (OC20) Dataset and Community Challenges</h2>
+<p class="pubd">
+    <span class="authors">Lowik Chanussot<sup>*</sup>, Abhishek Das<sup>*</sup>, Siddharth Goyal<sup>*</sup>, Thibaut Lavril<sup>*</sup>, Muhammed Shuaibi<sup>*</sup>, Morgane Riviére, Kevin Tran, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Aini Palizhati, Anuroop Sriram, Brandon Wood, Junwoong Yoon, Devi Parikh, C. Lawrence Zitnick, Zachary Ulissi</span><br>
+    <span class="links">
+        <a target="_blank" href="https://dl.fbaipublicfiles.com/opencatalystproject/papers/oc20_dataset.pdf">Paper</a>
+        <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+    </span>
+</p>
+<img src="/img/ocp/dataset.png">
+<hr>
+
+<a name="/ocp-whitepaper"></a>
+<h2 class="pubt">An Introduction to Electrocatalyst Design using Machine Learning for Renewable Energy Storage</h2>
+<p class="pubd">
+    <span class="authors">C. Lawrence Zitnick, Lowik Chanussot, Abhishek Das, Siddharth Goyal, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Thibaut Lavril, Aini Palizhati, Morgane Riviére, Muhammed Shuaibi, Anuroop Sriram, Kevin Tran, Brandon Wood, Junwoong Yoon, Devi Parikh, Zachary Ulissi</span><br>
+    <span class="links">
+        <a target="_blank" href="https://dl.fbaipublicfiles.com/opencatalystproject/papers/oc20_whitepaper.pdf">Paper</a>
+        <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+    </span>
+    <br>
+</p>
+<video autoplay loop src="/img/ocp/relaxation.mp4" width="95%"></video>
+<hr>
+
 <a name="/habitat-pointnav-aux"></a>
 <h2 class="pubt">Auxiliary Tasks Speed Up Learning PointGoal Navigation</h2>
 <p class="pubd">
     <span class="authors">Joel Ye, Dhruv Batra, Erik Wijmans*, Abhishek Das*</span><br>
+    <span class="conf">CoRL 2020</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2007.04561">Paper</a>
         <a target="_blank" href="https://github.com/joel99/habitat-pointnav-aux">Code</a>
