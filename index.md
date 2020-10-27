@@ -191,6 +191,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
     <span class="authors">Lowik Chanussot<sup>*</sup>, Abhishek Das<sup>*</sup>, Siddharth Goyal<sup>*</sup>, Thibaut Lavril<sup>*</sup>, Muhammed Shuaibi<sup>*</sup>, Morgane Riviére, Kevin Tran, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Aini Palizhati, Anuroop Sriram, Brandon Wood, Junwoong Yoon, Devi Parikh, C. Lawrence Zitnick, Zachary Ulissi</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2010.09990">Paper</a>
+        <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
 </p>
