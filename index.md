@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- [Nov 20] The [Open Catalyst Project][ocp] was covered by [Engadget][ocp-engadget], [VentureBeat][ocp-venturebeat], [Fortune][ocp-fortune], etc.
+- [Nov 20] The [Open Catalyst Project][ocp] was covered by [Fortune][ocp-fortune], [Engadget][ocp-engadget], [CNBC][ocp-cnbc], [VentureBeat][ocp-venturebeat].
 - [Nov 20] Organizing the 4th [Visually-Grounded Interaction & Language Workshop at NAACL][vigil20].
 - [July 20] Presenting [Probing Emergent Semantics in Predictive Agents](#/qa-probing) at ICML 2020 ([Video][qa-probing-icml20-talk]).
 - [Mar 20] I completed my PhD!
@@ -210,7 +210,65 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
         <a target="_blank" href="https://arxiv.org/abs/2010.09435">Paper</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
-    <br>
+    <!-- Press: -->
+    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
+        <a style="border-bottom: 0;" target="_blank" href="https://ai.facebook.com/blog/facebook-and-carnegie-mellon-launch-the-open-catalyst-project-to-find-new-ways-to-store-renewable-energy">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook and Carnegie Mellon launch .. to ... store renewable energy" by Larry Zitnick</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/fortune.jpg" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook A.I. researchers push for a breakthrough in renewable energy storage" by Jeremy Kahn</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/engadget.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook deploys its AI to find green energy storage solutions" by Andrew Tarantola</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://www.cnbc.com/2020/10/14/facebook-to-use-ai-in-bid-to-improve-renewable-energy-storage.html">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/cnbc.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook to use artificial intelligence in bid to improve renewable energy storage" by Sam Shead</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/venturebeat.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook and Carnegie Mellon launch project to ... store renewable energy" by Kyle Wiggers</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://www.cnet.com/news/facebook-plans-to-use-ai-to-help-fight-climate-change/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0 18px;">
+                <img src="/img/logos/cnet.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook plans to use AI to help fight climate change" by Queenie Wong</span>
+            </div>
+        </a>
+        <a style="border-bottom: 0;" target="_blank" href="https://syncedreview.com/2020/10/15/facebook-cmu-open-catalyst-project-applies-ai-to-renewable-energy-storage/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/synced.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"Facebook & CMU Open Catalyst Project Applies AI to Renewable Energy Storage" by Fangyu Cai</span>
+            </div>
+        </a>
+    </div>
 </p>
 <video autoplay loop src="/img/ocp/relaxation.mp4" width="95%"></video>
 <hr>
@@ -792,6 +850,7 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 [qa-probing-icml20-talk]: https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering
 [vigil20]: https://vigilworkshop.github.io
 [ocp]: https://opencatalystproject.org
+[ocp-cnbc]: https://www.cnbc.com/2020/10/14/facebook-to-use-ai-in-bid-to-improve-renewable-energy-storage.html
 [ocp-engadget]: https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html
 [ocp-fortune]: https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/
 [ocp-venturebeat]: https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/
