@@ -20,27 +20,31 @@ permalink:  /
 
 # News
 
-- [Nov 2019] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
-- [Sep 2019] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
-- [Jun 2019] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
-- [Mar 2019] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
-- [Feb 2019] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
-- [Jan 2019] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
-- [Jan 2019] Awarded the Microsoft Research PhD Fellowship (declined).
-- [Jan 2019] Awarded the NVIDIA Graduate Fellowship (declined).
-- [Jan 2019] Organizing the [2nd Visual Dialog Challenge][visdial-challenge-2]!
-- [Oct 2018] Presenting [Neural Modular Control for Embodied Question Answering](#/eqa-modular) as a spotlight at CoRL 2018 ([Video][58]).
-- [Sep 2018] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
-- [Jul 2018] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
-- [Jun 2018] Organizing the 1st [Visual Dialog Challenge][53]!
-- [Jun 2018] Presenting [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018 ([Video][54]).
-- [Jun 2018] Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
-- [Mar 2018] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42] ([Video][52]).
-- [Dec 2017] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
-- [Dec 2017] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
-- [Oct 2017] Presenting our paper on [Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](#/visdial-rl) as an oral at ICCV 2017 ([Video][37]).
-- [Jul 2017] Speaking about our work on [Visual Dialog](//visualdialog.org) at the [Visual Question Answering Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017 ([Video][41]).
-- [Jul 2017] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017 ([Video][38]).
+- [Nov 20] The [Open Catalyst Project][ocp] was covered by [Engadget][ocp-engadget], [VentureBeat][ocp-venturebeat], [Fortune][ocp-fortune], etc.
+- [Nov 20] Organizing the 4th [Visually-Grounded Interaction & Language Workshop at NAACL][vigil20].
+- [July 20] Presenting [Probing Emergent Semantics in Predictive Agents](#/qa-probing) at ICML 2020 ([Video][qa-probing-icml20-talk]).
+- [Mar 20] I completed my PhD!
+- [Nov 19] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
+- [Sep 19] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
+- [Jun 19] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
+- [Mar 19] Co-founded [Caliper][caliper]. Caliper helps recruiters evaluate practical AI skills.
+- [Feb 19] My work was featured in this [wonderful article by Georgia Tech][ic-gt-article].
+- [Jan 19] Awarded the [Facebook Graduate Fellowship][fb-fellow-page].
+- [Jan 19] Awarded the Microsoft Research PhD Fellowship (declined).
+- [Jan 19] Awarded the NVIDIA Graduate Fellowship (declined).
+- [Jan 19] Organizing the [2nd Visual Dialog Challenge][visdial-challenge-2].
+- [Oct 18] Presenting [Neural Modular Control for Embodied QA](#/eqa-modular) at CoRL 2018 ([Video][58]).
+- [Sep 18] Presenting [results and analysis of the 1st Visual Dialog Challenge][57] at ECCV 2018.
+- [Jul 18] Presenting a [tutorial on Connecting Language and Vision to Actions][49] at [ACL 2018][50].
+- [Jun 18] Organizing the 1st [Visual Dialog Challenge][53].
+- [Jun 18] Presenting [Embodied Question Answering](#/embodied-qa) as an oral at CVPR 2018 ([Video][54]).
+- [Jun 18] Organizing the [VQA Challenge and Visual Dialog Workshop at CVPR 2018][51].
+- [Mar 18] Speaking on [Embodied Question Answering][40] at [NVIDIA GTC][42] ([Video][52]).
+- [Dec 17] Awarded the [Adobe Research Fellowship][39]. ([Department's news story][44])
+- [Dec 17] Awarded the [Snap Inc. Research Fellowship][36]. ([Department's news story][43])
+- [Oct 17] Presenting [Cooperative Visual Dialog Agents](#/visdial-rl) as an oral at ICCV 2017 ([Video][37]).
+- [Jul 17] Presenting [Visual Dialog](//visualdialog.org) at the [VQA Challenge Workshop](http://visualqa.org/workshop.html), CVPR 2017 ([Video][41]).
+- [Jul 17] Presenting our paper on [Visual Dialog](#/visdial) as a spotlight at CVPR 2017 ([Video][38]).
 
 <div id="read-more-button">
     <a nohref>Read more</a>
@@ -781,7 +785,13 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 [laura-rimell]: http://www.rimell.cc/laura/
 [stephen-clark]: https://sites.google.com/site/stephenclark609/
 [andrej-karpathy]: https://karpathy.ai/
-[vigil19]: https://vigilworkshop.github.io
+[vigil19]: https://vigilworkshop.github.io/2019
 [tarmac-icml-talk]: https://www.facebook.com/icml.imls/videos/444326646299556/
 [mastodon]: https://mastodon.social/web/accounts/1011404
 [conquerearth]: https://conquer.earth/abhshkdz
+[qa-probing-icml20-talk]: https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering
+[vigil20]: https://vigilworkshop.github.io
+[ocp]: https://opencatalystproject.org
+[ocp-engadget]: https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html
+[ocp-fortune]: https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/
+[ocp-venturebeat]: https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/
