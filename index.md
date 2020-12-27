@@ -685,6 +685,15 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 
 <div class="row">
     <div class="col-sm-12">
+        <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aipaygrad.es">aipaygrad.es</a></h2>
+        <p class="talkd">
+            aipaygrad.es provides statistics of industry job offers in Artificial Intelligence (AI).
+            All data is anonymous, cross-verified against offer letters and will
+            hopefully reduce information asymmetry.
+            <a target="_blank" href="http://aipaygrad.es"><img style="margin-top: 10px;" src="/img/projects/ai-paygrades.png"></a>
+        </p>
+    </div>
+    <div class="col-sm-12">
         <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://aideadlin.es">aideadlin.es</a></h2>
         <p class="talkd">
             aideadlin.es is a webpage to keep track of CV/NLP/ML/AI conference deadlines. It's hosted on GitHub, and countdowns are automatically updated via pull requests to the data file in the repo.
