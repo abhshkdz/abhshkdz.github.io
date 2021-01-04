@@ -175,11 +175,11 @@ won several hackathons and security contests ([Yahoo! HackU!][10],
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
 and been an active member of [SDSLabs][16].
 
-On the side, I maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines),
-and built [neural-vqa][19], an efficient Torch implementation for visual question answering (and its extension [neural-vqa-attention][35]),
-and several other side projects ([HackFlowy][20], [graf][21], [etc][22]).
-I also help maintain [Erdős][17], a competitive math learning platform I created during my undergrad.
-I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
+On the side, I maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines)
+and [aipaygrad.es][aipaygrad.es] (statistics of industry job offers in AI).
+Previously, I'd built [neural-vqa][19] and its extension [neural-vqa-attention][35],
+[HackFlowy][20], [graf][21], [Erdős][17], [etc][22].
+I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
 
 [Blog posts from a previous life.](/archive)
 
@@ -863,3 +863,4 @@ I often [tweet][23], [toot][mastodon], and post pictures from my [travels][conqu
 [ocp-engadget]: https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html
 [ocp-fortune]: https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/
 [ocp-venturebeat]: https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/
+[aipaygrad.es]: https://aipaygrad.es
