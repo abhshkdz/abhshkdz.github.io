@@ -189,6 +189,18 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 
 # Publications
 
+<a name="/forcenet"></a>
+<h2 class="pubt">ForceNet: A Graph Neural Network for Large-Scale Quantum Calculations</h2>
+<p class="pubd">
+    <span class="authors">Weihua Hu, Muhammed Shuaibi, Abhishek Das, Siddharth Goyal, Anuroop Sriram, Jure Leskovec, Devi Parikh, C. Lawrence Zitnick</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2103.01436">Paper</a>
+        <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+    </span>
+</p>
+<img src="/img/ocp/forcenet.jpg">
+<hr>
+
 <a name="/ocp-dataset"></a>
 <h2 class="pubt">The Open Catalyst 2020 (OC20) Dataset and Community Challenges</h2>
 <p class="pubd">
