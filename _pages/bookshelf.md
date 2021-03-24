@@ -49,13 +49,15 @@ All of these books are exceptional, for which I consider myself lucky to have re
     
     You might or might not like what's said, but the observations of lack of alignment between stated motives and behavior do help build an accurate world model.
 
-<!-- 1. [The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem) by Cixin Liu
+1. __[The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem)__ by Cixin Liu
 
 1. [The Uninhabitable Earth](https://www.goodreads.com/book/show/41552709-the-uninhabitable-earth) by David Wallace-Wells
 
 1. [Gödel, Escher, Bach](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) by Douglas Hofstadter
 
-1. [Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow) by Daniel Kahneman
+1. __[How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need](https://www.goodreads.com/book/show/52275335-how-to-avoid-a-climate-disaster)__ by Bill Gates
+
+<!-- 1. [Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow) by Daniel Kahneman
 
 1. [The Undoing Project: A Friendship That Changed Our Minds](https://www.goodreads.com/book/show/35631386-the-undoing-project) by Michael Lewis
 
