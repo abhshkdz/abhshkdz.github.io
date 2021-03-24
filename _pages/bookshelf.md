@@ -55,7 +55,7 @@ All of these books are exceptional, for which I consider myself lucky to have re
 
 1. [Gödel, Escher, Bach](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) by Douglas Hofstadter
 
-1. __[How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need](https://www.goodreads.com/book/show/52275335-how-to-avoid-a-climate-disaster)__ by Bill Gates
+1. __[How to Avoid a Climate Disaster](https://www.goodreads.com/book/show/52275335-how-to-avoid-a-climate-disaster)__ by Bill Gates
 
 <!-- 1. [Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow) by Daniel Kahneman
 
