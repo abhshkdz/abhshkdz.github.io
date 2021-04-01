@@ -20,6 +20,8 @@ permalink:  /
 
 # News
 
+- [Mar 21] Awarded the [Georgia Tech Sigma Xi Best PhD Thesis Award][sigma-xi-thesis-award].
+- [Mar 21] Awarded the [Georgia Tech College of Computing Dissertation Award][coc-dissertation-award].
 - [Nov 20] The [Open Catalyst Project][ocp] was covered by [Fortune][ocp-fortune], [Engadget][ocp-engadget], [CNBC][ocp-cnbc], [VentureBeat][ocp-venturebeat].
 - [Nov 20] Organizing the 4th [Visually-Grounded Interaction & Language Workshop at NAACL][vigil20].
 - [July 20] Presenting [Probing Emergent Semantics in Predictive Agents](#/qa-probing) at ICML 2020 ([Video][qa-probing-icml20-talk]).
@@ -876,3 +878,5 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 [ocp-fortune]: https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/
 [ocp-venturebeat]: https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/
 [aipaygrad.es]: https://aipaygrad.es
+[sigma-xi-thesis-award]: https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2021/03/2021-Sigma-Xi-Research-Award-Winners.final_.pdf
+[coc-dissertation-award]: https://sites.gatech.edu/gtcomputingawards2021/graduate-student-awards/
