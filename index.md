@@ -191,6 +191,19 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 
 # Publications
 
+<a name="/habitat-objnav"></a>
+<h2 class="pubt">Auxiliary Tasks and Exploration Enable ObjectNav</h2>
+<p class="pubd">
+    <span class="authors">Joel Ye, Dhruv Batra, Abhishek Das, Erik Wijmans</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2104.04112">Paper</a>
+        <a target="_blank" href="https://github.com/joel99/objectnav">Code</a>
+        <a target="_blank" href="https://joel99.github.io/objectnav/">Website</a>
+    </span>
+</p>
+<img src="/img/habitat/habitat-objnav.png">
+<hr>
+
 <a name="/forcenet"></a>
 <h2 class="pubt">ForceNet: A Graph Neural Network for Large-Scale Quantum Calculations</h2>
 <p class="pubd">
@@ -207,6 +220,7 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 <h2 class="pubt">The Open Catalyst 2020 (OC20) Dataset and Community Challenges</h2>
 <p class="pubd">
     <span class="authors">Lowik Chanussot<sup>*</sup>, Abhishek Das<sup>*</sup>, Siddharth Goyal<sup>*</sup>, Thibaut Lavril<sup>*</sup>, Muhammed Shuaibi<sup>*</sup>, Morgane Riviére, Kevin Tran, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Aini Palizhati, Anuroop Sriram, Brandon Wood, Junwoong Yoon, Devi Parikh, C. Lawrence Zitnick, Zachary Ulissi</span><br>
+    <span class="conf">ACS Catalysis 2021</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2010.09990">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
