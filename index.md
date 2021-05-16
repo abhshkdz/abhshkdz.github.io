@@ -191,6 +191,18 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 
 # Publications
 
+<a name="/youdescribe-descriptions-1"></a>
+<h2 class="pubt">Automated Video Description for Blind and Low Vision Users</h2>
+<p class="pubd">
+    <span class="authors">Aditya Bodi, Pooyan Fazli, Shasta Ihorn, Yue-Ting Siu, Andrew T Scott, Lothar Narins, Yash Kant, Abhishek Das, Ilmi Yoon</span><br>
+    <span class="conf">CHI EA 2021</span><br>
+    <span class="links">
+        <a target="_blank" href="https://dl.acm.org/doi/10.1145/3411763.3451810">Paper</a>
+    </span>
+</p>
+<img src="/img/youdescribe/chi_ea_system.png">
+<hr>
+
 <a name="/habitat-objnav"></a>
 <h2 class="pubt">Auxiliary Tasks and Exploration Enable ObjectNav</h2>
 <p class="pubd">
