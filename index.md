@@ -191,6 +191,17 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 
 # Publications
 
+<a name="/spinconv"></a>
+<h2 class="pubt">Rotation Invariant Graph Neural Networks using Spin Convolutions</h2>
+<p class="pubd">
+    <span class="authors">Muhammed Shuaibi, Adeesh Kolluru, Abhishek Das, Aditya Grover, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2106.09575">Paper</a>
+    </span>
+</p>
+<img src="/img/ocp/spinconv.jpg">
+<hr>
+
 <a name="/youdescribe-descriptions-1"></a>
 <h2 class="pubt">Automated Video Description for Blind and Low Vision Users</h2>
 <p class="pubd">
