@@ -218,6 +218,7 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 <h2 class="pubt">Auxiliary Tasks and Exploration Enable ObjectNav</h2>
 <p class="pubd">
     <span class="authors">Joel Ye, Dhruv Batra, Abhishek Das, Erik Wijmans</span><br>
+    <span class="conf">ICCV 2021</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2104.04112">Paper</a>
         <a target="_blank" href="https://github.com/joel99/objectnav">Code</a>
