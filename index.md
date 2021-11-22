@@ -25,7 +25,7 @@ permalink:  /
 - [Nov 20] The [Open Catalyst Project][ocp] was covered by [Fortune][ocp-fortune], [Engadget][ocp-engadget], [CNBC][ocp-cnbc], [VentureBeat][ocp-venturebeat].
 - [Nov 20] Organizing the 4th [Visually-Grounded Interaction & Language Workshop at NAACL][vigil20].
 - [July 20] Presenting [Probing Emergent Semantics in Predictive Agents](#/qa-probing) at ICML 2020 ([Video][qa-probing-icml20-talk]).
-- [Mar 20] I completed my PhD!
+- [Mar 20] I completed my PhD! My thesis is available [here][thesis-pdf].
 - [Nov 19] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
 - [Sep 19] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
 - [Jun 19] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
@@ -349,6 +349,18 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
     </span>
 </p>
 <img src="/img/visdial/visdial-bert.jpg">
+<hr>
+
+<a name="/phd-thesis-1"></a>
+<h2 class="pubt">Building agents that can see, talk, and act</h2>
+<p class="pubd">
+    <span class="authors">
+        Abhishek Das
+    </span><br>
+    <span class="links">
+        <a target="_blank" href="https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing">PhD Thesis</a>
+    </span>
+</p>
 <hr>
 
 <a name="/qa-probing"></a>
@@ -918,3 +930,4 @@ I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instag
 [aipaygrad.es]: https://aipaygrad.es
 [sigma-xi-thesis-award]: https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2021/03/2021-Sigma-Xi-Research-Award-Winners.final_.pdf
 [coc-dissertation-award]: https://sites.gatech.edu/gtcomputingawards2021/graduate-student-awards/
+[thesis-pdf]: https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing
