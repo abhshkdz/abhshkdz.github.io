@@ -58,15 +58,19 @@ permalink:  /
 
 # Bio
 
-I am a Research Scientist at Facebook AI Research (FAIR).
-Previously, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
-and working closely with [Devi Parikh][3].
+I am a Research Scientist at Facebook AI Research (FAIR) working on deep neural
+networks and its applications in climate change. My current focus is on
+electrocatalyst discovery for renewable energy storage as part of the [Open Catalyst Project][ocp].
+Renewable energy sources (like solar, wind) are great but intermittent -- the sun
+shines only during the day. During the evening, we fall back on fossil fuels.
+To avoid this, we need to discover cheap, scalable ways of converting electricity
+from renewable sources to storable forms, so that we can transfer it from times of
+peak generation to peak demand.
+AI can help accelerate the chemical simulations needed to make these discoveries.
 
-My research focuses on deep learning
-and its applications in climate change, and in building agents that can <i>see</i> (computer vision),
-<i>think</i> (reasoning/interpretability), <i>talk</i> (language modeling), and
-<i>act</i> (reinforcement learning).
-My CV is available [here][33].
+Before this, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
+and working closely with [Devi Parikh][3], where I focused on developing
+artificial agents that can [<i>see</i> (computer vision), <i>talk</i> (language modeling), and <i>act</i> (reinforcement learning)][thesis-pdf].
 
 <div class="row" id="timeline-logos">
     <div class="col-xs-3">
@@ -151,15 +155,14 @@ My CV is available [here][33].
     </div>
 </div>
 
-During my PhD, I've spent three wonderful semesters as an intern at Facebook AI
-Research — Summer 2017 and Spring 2018 at Menlo Park, working with [Georgia Gkioxari][46],
+During my PhD, I interned thrice at Facebook AI Research — Summer 2017 and Spring 2018
+at Menlo Park, working with [Georgia Gkioxari][46],
 [Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and
 question-answering in simulated environments (see [embodiedqa.org][40]), and Summer
 2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on
-communication protocols in large-scale multi-agent reinforcement learning.
-
-In 2019, I was fortunate to get the opportunity to spend time at DeepMind in London
-working on grounded language learning with [Felix Hill][felix-hill], [Laura Rimell][laura-rimell],
+<a target="_blank" href="https://arxiv.org/abs/1810.11187">communication protocols in multi-agent reinforcement learning</a>.
+In 2019, I interned at DeepMind in London working on grounded language learning
+with [Felix Hill][felix-hill], [Laura Rimell][laura-rimell],
 and [Stephen Clark][stephen-clark], and at Tesla Autopilot in Palo Alto working on
 differentiable neural architecture search with [Andrej Karpathy][andrej-karpathy].
 
@@ -170,20 +173,19 @@ Prior to joining grad school, I worked on neural coding in zebrafish tectum
 as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
 at the [Goodhill Lab][6], Queensland Brain Institute.
 
-I graduated from [Indian Institute of Technology Roorkee][31] in 2015.
-During my undergrad years, I've been selected twice for
+I got my Bachelor's at [IIT Roorkee][31] in 2015.
+During my undergrad, I took part in
 Google Summer of Code ([2013][8] and [2014][9]),
-won several hackathons and security contests ([Yahoo! HackU!][10],
+won several competitions ([Yahoo! HackU!][10],
 [Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
-and been an active member of [SDSLabs][16].
+and owe most of my programming/tinkering bent to [SDSLabs][16].
 
-On the side, I maintain [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines)
-and [aipaygrad.es][aipaygrad.es] (statistics of industry job offers in AI).
-Previously, I'd built [neural-vqa][19] and its extension [neural-vqa-attention][35],
+On the side, I built [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines)
+and [aipaygrad.es][aipaygrad.es] (statistics of industry job offers in AI),
+[neural-vqa][19] and its extension [neural-vqa-attention][35],
 [HackFlowy][20], [graf][21], [Erdős][17], [etc][22].
-I often [tweet][23] and post pictures from my [travels][conquerearth] on [Instagram][24] and [Tumblr][25].
-
-[Blog posts from a previous life.](/archive)
+I often [tweet][23] and [travel][conquerearth].
+[Blog posts from a previous life](/archive).
 
 ---
 
