@@ -234,9 +234,11 @@ I often [tweet][23] and [travel][conquerearth].
 <h2 class="pubt">ForceNet: A Graph Neural Network for Large-Scale Quantum Calculations</h2>
 <p class="pubd">
     <span class="authors">Weihua Hu, Muhammed Shuaibi, Abhishek Das, Siddharth Goyal, Anuroop Sriram, Jure Leskovec, Devi Parikh, C. Lawrence Zitnick</span><br>
+    <span class="conf">ICLR 2021 Deep Learning for Simulation Workshop</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2103.01436">Paper</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
+        <a target="_blank" href="https://slideslive.com/38955314/forcenet-a-graph-neural-network-for-largescale-quantum-calculations?ref=speaker-22639-latest">Presentation video</a>
     </span>
 </p>
 <img src="/img/ocp/forcenet.jpg">
