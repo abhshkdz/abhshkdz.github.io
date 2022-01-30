@@ -1,50 +1,30 @@
 ---
 layout:     page
-title:      Generative Art Portfolio
+title:      Generative Art
 permalink:  /art/
 ---
 
-All of the following projects were developed in [p5js](https://p5js.org/).
+Disclaimer: I'm <i>very new</i> to generative art, so I'm still finding my feet.
+But I think I'm learning and having fun.
+If you see something you like, or if you're interested in collaborating on something,
+please [tell me](https://twitter.com/abhshkdz)! It would mean a lot.
 
-### Towers <span style="font-size:0.6em;color:#AAA;">([fxhash](https://www.fxhash.xyz/generative/4228))</span>
+In my day job, I'm an artificial intelligence researcher and I
+build algorithms to mimic intelligence or the biological brain.
+Much like that, my art explores algorithms to mimic textures from the physical
+world -- paper, ink, cloth, sand, paintings. All my projects were
+made in [p5js](https://p5js.org).
 
-<div class="row">
-    <div class="col-xs-6">
-        <p>
-            <img src="/img/art/towers/towers11.jpg">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p>
-            <img src="/img/art/towers/towers12.jpg">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p>
-            <img src="/img/art/towers/towers2.jpg">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p>
-            <img src="/img/art/towers/towers.gif">
-        </p>
-    </div>
-    <div class="col-xs-4">
-        <p>
-            <img src="/img/art/towers/towers9.jpg">
-        </p>
-    </div>
-</div>
 
 ### Waves
 
 <div class="row">
-    <div class="col-xs-6">
+    <div class="col-xs-12 col-sm-6">
         <p>
             <img src="/img/art/waves/3.jpg">
         </p>
     </div>
-    <div class="col-xs-6">
+    <div class="col-xs-12 col-sm-6">
         <p>
             <img src="/img/art/waves/4.jpg">
         </p>
@@ -87,6 +67,36 @@ All of the following projects were developed in [p5js](https://p5js.org/).
     <div class="col-xs-12">
         <p>
             <img src="/img/art/dunes/4.jpg">
+        </p>
+    </div>
+</div>
+
+### Towers <span style="font-size:0.6em;color:#AAA;">(on [fxhash](https://www.fxhash.xyz/generative/4228))</span>
+
+<div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <p>
+            <img src="/img/art/towers/towers11.jpg">
+        </p>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <p>
+            <img src="/img/art/towers/towers12.jpg">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p>
+            <img src="/img/art/towers/towers2.jpg">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p>
+            <img src="/img/art/towers/towers.gif">
+        </p>
+    </div>
+    <div class="col-xs-4">
+        <p>
+            <img src="/img/art/towers/towers9.jpg">
         </p>
     </div>
 </div>
