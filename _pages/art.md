@@ -9,7 +9,7 @@ But I think I'm learning and having fun.
 If you see something you like, or if you're interested in collaborating on something,
 please [tell me](https://twitter.com/abhshkdz)! It would mean a lot.
 
-In my day job, I'm an artificial intelligence researcher and I
+In my day job, I'm an artificial intelligence researcher, i.e., I
 build algorithms to mimic intelligence or the biological brain.
 Much like that, my art explores algorithms to mimic textures from the physical
 world -- paper, ink, cloth, sand, paintings. All my projects were
