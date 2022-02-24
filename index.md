@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Feb 22] Runner-up for the [2020 AAAI/ACM SIGAI Doctoral Dissertation Award][aaai-dissertation-award].
 - [Mar 21] Awarded the [Georgia Tech Sigma Xi Best PhD Thesis Award][sigma-xi-thesis-award].
 - [Mar 21] Awarded the [Georgia Tech College of Computing Dissertation Award][coc-dissertation-award].
 - [Nov 20] The [Open Catalyst Project][ocp] was covered by [Fortune][ocp-fortune], [Engadget][ocp-engadget], [CNBC][ocp-cnbc], [VentureBeat][ocp-venturebeat].
@@ -373,6 +374,9 @@ I often [tweet][23] and [travel][conquerearth].
     <span class="links">
         <a target="_blank" href="https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing">PhD Thesis</a>
     </span>
+    <span class="conf">AAAI/ACM SIGAI Doctoral Dissertation Award, Runner-up</span><br>
+    <span class="conf">Georgia Tech Sigma Xi Best PhD Thesis Award</span><br>
+    <span class="conf">Georgia Tech College of Computing Dissertation Award</span>
 </p>
 <hr>
 
@@ -944,3 +948,4 @@ I often [tweet][23] and [travel][conquerearth].
 [sigma-xi-thesis-award]: https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2021/03/2021-Sigma-Xi-Research-Award-Winners.final_.pdf
 [coc-dissertation-award]: https://sites.gatech.edu/gtcomputingawards2021/graduate-student-awards/
 [thesis-pdf]: https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing
+[aaai-dissertation-award]: https://aaai.org/Awards/dissertation-award.php
