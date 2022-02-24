@@ -26,7 +26,7 @@ permalink:  /
 - [Nov 20] The [Open Catalyst Project][ocp] was covered by [Fortune][ocp-fortune], [Engadget][ocp-engadget], [CNBC][ocp-cnbc], [VentureBeat][ocp-venturebeat].
 - [Nov 20] Organizing the 4th [Visually-Grounded Interaction & Language Workshop at NAACL][vigil20].
 - [July 20] Presenting [Probing Emergent Semantics in Predictive Agents](#/qa-probing) at ICML 2020 ([Video][qa-probing-icml20-talk]).
-- [Mar 20] I completed my PhD! My thesis is available [here][thesis-pdf].
+- [Mar 20] I completed my PhD! My thesis, "Building agents that can see, talk, and act", is [here][thesis-pdf].
 - [Nov 19] Organizing the [Visual Question Answering and Dialog workshop at CVPR 2020][51].
 - [Sep 19] Organizing the [Visually-Grounded Interaction & Language Workshop at NeurIPS][vigil19].
 - [Jun 19] Presenting [Targeted Multi-Agent Communication](#/multi-agent-comm) as an oral at ICML 2019 ([Video][tarmac-icml-talk]).
