@@ -197,7 +197,7 @@ I often [tweet][23] and [travel][conquerearth].
 <a name="/graph-parallel"></a>
 <h2 class="pubt">Towards Training Billion Parameter Graph Neural Networks for Atomic Simulations</h2>
 <p class="pubd">
-    <span class="authors">Anuroop Sriram, Abhishek Das, Brandon M Wood, C. Lawrence Zitnick</span><br>
+    <span class="authors">Anuroop Sriram, Abhishek Das, Brandon M. Wood, Siddharth Goyal, C. Lawrence Zitnick</span><br>
     <span class="conf">ICLR 2022</span>
 </p>
 <img src="/img/ocp/graph_parallel.png">
