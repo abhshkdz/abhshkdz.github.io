@@ -199,6 +199,9 @@ I often [tweet][23] and [travel][conquerearth].
 <p class="pubd">
     <span class="authors">Anuroop Sriram, Abhishek Das, Brandon M. Wood, Siddharth Goyal, C. Lawrence Zitnick</span><br>
     <span class="conf">ICLR 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2203.09697">Paper</a>
+    </span>
 </p>
 <img src="/img/ocp/graph_parallel.png">
 <hr>
