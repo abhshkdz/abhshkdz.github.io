@@ -15,6 +15,8 @@ Much like that, my art explores algorithms to mimic textures from the physical
 world -- paper, ink, cloth, sand, paintings. All my projects were
 made in [p5js](https://p5js.org).
 
+Some selected artworks are listed below.
+I also had a lot of fun participating in [#genuary2022](https://twitter.com/search?q=%23genuary2022%20from%3Aabhshkdz&src=typed_query).
 
 ### Waves
 

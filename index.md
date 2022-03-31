@@ -185,7 +185,8 @@ On the side, I built [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI c
 and [aipaygrad.es][aipaygrad.es] (statistics of industry job offers in AI),
 [neural-vqa][19] and its extension [neural-vqa-attention][35],
 [HackFlowy][20], [graf][21], [Erdős][17], [etc][22].
-I often [tweet][23] and [travel][conquerearth].
+I also occasionally dabble in [generative art](/art).
+I like [this map][conquerearth] tracking the places I've been to.
 [Blog posts from a previous life](/archive).
 
 ---
