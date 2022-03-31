@@ -3,45 +3,96 @@ let margin, gap, w, h, ww, wh, pt, packer, paddingBetween = 0, nst;
 random = fxrand
 
 function setup() {
-    let ar = 1, mult = 0.97;
+    let ar = 1, mult = 0.97; pixelDensity(2);
     if (windowWidth >= ar * windowHeight) {
         h = mult * windowHeight, w = ar * mult * windowHeight;
     } else {
         h = mult * windowWidth / ar, w = mult * windowWidth;
     }
     createCanvas(w, h); colorMode(HSL); noLoop();
-    pt = w / 1000;
+    pt = w / 1000; gap = w / 20;
+
+    // Set seed.
+    let seed = int(fxrand() * 100000000);
+    randomSeed(seed);
+    noiseSeed(seed);
 
     packer = new CirclePacker(w, h, 20, paddingBetween)
 
     palettes = [
-        [[random() * 360, 100, 35], [0, 0, 100]],
-        [[349, 100, 35], [0, 0, 100]],
-        [[0, 0, 95], [0, 0, 15]],
+        // [[random() * 360, 100, 40], [0, 0, random([15, 95])]],
+        [[349, 100, 35], [0, 0, 100]], // white on red
+        [[237.82, 36.42, 29.61], [0, 0, 95]], // white on violet
+        [[44.88, 100, 75.1], [0, 0, 15]], // black on yellow
+        [[98, 100, 20], [0, 0, 95]], // white on green
+        [[198, 100, 40], [0, 0, 95]], // white on blue
+        [[173, 100, 40], [0, 0, 15]], // black on turqoise
+
+        [[0, 0, 95], [0, 0, 15]], // black on white
+        [[0, 0, 95], [237.82, 36.42, 29.61]], // violet on white
+        [[0, 0, 95], [44.71, 100, 50]], // yellow on white
+        [[0, 0, 95], [5.61, 78.08, 57.06]], // bright red on white
+        [[0, 0, 95], [98, 100, 27]], // green on white
+
+        [[0, 0, 15], [0, 0, 95]], // white on black
+        [[0, 0, 15], [48.05, 88.98, 50.2]], // yellow on black
+        [[0, 0, 15], [2.61, 78.08, 60]], // bright red on black
+        [[198, 100, 70], [0, 0, 15]], // blue on black
     ];
 
-    margin = 50; // minimum margin around all edges
+    margin = w / 25; // minimum margin around all edges
     wh = h - 2 * margin, ww = w - 2 * margin; // working height, width
     nst = 50 * random(); // noise multiplier
+
+    let cfg = random([[1/3, 2.5], [1/3, 2.5], [1/3, 2.5], [1/2, 2.5], [1/2, 2.5], [1/2, 2.5], [1/2, 5], [1/1.3, 2.5], [1/1.3, 2.5], [1/1.3, 2.5], [1/1.3, 5]]);
+    pdng = cfg[0]; // padding between strokes
+    sw_base = cfg[1]; // base stroke width
+
+    // sample colors
+    let plt_idx = random() * palettes.length | 0;
+    bg_clr = palettes[plt_idx][0];
+    fg_clr = palettes[plt_idx][1];
+
+    rainbow = false;
+    if (bg_clr.toString() == [0, 0, 15].toString() && fg_clr.toString() == [0, 0, 95].toString() && random() < 0.1) rainbow = true;
+
+    jitter = random(); // how grid-aligned to be want to be?
+
+    (random() < 0.8) ? draw_paper_grid = true : draw_paper_grid = false;
 }
 
 function draw() {
     let tstart = Date.now();
 
-    // sample colors
-    let plt_idx = random() * palettes.length | 0,
-        bg_clr = palettes[plt_idx][0],
-        fg_clr = palettes[plt_idx][1];
-
     background(bg_clr);
+
+    // paper grid.
+    if (draw_paper_grid == true) {
+        noStroke();
+        fill([fg_clr[0], fg_clr[1], fg_clr[2], 0.5]);
+        for (let i = margin + gap; i < margin + ww; i += gap) {
+            for (let y_start = margin; y_start < margin + wh; y_start += 1) {
+                if (random() < 0.5)
+                    ellipse(i, y_start, pt + random());
+            }
+        }
+        for (let i = margin + gap; i < margin + wh; i += gap) {
+            for (let x_start = margin; x_start < margin + ww; x_start += 1) {
+                if (random() < 0.5)
+                    ellipse(x_start, i, pt + random());
+            }
+        }
+    }
 
     // make a square
     let sq_width = 0.65 * wh;
     stroke(fg_clr); noFill();
     // square(margin + ww - sq_width, margin, sq_width);
 
-    let numStrokes = 20000, jitter = random();
+    let numStrokes = 50000;
     for (let nn = 0; nn < numStrokes; nn++) {
+
+        (rainbow == true && random() < 0.5) ? stroke([random() * 360, 100, 60]) : stroke(fg_clr);
 
         // sample x, y
         let x = (nn % Math.sqrt(numStrokes)) * sq_width / Math.sqrt(numStrokes),
@@ -52,13 +103,13 @@ function draw() {
         y += jitter * (random() - 0.5) * sq_width / Math.sqrt(numStrokes);
 
         // numSteps increases lower down the square
-        let numSteps = random() < 0.2 ? Math.exp(10 * y / sq_width) : 5 * (1 + random());
+        let numSteps = random() < 0.3 ? Math.exp(10 * y / sq_width) : 5 * (1 + random());
 
         // add margin to x, y; can move this to later
         x += margin + ww - sq_width; y += margin;
 
         // stroke weight, cap, fill
-        sw = (1 + random() * 2.5 | 0) * pt;
+        sw = (1 + random() * sw_base | 0) * pt;
         strokeWeight(sw);
         strokeCap(SQUARE);
         noFill();
@@ -75,7 +126,7 @@ function draw() {
             x += dx;
             y += dy;
 
-            let c = packer.tryToAddCircle(x, y, sw/3, sw/3, false);
+            let c = packer.tryToAddCircle(x, y, sw * pdng, sw * pdng, false);
             if (!c) break;
             addedCircles.push(c);
 
@@ -85,14 +136,6 @@ function draw() {
 
         addedCircles.forEach(c => packer.addCircle(c))
     }
-
-    // Add some noise.
-    // let d = pixelDensity(), n = 4 * (w * d) * (h * d);
-    // loadPixels();
-    // for (let i = 0; i < n; i++) {
-    //     pixels[i] = pixels[i] + (fxrand() * 50) - 25;
-    // }
-    // updatePixels();
 
     console.log("Load time: " + str(Date.now()-tstart) + " milliseconds");
 }
@@ -287,8 +330,4 @@ class CirclePacker {
 
         return hasRemoved
     }
-}
-
-function isWithinCanvas(x, y) {
-    return (x > margin && x < margin + ww && y > margin && y < margin + wh);
 }
