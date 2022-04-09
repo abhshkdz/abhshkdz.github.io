@@ -195,6 +195,33 @@ I like [this map][conquerearth] tracking the places I've been to.
 
 # Publications
 
+<a name="/gemnet-oc"></a>
+<h2 class="pubt">How Do Graph Networks Generalize to Large and Diverse Molecular Systems?</h2>
+<p class="pubd">
+    <span class="authors">Johannes Gasteiger, Muhammed Shuaibi, Anuroop Sriram, Stephan Günnemann, Zachary Ulissi, C. Lawrence Zitnick, Abhishek Das</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.02782">Paper</a>
+    </span>
+</p>
+<img src="/img/ocp/gemnet_oc.jpg">
+<hr>
+
+<a name="/habitat-web"></a>
+<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
+<p class="pubd">
+    <span class="authors">Ram Ramrakhya, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
+    <span class="conf">CVPR 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
+    </span>
+</p>
+<img src="/img/habitat/habitat-web.gif">
+<hr>
+
 <a name="/graph-parallel"></a>
 <h2 class="pubt">Towards Training Billion Parameter Graph Neural Networks for Atomic Simulations</h2>
 <p class="pubd">
@@ -213,6 +240,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="authors">Muhammed Shuaibi, Adeesh Kolluru, Abhishek Das, Aditya Grover, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2106.09575">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp">Code</a>
     </span>
 </p>
 <img src="/img/ocp/spinconv.jpg">
