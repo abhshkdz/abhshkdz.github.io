@@ -1,5 +1,5 @@
 // Tatters
-let margin, gap, w, h, ww, wh, pt, packer, paddingBetween = 0, nst;
+let margin, grid_gap, w, h, ww, wh, pt, packer, paddingBetween = 0, nst;
 random = fxrand
 
 function setup() {
@@ -10,7 +10,7 @@ function setup() {
         h = mult * windowWidth / ar, w = mult * windowWidth;
     }
     createCanvas(w, h); colorMode(HSL); noLoop();
-    pt = w / 1000; gap = w / 20;
+    pt = w / 1000; grid_gap = w / random([20, 50, 200]);
 
     // Set seed.
     let seed = int(fxrand() * 100000000);
@@ -19,14 +19,15 @@ function setup() {
 
     packer = new CirclePacker(w, h, 20, paddingBetween)
 
-    palettes = [
+    palettes = [ // [foreground color, background color, grid color]
         // [[random() * 360, 100, 40], [0, 0, random([15, 95])]],
         [[349, 100, 35], [0, 0, 100]], // white on red
         [[237.82, 36.42, 29.61], [0, 0, 95]], // white on violet
         [[44.88, 100, 75.1], [0, 0, 15]], // black on yellow
-        [[98, 100, 20], [0, 0, 95]], // white on green
+        [[98, 100, 17], [0, 0, 95]], // white on green
         [[198, 100, 40], [0, 0, 95]], // white on blue
         [[173, 100, 40], [0, 0, 15]], // black on turqoise
+        [[198, 100, 70], [0, 0, 15]], // black on blue
 
         [[0, 0, 95], [0, 0, 15]], // black on white
         [[0, 0, 95], [237.82, 36.42, 29.61]], // violet on white
@@ -34,10 +35,10 @@ function setup() {
         [[0, 0, 95], [5.61, 78.08, 57.06]], // bright red on white
         [[0, 0, 95], [98, 100, 27]], // green on white
 
-        [[0, 0, 15], [0, 0, 95]], // white on black
-        [[0, 0, 15], [48.05, 88.98, 50.2]], // yellow on black
-        [[0, 0, 15], [2.61, 78.08, 60]], // bright red on black
-        [[198, 100, 70], [0, 0, 15]], // blue on black
+        [[0, 0, 0], [0, 0, 95]], // white on black
+        [[0, 0, 0], [48.05, 88.98, 50.2]], // yellow on black
+        [[0, 0, 0], [2.61, 78.08, 60]], // bright red on black
+        [[0, 0, 0], [198, 100, 50]], // blue on black
     ];
 
     margin = w / 25; // minimum margin around all edges
@@ -52,9 +53,10 @@ function setup() {
     let plt_idx = random() * palettes.length | 0;
     bg_clr = palettes[plt_idx][0];
     fg_clr = palettes[plt_idx][1];
+    grid_clr = fg_clr;
 
     rainbow = false;
-    if (bg_clr.toString() == [0, 0, 15].toString() && fg_clr.toString() == [0, 0, 95].toString() && random() < 0.1) rainbow = true;
+    if (bg_clr.toString() == [0, 0, 0].toString() && fg_clr.toString() == [0, 0, 95].toString() && random() < 0.1) rainbow = true;
 
     jitter = random(); // how grid-aligned to be want to be?
 
@@ -69,17 +71,20 @@ function draw() {
     // paper grid.
     if (draw_paper_grid == true) {
         noStroke();
-        fill([fg_clr[0], fg_clr[1], fg_clr[2], 0.5]);
-        for (let i = margin + gap; i < margin + ww; i += gap) {
+        fill([grid_clr[0], grid_clr[1], grid_clr[2], (grid_gap == w / 200) ? 0.2 : 0.3]);
+        for (let i = margin + grid_gap; i < margin + ww; i += grid_gap) {
+            let y_offset = random([-1, 1]) * h / 50 * random();
             for (let y_start = margin; y_start < margin + wh; y_start += 1) {
-                if (random() < 0.5)
-                    ellipse(i, y_start, pt + random());
+                if (random() < 0.5) { // vertical lines
+                    ellipse(i, y_offset + y_start, pt + random());
+                }
             }
         }
-        for (let i = margin + gap; i < margin + wh; i += gap) {
+        for (let i = margin + grid_gap; i < margin + wh; i += grid_gap) {
+            let x_offset = random([-1, 1]) * w / 50 * random();
             for (let x_start = margin; x_start < margin + ww; x_start += 1) {
-                if (random() < 0.5)
-                    ellipse(x_start, i, pt + random());
+                if (random() < 0.5) // horizontal lines
+                    ellipse(x_offset + x_start, i, pt + random());
             }
         }
     }
