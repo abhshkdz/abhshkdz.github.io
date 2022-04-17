@@ -61,6 +61,16 @@ I also had a lot of fun participating in [#genuary2022](https://twitter.com/sear
             <img src="/img/art/tatters/4.jpg">
         </p>
     </div>
+    <div class="col-xs-12">
+        <p>
+            <img src="/img/art/tatters/5.jpg">
+        </p>
+    </div>
+    <div class="col-xs-12">
+        <p>
+            <img src="/img/art/tatters/6.jpg">
+        </p>
+    </div>
 </div>
 
 ### Dunes
