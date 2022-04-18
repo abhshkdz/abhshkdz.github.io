@@ -1,15 +1,16 @@
 // Tatters
-let margin, grid_gap, w, h, ww, wh, pt, packer, paddingBetween = 0, nst;
+let margin, grid_gap, w, h, ww, wh, pt, packer, paddingBetween = 0, nst, ar;
 random = fxrand
 
 function setup() {
-    let ar = 1, mult = 0.97; pixelDensity(2);
+    ar = 1.;
+    let mult = 0.97; pixelDensity(2);
     if (windowWidth >= ar * windowHeight) {
         h = mult * windowHeight, w = ar * mult * windowHeight;
     } else {
         h = mult * windowWidth / ar, w = mult * windowWidth;
     }
-    createCanvas(w, h); colorMode(HSL); noLoop();
+    createCanvas(w, h); colorMode(HSL); // noLoop();
     pt = w / 1000; grid_gap = w / random([20, 50, 200]);
 
     // Set seed.
@@ -60,18 +61,19 @@ function setup() {
 
     jitter = random(); // how grid-aligned to be want to be?
 
-    (random() < 0.8) ? draw_paper_grid = true : draw_paper_grid = false;
-}
+    (random() < 0.2) ? draw_paper_grid = true : draw_paper_grid = false;
+    style = random(["constant", "tothick", "tothin"]);
+    numStrokes = (style == "constant") ? 50000 : (style == "tothin") ? 20000 : 30000;
+    step_mult = (style == "constant") ? 2 * pt : pt / 2;
 
-function draw() {
-    let tstart = Date.now();
 
+    tstart = Date.now();
     background(bg_clr);
 
     // paper grid.
     if (draw_paper_grid == true) {
         noStroke();
-        fill([grid_clr[0], grid_clr[1], grid_clr[2], (grid_gap == w / 200) ? 0.2 : 0.3]);
+        fill([grid_clr[0], grid_clr[1], grid_clr[2], (grid_gap == w / 200) ? 0.05 : 0.1]);
         for (let i = margin + grid_gap; i < margin + ww; i += grid_gap) {
             let y_offset = random([-1, 1]) * h / 50 * random();
             for (let y_start = margin; y_start < margin + wh; y_start += 1) {
@@ -90,59 +92,82 @@ function draw() {
     }
 
     // make a square
-    let sq_width = 0.65 * wh;
-    stroke(fg_clr); noFill();
+    sq_width = 0.65 * wh;
+    noFill(); stroke(fg_clr);
     // square(margin + ww - sq_width, margin, sq_width);
 
-    let numStrokes = 50000;
-    for (let nn = 0; nn < numStrokes; nn++) {
+    nn = 0;
+    frameRate(100);
 
+    strokes_per_frame = 250;
+}
+
+function draw() {
+    if (nn == numStrokes) {
+        noLoop();
+        console.log("Load time: " + str(Date.now()-tstart) + " milliseconds");
+    }
+
+    for (i = 0; i < strokes_per_frame; i++) {
         (rainbow == true && random() < 0.5) ? stroke([random() * 360, 100, 60]) : stroke(fg_clr);
 
         // sample x, y
-        let x = (nn % Math.sqrt(numStrokes)) * sq_width / Math.sqrt(numStrokes),
-            y = (Math.floor(nn / Math.sqrt(numStrokes))) * sq_width / Math.sqrt(numStrokes);
+        let dx = Math.sqrt((min(sq_width, ww) * min(sq_width, wh) * ar) / numStrokes),
+            dy = Math.sqrt((min(sq_width, ww) * min(sq_width, wh)) / (numStrokes * ar)),
+            x = (nn % (min(ww, sq_width) / dx)) * dx,
+            y = (Math.floor(nn / (min(ww, sq_width) / dx))) * dy;
 
         // some jitter
-        x += jitter * (random() - 0.5) * sq_width / Math.sqrt(numStrokes);
-        y += jitter * (random() - 0.5) * sq_width / Math.sqrt(numStrokes);
+        x += jitter * (random() - 0.5) * dx;
+        y += jitter * (random() - 0.5) * dy;
 
         // numSteps increases lower down the square
-        let numSteps = random() < 0.3 ? Math.exp(10 * y / sq_width) : 5 * (1 + random());
+        let numSteps = random() < 0.3 ? Math.exp(10 * y / min(sq_width, wh)) : 5 * (1 + random());
 
         // add margin to x, y; can move this to later
-        x += margin + ww - sq_width; y += margin;
+        x += margin + ww - min(ww, sq_width);
+        y += margin;
 
         // stroke weight, cap, fill
         sw = (1 + random() * sw_base | 0) * pt;
-        strokeWeight(sw);
-        strokeCap(SQUARE);
-        noFill();
+        strokeWeight(sw); strokeCap(SQUARE); noFill();
 
-        beginShape();
+        if (style == "constant") beginShape();
+
         let addedCircles = [], dir = 1.;
         for (let j = 0; j < numSteps; j++) {
             let n = noise(x / w * nst, y / w * nst),
                 angle = n * 2 * PI;
 
-            dx = 2 * dir * cos(angle);
-            dy = 2 * dir * sin(angle);
+            dx = step_mult * dir * cos(angle);
+            dy = step_mult * dir * sin(angle);
 
             x += dx;
             y += dy;
 
-            let c = packer.tryToAddCircle(x, y, sw * pdng, sw * pdng, false);
+            let sww = (style == "constant") ? sw : (style == "tothick") ? (min(1.5, j / min(numSteps, sq_width/2.5))) * sw : (1. - min(1., j / min(numSteps, sq_width/0.4))) * sw;
+
+            let c = packer.tryToAddCircle(x, y, sww * pdng, sww * pdng, false);
             if (!c) break;
             addedCircles.push(c);
 
-            vertex(x, y);
+            if (style == "constant") vertex(x, y);
+            else {
+                if (random() < 0.7) {
+                    let clr = [fg_clr[0], fg_clr[1], fg_clr[2], random(0.25, 1)];
+                    fill(clr); noStroke();
+                    if (sww > 0) {
+                        circle(x, y, sww, sww);
+                    }
+                }
+            }
         }
-        endShape();
+
+        if (style == "constant") endShape();
 
         addedCircles.forEach(c => packer.addCircle(c))
+        nn += 1;
     }
-
-    console.log("Load time: " + str(Date.now()-tstart) + " milliseconds");
 }
 
 // Borrowed from https://openprocessing.org/sketch/1490081
