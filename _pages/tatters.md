@@ -36,6 +36,6 @@ permalink:  /art/tatters
 </head>
 <body>
     <script language="javascript" type="text/javascript" src="/js/tatters/p5.min.js"></script>
-    <script src="/js/tatters/main.js?v=0.4.25"></script>
+    <script src="/js/tatters/main.js?v=0.5.09"></script>
 </body>
 </html>

@@ -55,7 +55,7 @@ function setup() {
      * "Layout"
      **************************************************************************/
     layout = random([1, 1, 2]); // 1 = default, 2 = tiled
-    num_blocks = (layout == 1) ? 1 + random() * (palettes[bg_clr].length - 1) | 0 : pow(random([2, 3, 4]), 2);
+    num_blocks = (layout == 1) ? 1 + random() * (palettes[bg_clr].length - 1) | 0 : pow(random([2, 3, 4, 5, 6]), 2);
     blocks = [];
     for (let i = 0; i < num_blocks; i++) {
         let _C = build_config(i, prev=(i == 0) ? false : blocks[blocks.length-1]);
