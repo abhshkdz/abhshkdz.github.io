@@ -226,6 +226,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf"></span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.14331">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/scn">Code</a>
     </span>
 </p>
 <img src="/img/ocp/scn.jpg">
@@ -249,6 +250,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf">The Journal of Chemical Physics 2022</span>
     <span class="links">
         <a target="_blank" href="https://aip.scitation.org/doi/abs/10.1063/5.0088019?cookieSet=1">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/transfer_learning">Code</a>
     </span>
 </p>
 <hr>
@@ -260,6 +262,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf"></span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2204.02782">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_oc">Code</a>
     </span>
 </p>
 <img src="/img/ocp/gemnet_oc.jpg">
@@ -287,6 +290,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf">ICLR 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2203.09697">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_gp">Code</a>
     </span>
 </p>
 <img src="/img/ocp/graph_parallel.png">
