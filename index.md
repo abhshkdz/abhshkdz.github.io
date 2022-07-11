@@ -195,6 +195,64 @@ I like [this map][conquerearth] tracking the places I've been to.
 
 # Publications
 
+<a name="/oc22"></a>
+<h2 class="pubt">The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis</h2>
+<p class="pubd">
+    <span class="authors">Richard Tran*, Janice Lan*, Muhammed Shuaibi*, Siddharth Goyal*, Brandon M. Wood*, Abhishek Das, Javier Heras-Domingo, Adeesh Kolluru, Ammar Rizvi, Nima Shoghi, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2206.08917">Paper</a>
+        <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md#open-catalyst-2022-oc22">Dataset</a>
+    </span>
+    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
+        <a style="border-bottom: 0;" target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/">
+            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
+                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
+            </div>
+            <div class="col-lg-11 col-md-11 col-xs-10">
+                <span class="presslink">"... new dataset for green hydrogen fuel" by Janice, Siddharth, Ammar, Larry</span>
+            </div>
+        </a>
+    </div>
+</p>
+<img src="/img/ocp/oc22.jpg">
+<hr>
+
+<a name="/scn"></a>
+<h2 class="pubt">Spherical Channels for Modeling Atomic Interactions</h2>
+<p class="pubd">
+    <span class="authors">C. Lawrence Zitnick, Abhishek Das, Adeesh Kolluru, Janice Lan, Muhammed Shuaibi, Anuroop Sriram, Zachary Ulissi, Brandon Wood</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2206.14331">Paper</a>
+    </span>
+</p>
+<img src="/img/ocp/scn.jpg">
+<hr>
+
+<h2 class="pubt">Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
+<p class="pubd">
+    <span class="authors">Adeesh Kolluru*, Muhammed Shuaibi*, Aini Palizhati, Nima Shoghi, Abhishek Das, Brandon Wood, C. Lawrence Zitnick, John R. Kitchin, Zachary Ulissi</span><br>
+    <span class="conf">ACS Catalysis (Perspective) 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acscatal.2c02291">Paper</a>
+    </span>
+</p>
+<img src="/img/ocp/perspective.jpg">
+<hr>
+
+<a name="/taag"></a>
+<h2 class="pubt">Transfer learning using attentions across atomic systems with graph neural networks (TAAG)</h2>
+<p class="pubd">
+    <span class="authors">Adeesh Kolluru, Nima Shoghi, Muhammed Shuaibi, Siddharth Goyal, Abhishek Das, C. Lawrence Zitnick, Zachary Ulissi</span><br>
+    <span class="conf">The Journal of Chemical Physics 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://aip.scitation.org/doi/abs/10.1063/5.0088019?cookieSet=1">Paper</a>
+    </span>
+</p>
+<hr>
+
 <a name="/gemnet-oc"></a>
 <h2 class="pubt">How Do Graph Networks Generalize to Large and Diverse Molecular Systems?</h2>
 <p class="pubd">
@@ -294,6 +352,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2010.09990">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md">Dataset</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
 </p>
