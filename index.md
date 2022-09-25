@@ -10,7 +10,7 @@ permalink:  /
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         Research Scientist<br>
-        Facebook AI Research<br>
+        FAIR, Meta AI<br>
         abhshkdz at fb dot com
     </div>
 </div>
@@ -219,11 +219,24 @@ I like [this map][conquerearth] tracking the places I've been to.
 <img src="/img/ocp/oc22.jpg">
 <hr>
 
+<a name="/gemnet-oc"></a>
+<h2 class="pubt">GemNet-OC: Developing Graph Neural Networks for Large and Diverse Molecular Simulation Datasets</h2>
+<p class="pubd">
+    <span class="authors">Johannes Gasteiger, Muhammed Shuaibi, Anuroop Sriram, Stephan Günnemann, Zachary Ulissi, C. Lawrence Zitnick, Abhishek Das</span><br>
+    <span class="conf">TMLR 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.02782">Paper</a>
+        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_oc">Code</a>
+    </span>
+</p>
+<img src="/img/ocp/gemnet_oc.jpg">
+<hr>
+
 <a name="/scn"></a>
 <h2 class="pubt">Spherical Channels for Modeling Atomic Interactions</h2>
 <p class="pubd">
     <span class="authors">C. Lawrence Zitnick, Abhishek Das, Adeesh Kolluru, Janice Lan, Muhammed Shuaibi, Anuroop Sriram, Zachary Ulissi, Brandon Wood</span><br>
-    <span class="conf"></span>
+    <span class="conf">NeurIPS 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.14331">Paper</a>
         <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/scn">Code</a>
@@ -253,19 +266,6 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/transfer_learning">Code</a>
     </span>
 </p>
-<hr>
-
-<a name="/gemnet-oc"></a>
-<h2 class="pubt">How Do Graph Networks Generalize to Large and Diverse Molecular Systems?</h2>
-<p class="pubd">
-    <span class="authors">Johannes Gasteiger, Muhammed Shuaibi, Anuroop Sriram, Stephan Günnemann, Zachary Ulissi, C. Lawrence Zitnick, Abhishek Das</span><br>
-    <span class="conf"></span>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2204.02782">Paper</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_oc">Code</a>
-    </span>
-</p>
-<img src="/img/ocp/gemnet_oc.jpg">
 <hr>
 
 <a name="/habitat-web"></a>
