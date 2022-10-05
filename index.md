@@ -11,7 +11,7 @@ permalink:  /
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         Research Scientist<br>
         FAIR, Meta AI<br>
-        abhshkdz at fb dot com
+        abhshkdz at meta dot com
     </div>
 </div>
 <hr>
@@ -59,7 +59,7 @@ permalink:  /
 
 # Bio
 
-I am a Research Scientist at Facebook AI Research (FAIR) working on deep neural
+I am a Research Scientist at Fundamental AI Research (FAIR) at Meta AI working on deep neural
 networks and its applications in climate change. My current focus is on
 electrocatalyst discovery for renewable energy storage as part of the [Open Catalyst Project][ocp].
 Renewable energy sources (like solar, wind) are great but intermittent -- the sun
