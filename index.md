@@ -208,6 +208,20 @@ I like [this map][conquerearth] tracking the places I've been to.
 <img src="/img/ocp/adsorbml.png">
 <hr>
 
+<a name="/pirlnav"></a>
+<h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
+<p class="pubd">
+    <span class="authors">Ram Ramrakhya, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
+    <span class="conf">CVPR 2023, RRL workshop at ICLR 2023</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2301.07302">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/pirlnav.html">Website</a>
+    </span>
+</p>
+<img src="/img/habitat/pirlnav.png">
+<hr>
+
 <a name="/oc22"></a>
 <h2 class="pubt">The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis</h2>
 <p class="pubd">
