@@ -18,6 +18,21 @@ made in [p5js](https://p5js.org).
 Some selected artworks are listed below.
 I also had a lot of fun participating in [#genuary2022](https://twitter.com/search?q=%23genuary2022%20from%3Aabhshkdz&src=typed_query).
 
+### Aragnation <span style="font-size:0.6em;color:#AAA;">(on [ArtBlocks](https://www.artblocks.io/collections/presents/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/401))</span>
+
+<div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <p>
+            <img src="/img/art/aragnation/12.avif">
+        </p>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <p>
+            <img src="/img/art/aragnation/22.avif">
+        </p>
+    </div>
+</div>
+
 ### Waves
 
 <div class="row">
