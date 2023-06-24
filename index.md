@@ -195,10 +195,23 @@ I like [this map][conquerearth] tracking the places I've been to.
 
 # Publications
 
+<a name="/equiformer2"></a>
+<h2 class="pubt">EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations</h2>
+<p class="pubd">
+    <span class="authors">Yi-Lun Liao, Brandon Wood, Abhishek Das*, Tess Smidt*</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2306.12059">Paper</a>
+        <a target="_blank" href="https://github.com/atomicarchitects/equiformer_v2">Code</a>
+    </span>
+</p>
+<img src="/img/ocp/equiformer_v2.jpg">
+<hr>
+
 <a name="/adsorbml"></a>
 <h2 class="pubt">AdsorbML: Accelerating Adsorption Energy Calculations with Machine Learning</h2>
 <p class="pubd">
-    <span class="authors">Janice Lan, Aini Palizhati, Muhammed Shuaibi, Brandon M. Wood, Brook Wander, Abhishek Das, Matt Uyttendaele, C. Lawrence Zitnick, Zachary W. Ulissi</span><br>
+    <span class="authors">Janice Lan*, Aini Palizhati*, Muhammed Shuaibi*, Brandon M. Wood*, Brook Wander, Abhishek Das, Matt Uyttendaele, C. Lawrence Zitnick, Zachary W. Ulissi</span><br>
     <span class="conf"></span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2211.16486">Paper</a>
@@ -226,7 +239,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis</h2>
 <p class="pubd">
     <span class="authors">Richard Tran*, Janice Lan*, Muhammed Shuaibi*, Siddharth Goyal*, Brandon M. Wood*, Abhishek Das, Javier Heras-Domingo, Adeesh Kolluru, Ammar Rizvi, Nima Shoghi, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
-    <span class="conf"></span>
+    <span class="conf">ACS Catalysis 2022</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.08917">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
