@@ -212,7 +212,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">AdsorbML: Accelerating Adsorption Energy Calculations with Machine Learning</h2>
 <p class="pubd">
     <span class="authors">Janice Lan*, Aini Palizhati*, Muhammed Shuaibi*, Brandon M. Wood*, Brook Wander, Abhishek Das, Matt Uyttendaele, C. Lawrence Zitnick, Zachary W. Ulissi</span><br>
-    <span class="conf"></span>
+    <span class="conf">npj Computational Materials</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2211.16486">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/adsorbml">Code</a>
