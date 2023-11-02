@@ -195,6 +195,19 @@ I like [this map][conquerearth] tracking the places I've been to.
 
 # Publications
 
+<a name="/odac23"></a>
+<h2 class="pubt">The Open DAC 2023 Dataset and Challenges for Sorbent Discovery in Direct Air Capture</h2>
+<p class="pubd">
+    <span class="authors">Anuroop Sriram, Sihoon Choi, Xiaohan Yu, Logan M. Brabson, Abhishek Das, Zachary Ulissi, Matt Uyttendaele, Andrew J. Medford, David S. Sholl</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2311.00341">Paper</a>
+        <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
+    </span>
+</p>
+<img src="/img/ocp/odac23.jpeg">
+<hr>
+
 <a name="/equiformer2"></a>
 <h2 class="pubt">EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations</h2>
 <p class="pubd">
