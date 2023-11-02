@@ -10,7 +10,7 @@ permalink:  /
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         Research Scientist<br>
-        FAIR, Meta AI<br>
+        FAIR at Meta<br>
         abhshkdz at meta dot com
     </div>
 </div>
@@ -20,6 +20,10 @@ permalink:  /
 
 # News
 
+- [Nov 23] Introducing [ODAC23](https://arxiv.org/abs/2311.00341), the largest dataset (to date) of DFT calculations on Metal–organic frameworks (MOFs) for Direct Air Capture applications, along with pretrained models.
+- [Oct 23] We released the AI-powered [Open Catalyst demo](https://open-catalyst.metademolab.com/) and [API](https://github.com/open-catalyst-project/ocpapi), which can accelerate search for electrocatalysts by running structural relaxations ~1000x faster than DFT ([tweet](https://twitter.com/AIatMeta/status/1684597806399619072)).
+- [Jun 23] Introducing [EquiformerV2](https://arxiv.org/abs/2306.12059), a new state-of-the-art GNN for atomistic modeling.
+- [Jun 22] We released the [OC22 dataset](https://arxiv.org/abs/2206.08917): ~10M DFT calculations for oxide electrocatalysis.
 - [Feb 22] Runner-up for the [2020 AAAI/ACM SIGAI Doctoral Dissertation Award][aaai-dissertation-award].
 - [Mar 21] Awarded the [Georgia Tech Sigma Xi Best PhD Thesis Award][sigma-xi-thesis-award].
 - [Mar 21] Awarded the [Georgia Tech College of Computing Dissertation Award][coc-dissertation-award].
@@ -59,7 +63,7 @@ permalink:  /
 
 # Bio
 
-I am a Research Scientist at Fundamental AI Research (FAIR) at Meta AI working on deep neural
+I am a Research Scientist at Fundamental AI Research (FAIR) at Meta working on deep neural
 networks and its applications in climate change. My current focus is on
 electrocatalyst discovery for renewable energy storage as part of the [Open Catalyst Project][ocp].
 Renewable energy sources (like solar, wind) are great but intermittent -- the sun
@@ -203,6 +207,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2311.00341">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
+        <a target="_blank" href="https://open-dac.github.io">Website</a>
     </span>
 </p>
 <img src="/img/ocp/odac23.jpeg">
