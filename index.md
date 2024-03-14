@@ -217,7 +217,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations</h2>
 <p class="pubd">
     <span class="authors">Yi-Lun Liao, Brandon Wood, Abhishek Das*, Tess Smidt*</span><br>
-    <span class="conf"></span>
+    <span class="conf">ICLR 2024</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2306.12059">Paper</a>
         <a target="_blank" href="https://github.com/atomicarchitects/equiformer_v2">Code</a>
