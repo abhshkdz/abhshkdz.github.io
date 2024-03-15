@@ -20,7 +20,8 @@ permalink:  /
 
 # News
 
-- [Nov 23] Introducing [ODAC23](https://arxiv.org/abs/2311.00341), the largest dataset (to date) of DFT calculations on Metal–organic frameworks (MOFs) for Direct Air Capture applications, along with pretrained models.
+- [Mar 24] Introducing [DeNS](https://arxiv.org/abs/2403.09549), a generalized denoising objective that enables the use of non-equilibrium (in addition to equilibrium) atomistic structures for training equivariant GNNs.
+- [Nov 23] We released [ODAC23](https://arxiv.org/abs/2311.00341), the largest dataset (to date) of DFT calculations on Metal–organic frameworks (MOFs) for Direct Air Capture applications, along with pretrained models.
 - [Oct 23] We released the AI-powered [Open Catalyst demo](https://open-catalyst.metademolab.com/) and [API](https://github.com/open-catalyst-project/ocpapi), which can accelerate search for electrocatalysts by running structural relaxations ~1000x faster than DFT ([tweet](https://twitter.com/AIatMeta/status/1684597806399619072)).
 - [Jun 23] Introducing [EquiformerV2](https://arxiv.org/abs/2306.12059), a new state-of-the-art GNN for atomistic modeling.
 - [Jun 22] We released the [OC22 dataset](https://arxiv.org/abs/2206.08917): ~10M DFT calculations for oxide electrocatalysis.
@@ -198,6 +199,18 @@ I like [this map][conquerearth] tracking the places I've been to.
 <a name="/publications"></a>
 
 # Publications
+
+<a name="/dens"></a>
+<h2 class="pubt">Generalizing Denoising to Non-Equilibrium Structures Improves Equivariant Force Fields</h2>
+<p class="pubd">
+    <span class="authors">Yi-Lun Liao, Tess Smidt, Abhishek Das</span><br>
+    <span class="conf"></span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2403.09549">Paper</a>
+    </span>
+</p>
+<img src="/img/ocp/dens.jpg">
+<hr>
 
 <a name="/odac23"></a>
 <h2 class="pubt">The Open DAC 2023 Dataset and Challenges for Sorbent Discovery in Direct Air Capture</h2>
