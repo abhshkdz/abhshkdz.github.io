@@ -148,7 +148,7 @@ artificial agents that can [<i>see</i> (computer vision), <i>talk</i> (language 
         </div>
         <div class="logo-desc">
             Facebook AI Research<br>
-            Present
+            2020-2024
         </div>
     </div>
 </div>
