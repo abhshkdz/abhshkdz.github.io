@@ -9,9 +9,7 @@ permalink:  /
         <img src="/img/cover2.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        Research Scientist<br>
-        FAIR at Meta<br>
-        abhshkdz at meta dot com
+        abhshkdz at gmail dot com
     </div>
 </div>
 <hr>
@@ -64,17 +62,11 @@ permalink:  /
 
 # Bio
 
-I am a Research Scientist at Fundamental AI Research (FAIR) at Meta working on deep neural
-networks and its applications in climate change. My current focus is on
+Previously, I was a Research Scientist at Fundamental AI Research (FAIR) at Meta working on deep neural
+networks and its applications in climate change, specifically focusing on
 electrocatalyst discovery for renewable energy storage as part of the [Open Catalyst Project][ocp].
-Renewable energy sources (like solar, wind) are great but intermittent -- the sun
-shines only during the day. During the evening, we fall back on fossil fuels.
-To avoid this, we need to discover cheap, scalable ways of converting electricity
-from renewable sources to storable forms, so that we can transfer it from times of
-peak generation to peak demand.
-AI can help accelerate the chemical simulations needed to make these discoveries.
 
-Before this, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
+Before that, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
 and working closely with [Devi Parikh][3], where I focused on developing
 artificial agents that can [<i>see</i> (computer vision), <i>talk</i> (language modeling), and <i>act</i> (reinforcement learning)][thesis-pdf].
 
