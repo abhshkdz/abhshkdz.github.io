@@ -10,6 +10,8 @@ permalink:  /
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         abhshkdz at gmail dot com
+        <br>
+        Co-founder and Co-CEO, <a href="https://yutori.com">Yutori</a>
     </div>
 </div>
 <hr>
@@ -61,6 +63,9 @@ permalink:  /
 <a name="/bio"></a>
 
 # Bio
+
+I am the Co-founder and Co-CEO of [Yutori](https://yutori.com), where we're building state-of-the-art
+web agents -- AI agents that can reliably take actions and execute tasks on the web. 
 
 Previously, I was a Research Scientist at Fundamental AI Research (FAIR) at Meta working on deep neural
 networks and its applications in climate change, specifically focusing on
