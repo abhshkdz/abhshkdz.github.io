@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Apr 24] Building [Yutori](https://yutori.com) to reimagine interaction with the web.
 - [Mar 24] Introducing [DeNS](https://arxiv.org/abs/2403.09549), a generalized denoising objective that enables the use of non-equilibrium (in addition to equilibrium) atomistic structures for training equivariant GNNs.
 - [Nov 23] We released [ODAC23](https://arxiv.org/abs/2311.00341), the largest dataset (to date) of DFT calculations on Metal–organic frameworks (MOFs) for Direct Air Capture applications, along with pretrained models.
 - [Oct 23] We released the AI-powered [Open Catalyst demo](https://open-catalyst.metademolab.com/) and [API](https://github.com/open-catalyst-project/ocpapi), which can accelerate search for electrocatalysts by running structural relaxations ~1000x faster than DFT ([tweet](https://twitter.com/AIatMeta/status/1684597806399619072)).
@@ -271,7 +272,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.08917">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md#open-catalyst-2022-oc22">Dataset</a>
+        <a target="_blank" href="https://fair-chem.github.io">Dataset</a>
     </span>
     <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
         <a style="border-bottom: 0;" target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/">
@@ -294,7 +295,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf">TMLR 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2204.02782">Paper</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_oc">Code</a>
+        <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
 <img src="/img/ocp/gemnet_oc.jpg">
@@ -307,7 +308,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf">NeurIPS 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.14331">Paper</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/scn">Code</a>
+        <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
 <img src="/img/ocp/scn.jpg">
@@ -358,7 +359,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="conf">ICLR 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2203.09697">Paper</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_gp">Code</a>
+        <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
 <img src="/img/ocp/graph_parallel.png">
@@ -424,7 +425,7 @@ I like [this map][conquerearth] tracking the places I've been to.
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2010.09990">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
-        <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp/blob/main/DATASET.md">Dataset</a>
+        <a target="_blank" href="https://fair-chem.github.io">Dataset</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
 </p>
@@ -535,7 +536,7 @@ I like [this map][conquerearth] tracking the places I've been to.
         Abhishek Das
     </span><br>
     <span class="links">
-        <a target="_blank" href="https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing">PhD Thesis</a>
+        <a target="_blank" href="https://drive.google.com/file/d/11D27ZmxllBWbxOYSaBfSHaAI6s9Dav7B/view?usp=sharing">PhD Thesis</a>
     </span>
     <span class="conf">AAAI/ACM SIGAI Doctoral Dissertation Award, Runner-up</span><br>
     <span class="conf">Georgia Tech Sigma Xi Best PhD Thesis Award</span><br>
@@ -1030,8 +1031,8 @@ I like [this map][conquerearth] tracking the places I've been to.
 ---
 
 [1]: //mlp.cc.gatech.edu
-[2]: ///www.cc.gatech.edu/~dbatra/
-[3]: //www.cc.gatech.edu/~parikh/
+[2]: https://dhruvbatra.com/
+[3]: https://deviparikh.com
 [4]: //www.qbi.uq.edu.au/professor-geoffrey-goodhill
 [5]: //researchers.uq.edu.au/researcher/2490
 [6]: http://cns.qbi.uq.edu.au/
@@ -1075,7 +1076,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 [44]: https://www.ic.gatech.edu/news/601084/new-research-fellowships-offer-two-students-funding-access-adobes-creative-cloud
 [45]: https://github.com/facebookresearch/House3D
 [46]: https://gkioxari.github.io/
-[47]: https://research.fb.com/people/parikh-devi/
+[47]: https://deviparikh.com
 [48]: https://research.fb.com/people/batra-dhruv/
 [49]: https://lvatutorial.github.io/
 [50]: http://acl2018.org/tutorials/#connecting-language-and-vis
@@ -1110,5 +1111,5 @@ I like [this map][conquerearth] tracking the places I've been to.
 [aipaygrad.es]: https://aipaygrad.es
 [sigma-xi-thesis-award]: https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2021/03/2021-Sigma-Xi-Research-Award-Winners.final_.pdf
 [coc-dissertation-award]: https://sites.gatech.edu/gtcomputingawards2021/graduate-student-awards/
-[thesis-pdf]: https://drive.google.com/file/u/2/d/1b2Gonazl1Os0eLPV9frkucEqSuRroEvD/view?usp=sharing
+[thesis-pdf]: https://drive.google.com/file/d/11D27ZmxllBWbxOYSaBfSHaAI6s9Dav7B/view?usp=sharing
 [aaai-dissertation-award]: https://aaai.org/Awards/dissertation-award.php
