@@ -16,6 +16,7 @@ permalink:  /
 </div>
 <hr>
 
+{% comment %}
 <a name="/news"></a>
 
 # News
@@ -60,6 +61,7 @@ permalink:  /
 </div>
 
 <hr>
+{% endcomment %}
 
 <a name="/bio"></a>
 
@@ -194,15 +196,159 @@ I like [this map][conquerearth] tracking the places I've been to.
 
 ---
 
+<a name="/talks"></a>
+
+# Talks and Interviews
+
+<div class="row">
+    <div class="col-xs-6">
+        <p class="talkd">
+            <img src="/img/talks/eo_interview_2026.jpg">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="talkd">
+            <img src="/img/talks/focal_interview_2025.jpg">
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <p class="talkd">
+            <img src="/img/talks/visdial_rl_iccv17.jpg">
+        </p>
+    </div>
+    <div class="col-xs-6">
+        <p class="talkd">
+            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="talkt">
+            <span class="talkdate">May 2026</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=wRDk9_JoIic">
+                EO: The Problem with AI Agents No One is Talking About
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Apr 2026</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=rZXUawHDGzE">
+                Startup Project: Push Notifications to Pull Systems &mdash; How AI Will Help You Reclaim Control Over Web Content
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Apr 2026</span>
+            <a target="_blank" href="https://open.spotify.com/episode/55zIMFpSCrkwW3FGrOwWFw">
+                BUILDERS: How Yutori landed enterprise contracts without a sales team
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Dec 2025</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=TR4KskhnIFU">
+                focal podcast: Why Horizontal Beats Vertical in AI Agents
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Oct 2025</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=R_nbbyZBB3k">
+                Singh in USA: Left Meta Research to Build a Startup (with Devi Parikh & Dhruv Batra)
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jul 2020</span>
+            <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">
+                ICML 2020: Probing Emergent Semantics in Predictive Agents via Question Answering
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jun 2019</span>
+            <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
+                ICML 2019 Imitation, Intent, and Interaction Workshop:
+                Targeted Multi-Agent Communication
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jun 2019</span>
+            <a target="_blank" href="https://www.facebook.com/icml.imls/videos/444326646299556/">
+                ICML 2019 Oral: Targeted Multi-Agent Communication
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Dec 2018</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=WxYBp3Xr_Nc">
+                Allen Institute for Artificial Intelligence: "Towards Agents that can See, Talk, and Act"
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Oct 2018</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">
+                CoRL 2018 Spotlight: Neural Modular Control for Embodied Question Answering
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jun 2018</span>
+            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h19m58s">
+                CVPR 2018 Oral: Embodied Question Answering
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Mar 2018</span>
+            <a target="_blank" href="http://on-demand.gputechconf.com/gtc/2018/video/S8582/">
+                NVIDIA GTC 2018
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Oct 2017</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s">
+                ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jul 2017</span>
+            <a target="_blank" href="https://youtu.be/KAlGWMJnWyc?t=26m56s">
+                Visual Question Answering Challenge Workshop, CVPR 2017
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jul 2017</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
+                CVPR 2017 Spotlight: Visual Dialog
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jun 2016</span>
+            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
+                Visualization for Deep Learning Workshop, ICML 2016
+            </a>
+        </div>
+    </div>
+</div>
+<hr>
+
 <a name="/publications"></a>
 
 # Publications
 
+<a name="/uma"></a>
+<h2 class="pubt">UMA: A Family of Universal Models for Atoms</h2>
+<p class="pubd">
+    <span class="authors">Brandon M. Wood*, Misko Dzamba*, Xiang Fu*, Meng Gao*, Muhammed Shuaibi*, Luis Barroso-Luque, Kareem Abdelmaqsoud, Vahe Gharakhanyan, John R. Kitchin, Daniel S. Levine, Kyle Michel, Anuroop Sriram, Taco Cohen, Abhishek Das, Sushree Jagriti Sahoo, Ammar Rizvi, Zachary W. Ulissi, C. Lawrence Zitnick</span><br>
+    <span class="conf">NeurIPS 2025</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2506.23971">Paper</a>
+        <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
+    </span>
+</p>
+<img src="/img/ocp/uma.png">
+<hr>
+
 <a name="/dens"></a>
 <h2 class="pubt">Generalizing Denoising to Non-Equilibrium Structures Improves Equivariant Force Fields</h2>
 <p class="pubd">
-    <span class="authors">Yi-Lun Liao, Tess Smidt, Abhishek Das</span><br>
-    <span class="conf"></span>
+    <span class="authors">Yi-Lun Liao, Tess Smidt, Muhammed Shuaibi*, Abhishek Das*</span><br>
+    <span class="conf">TMLR 2024</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2403.09549">Paper</a>
     </span>
@@ -214,7 +360,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">The Open DAC 2023 Dataset and Challenges for Sorbent Discovery in Direct Air Capture</h2>
 <p class="pubd">
     <span class="authors">Anuroop Sriram, Sihoon Choi, Xiaohan Yu, Logan M. Brabson, Abhishek Das, Zachary Ulissi, Matt Uyttendaele, Andrew J. Medford, David S. Sholl</span><br>
-    <span class="conf"></span>
+    <span class="conf">ACS Central Science 2024</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2311.00341">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
@@ -241,7 +387,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">AdsorbML: Accelerating Adsorption Energy Calculations with Machine Learning</h2>
 <p class="pubd">
     <span class="authors">Janice Lan*, Aini Palizhati*, Muhammed Shuaibi*, Brandon M. Wood*, Brook Wander, Abhishek Das, Matt Uyttendaele, C. Lawrence Zitnick, Zachary W. Ulissi</span><br>
-    <span class="conf">npj Computational Materials</span>
+    <span class="conf">npj Computational Materials 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2211.16486">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/adsorbml">Code</a>
@@ -268,7 +414,7 @@ I like [this map][conquerearth] tracking the places I've been to.
 <h2 class="pubt">The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis</h2>
 <p class="pubd">
     <span class="authors">Richard Tran*, Janice Lan*, Muhammed Shuaibi*, Siddharth Goyal*, Brandon M. Wood*, Abhishek Das, Javier Heras-Domingo, Adeesh Kolluru, Ammar Rizvi, Nima Shoghi, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
-    <span class="conf">ACS Catalysis 2022</span><br>
+    <span class="conf">ACS Catalysis 2023</span><br>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2206.08917">Paper</a>
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
@@ -844,84 +990,6 @@ I like [this map][conquerearth] tracking the places I've been to.
         </a>
     </div>
 </p><img src="/img/vqa-hat/teaser.jpg">
-<hr>
-
-<a name="/talks"></a>
-
-# Talks
-
-<div class="row">
-    <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/visdial_rl_iccv17.jpg">
-        </p>
-    </div>
-    <div class="col-xs-6">
-        <p class="talkd">
-            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="talkt">
-            <a target="_blank" href="https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering">
-                ICML 2020: Probing Emergent Semantics in Predictive Agents via Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://slideslive.com/38917625/tarmac-targeted-multiagent-communication">
-                ICML 2019 Imitation, Intent, and Interaction Workshop:
-                Targeted Multi-Agent Communication
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.facebook.com/icml.imls/videos/444326646299556/">
-                ICML 2019 Oral: Targeted Multi-Agent Communication
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=WxYBp3Xr_Nc">
-                Allen Institute for Artificial Intelligence: "Towards Agents that can See, Talk, and Act"
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330">
-                CoRL 2018 Spotlight: Neural Modular Control for Embodied Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h19m58s">
-                CVPR 2018 Oral: Embodied Question Answering
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="http://on-demand.gputechconf.com/gtc/2018/video/S8582/">
-                NVIDIA GTC 2018
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s">
-                ICCV 2017 Oral: Learning Cooperative Visual Dialog Agents with Deep RL
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://youtu.be/KAlGWMJnWyc?t=26m56s">
-                Visual Question Answering Challenge Workshop, CVPR 2017
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="https://www.youtube.com/watch?v=I9OlorMh7wU">
-                CVPR 2017 Spotlight: Visual Dialog
-            </a>
-        </div>
-        <div class="talkt">
-            <a target="_blank" href="http://techtalks.tv/talks/towards-transparent-visual-question-answering-systems/63026/">
-                Visualization for Deep Learning Workshop, ICML 2016
-            </a>
-        </div>
-    </div>
-</div>
 <hr>
 
 <a name="/projects"></a>

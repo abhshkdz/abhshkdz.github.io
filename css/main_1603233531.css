@@ -297,6 +297,29 @@ a:hover, a:focus {
   margin-bottom: 5px;
 }
 
+.post section .talkt .talkdate {
+  color: #999;
+}
+
+.post section .talkt .talkdate::after {
+  content: " · ";
+  color: #999;
+}
+
+@media (max-width: 640px) {
+  .post section .talkt {
+    margin-bottom: 22px;
+  }
+  .post section .talkt .talkdate {
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.2em;
+  }
+  .post section .talkt .talkdate::after {
+    content: none;
+  }
+}
+
 .post section h2.pubt {
   font-size: 1.2em;
   line-height: 1.2em;
