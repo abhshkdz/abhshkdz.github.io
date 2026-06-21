@@ -16,19 +16,26 @@ jobs:
 
       - name: Fetch citation count
         id: fetch
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          URL="https://scholar.google.com/citations?user=t6exkOAAAAAJ&hl=en"
-          HTML=$(curl -s --compressed -A "$UA" "$URL" || true)
-          # First .gsc_rsb_std cell is the total ("Citations / All")
-          COUNT=$(printf '%s' "$HTML" | grep -o 'gsc_rsb_std[^>]*>[0-9]\+' | head -1 | grep -o '[0-9]\+')
-          if [ -z "$COUNT" ]; then
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "SERPAPI_KEY secret not set; keeping existing value."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # SerpApi Google Scholar Author API (reliable; Scholar blocks direct CI scraping).
+          URL="https://serpapi.com/search.json?engine=google_scholar_author&author_id=t6exkOAAAAAJ&hl=en&api_key=${SERPAPI_KEY}"
+          JSON=$(curl -s "$URL" || true)
+          # Total citations live at .cited_by.table[0].citations.all
+          COUNT=$(printf '%s' "$JSON" | jq -r '.cited_by.table[0].citations.all // empty' 2>/dev/null)
+          if ! printf '%s' "$COUNT" | grep -qE '^[0-9]+$'; then
             echo "Could not parse citation count; keeping existing value."
             echo "ok=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          # Comma-format the integer (e.g. 52405 -> 52,405)
-          FORMATTED=$(LC_ALL=en_US.UTF-8 printf "%'d" "$COUNT")
+          # Comma-format the integer (e.g. 52405 -> 52,405), locale-independent.
+          FORMATTED=$(printf '%s' "$COUNT" | sed -E ':a;s/([0-9]+)([0-9]{3})/\1,\2/;ta')
           echo "Parsed citations: $FORMATTED"
           echo "ok=true" >> "$GITHUB_OUTPUT"
           echo "formatted=$FORMATTED" >> "$GITHUB_OUTPUT"
