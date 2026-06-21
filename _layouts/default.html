@@ -5,10 +5,9 @@
 
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <meta name="author" content="{{ site.author.name }}">
-        <meta name="keywords" content="yoda, abhshkdz, abhishek das, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, abdasuee, deep learning, computer vision, neural networks, georgia tech, virginia tech, machine learning">
+        <meta name="keywords" content="yoda, abhshkdz, abhishek das, yutori, web agents, sdslabs, jekyll, hacker, developer, pianist, iit roorkee, deep learning, computer vision, neural networks, georgia tech, virginia tech, machine learning">
         {% if page.excerpt %}
         <meta name="description" content="{{ page.excerpt }}">
         {% else %}
@@ -17,12 +16,13 @@
         <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
         <!--Open Graph Related Stuff-->
         <meta property="fb:app_id" content="1666933880208467"/>
-        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}"/>
         <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
         {% if page.excerpt %}
-        <meta name='og:description' content='{{ page.excerpt }}'/>
+        <meta property="og:description" content="{{ page.excerpt }}"/>
         {% else %}
-        <meta name='og:description' content='{{ site.description }}'/>
+        <meta property="og:description" content="{{ site.description }}"/>
         {% endif %}
         {% if page.date %}
         <meta property="og:type" content="article"/>
@@ -35,8 +35,8 @@
         <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
         <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
         {% else %}
-        <meta property="og:image" content="http://abhishekdas.com/img/avatar.jpg"/>
-        <meta property="og:image:url" content="http://abhishekdas.com/img/avatar.jpg"/>
+        <meta property="og:image" content="https://abhishekdas.com/img/avatar.jpg"/>
+        <meta property="og:image:url" content="https://abhishekdas.com/img/avatar.jpg"/>
         {% endif %}
 
         <!--Twitter Card Stuff-->
@@ -49,7 +49,7 @@
         {% if page.logo %}
         <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
         {% else %}
-        <meta name='twitter:image' content='http://abhishekdas.com/img/avatar.jpg'/>
+        <meta name='twitter:image' content='https://abhishekdas.com/img/avatar.jpg'/>
         {% endif %}
         <meta name='twitter:creator' content='@abhshkdz'/>
         <meta name='twitter:site' content='@abhshkdz'/>
@@ -60,44 +60,47 @@
         <meta name='twitter:description' content='{{ site.description }}'/>
         {% endif %}
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/main_1603233531.css">
-        <!--[if IE 7]>
-            <html class="ie7">
-            <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
-        <![endif]-->
-        <!--[if IE 8]><html class="ie8"> <![endif]-->
-        <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="/css/site.css">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
-        <link rel="shortcut icon" href="/ico/favicon-96x96.png">
-        <link rel="manifest" href="/ico/manifest.json">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png">
+        <link rel="shortcut icon" href="/img/favicon-32.png">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="/img/favicon-192.png">
         <meta name="theme-color" content="#ffffff">
-
-        <!--Authorship-->
-        <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
-        <link rel="me" href="//facebook.com/abhshkdz">
-
-        <!--[if lt IE 9]>
-            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <![endif]-->
-
+        {% if page.url == '/' %}
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Abhishek Das",
+          "url": "{{ site.url }}",
+          "image": "{{ site.url }}/img/avatar.jpg",
+          "description": "{{ site.description }}",
+          "jobTitle": "Co-CEO and Co-Founder",
+          "worksFor": { "@type": "Organization", "name": "Yutori", "url": "https://yutori.com" },
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Georgia Institute of Technology" },
+            { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Roorkee" }
+          ],
+          "sameAs": [
+            "https://scholar.google.com/citations?user=t6exkOAAAAAJ",
+            "https://github.com/abhshkdz",
+            "https://twitter.com/abhshkdz",
+            "https://www.linkedin.com/in/abhshkdz/",
+            "https://instagram.com/abhshkdz"
+          ]
+        }
+        </script>
+        {% endif %}
     </head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VY0W5MQJ9Y"></script>
@@ -109,46 +112,134 @@
         gtag('config', 'G-VY0W5MQJ9Y');
     </script>
     <body>
-        <!-- Header
-            ================================================== -->
-        <div class="top-strip"></div>
-        <div class="container">
-            <div class="page-header">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1 id="name-block"><a href="/">Abhishek Das</b></a></h1>
-                    </div>
-                    <div class="col-xs-12">
-                        <ul class="nav-bar">
-                            <li><a href="/#/bio">Bio</a></li>
-                            <li><a href="/#/talks">Talks</a></li>
-                            <li class="hide-link-on-small-screens"><a target="_blank" href="https://drive.google.com/file/d/16Nw5MIVMTpKtVzt45UeAM18H550Q-Wnv/view?usp=sharing">CV</a></li>
-                            <!-- <li><a href="/archive">Blog</a></li> -->
-                            <li class="hide-link-on-small-screens"><a href="/#/publications">Publications</a></li>
-                            <li class="hide-link-on-small-screens"><a href="/art">Art</a></li>
-                            <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>
-                            <!-- <li class="hide-link-on-small-screens"><a href="/#/projects">Side projects</a></li> -->
-                            <li><a target="_blank" href="//github.com/abhshkdz">GitHub</a></li>
-                            <li><a target="_blank" href="https://scholar.google.com/citations?user=t6exkOAAAAAJ">Google Scholar</a></li>
-                            <li><a target="_blank" href="//twitter.com/abhshkdz">Twitter</a></li>
-                            <!-- <li><a target="_blank" href="//x.abhishekdas.com">Tumblr</a></li> -->
-                            <!-- <li class="hide-link-on-small-screens"><a target="_blank" href="//mastodon.social/web/accounts/1011404">Mastodon</a></li> -->
-                            <li class="hide-link-on-small-screens"><a target="_blank" href="//instagram.com/abhshkdz">Instagram</a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/abhshkdz/">LinkedIn</a></li>
-                        </ul>
-                    </div>
+        <div class="layout">
+            <aside class="sidebar">
+                <div class="intro">
+                    <a class="photo-link" href="/"><img class="photo" src="/img/me.jpg" alt="Abhishek Das"></a>
+                    <h1 class="name"><a href="/">Abhishek Das</a></h1>
+                    <p class="role">Co-CEO and Co-Founder, <a target="_blank" href="https://yutori.com">Yutori</a></p>
                 </div>
-            </div>
-            <div class="page-content">
-                {{ content }}
-            </div>
+                <nav>
+                    <a href="/#bio"><span class="ind"></span>Bio</a>
+                    <a href="/#talks-and-interviews"><span class="ind"></span>Talks</a>
+                    <a href="/#publications"><span class="ind"></span>Publications</a>
+                    <a href="/art"><span class="ind"></span>Art</a>
+                    <div class="nav-icons">
+                        <a href="mailto:abhshkdz@gmail.com" title="Email" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+                        <a target="_blank" href="//github.com/abhshkdz" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                        <a target="_blank" href="https://scholar.google.com/citations?user=t6exkOAAAAAJ" title="Google Scholar" aria-label="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+                        <a target="_blank" href="//twitter.com/abhshkdz" title="Twitter / X" aria-label="Twitter / X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                        <a target="_blank" href="//instagram.com/abhshkdz" title="Instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/abhshkdz/" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                    </div>
+                </nav>
+            </aside>
+            <main class="main">
+                <div class="content-col">
+                    {{ content }}
+                </div>
+            </main>
         </div>
 
+        <script>
+        // Comma-separate publication links (commas outside <a>, so not underlined)
+        (function(){
+            Array.prototype.forEach.call(document.querySelectorAll('.pubd .links'), function(box){
+                var as = Array.prototype.slice.call(box.querySelectorAll('a'));
+                if(!as.length){ return; }
+                box.innerHTML = '';
+                as.forEach(function(a, i){
+                    if(i){ box.appendChild(document.createTextNode(', ')); }
+                    box.appendChild(a);
+                });
+            });
+        })();
+        // Truncate long author lists: first few, …, my name, …, last few
+        (function(){
+            var HEAD = 2, TAIL = 2, ME = 'Abhishek Das';
+            Array.prototype.forEach.call(document.querySelectorAll('.pubd .authors'), function(el){
+                var authors = el.textContent.split(',').map(function(s){ return s.trim(); }).filter(Boolean);
+                var n = authors.length;
+                if(n <= HEAD + TAIL + 1){ return; }
+                var myIdx = -1;
+                authors.forEach(function(a, i){ if(a.indexOf(ME) !== -1){ myIdx = i; } });
+                var show = {};
+                for(var i = 0; i < HEAD; i++){ show[i] = true; }
+                for(var j = n - TAIL; j < n; j++){ show[j] = true; }
+                if(myIdx !== -1){ show[myIdx] = true; }
+                var out = [], prev = -1;
+                for(var k = 0; k < n; k++){
+                    if(show[k]){
+                        if(prev !== -1 && k - prev > 1){ out.push('…'); }
+                        out.push(authors[k]);
+                        prev = k;
+                    }
+                }
+                el.setAttribute('title', authors.join(', '));
+                el.textContent = out.join(', ');
+            });
+        })();
+        (function(){
+            var path = location.pathname.replace(/\/+$/,'') || '/';
+            var navLinks = Array.prototype.slice.call(document.querySelectorAll('aside.sidebar nav a'));
 
-        <!-- Footer
-            ================================================== -->
+            // Page-based active state (for /art, /bookshelf, etc.)
+            navLinks.forEach(function(a){
+                var href = a.getAttribute('href') || '';
+                if(href.indexOf('#') === -1 && href.indexOf('//') === -1 && !/^https?:|^mailto:/.test(href)){
+                    if(href.replace(/\/+$/,'') === path){ a.classList.add('active'); }
+                }
+            });
 
-        <!-- Javascripts
-            ================================================= -->
+            // Homepage scroll-spy across in-page section anchors
+            var sections = [];
+            navLinks.forEach(function(a){
+                var m = (a.getAttribute('href') || '').match(/#(.+)$/);
+                if(m){
+                    var el = document.getElementById(m[1]);
+                    if(el){ sections.push({ link:a, el:el }); }
+                }
+            });
+            if(sections.length){
+                // Desktop has a fixed sidebar (min-width:1241px); mobile has a
+                // static top nav that scrolls away with the page.
+                var mq = window.matchMedia('(min-width:1241px)');
+                var setActive = function(link){
+                    navLinks.forEach(function(a){ a.classList.remove('active'); });
+                    if(link){ link.classList.add('active'); }
+                };
+                var spy = function(){
+                    var current = sections[0];
+                    sections.forEach(function(s){
+                        if(s.el.getBoundingClientRect().top <= 140){ current = s; }
+                    });
+                    setActive(current.link);
+                };
+                // While a click-triggered smooth scroll is in flight, lock the
+                // spy so the marker jumps straight to the target instead of
+                // flashing through intermediate sections it scrolls past.
+                var locked = false, settle = null;
+                var unlock = function(){ clearTimeout(settle); settle = setTimeout(function(){ locked = false; spy(); }, 120); };
+                var onScroll = function(){
+                    if(!mq.matches){ return; }
+                    if(locked){ unlock(); return; }
+                    spy();
+                };
+                // On mobile the nav scrolls out of view, so scroll position can't
+                // reflect the current section; highlight whatever link is tapped.
+                sections.forEach(function(s){
+                    s.link.addEventListener('click', function(){ setActive(s.link); locked = true; unlock(); });
+                });
+                window.addEventListener('scroll', onScroll, { passive:true });
+                mq.addEventListener('change', function(){ if(mq.matches){ spy(); } });
+                if(mq.matches){
+                    spy();
+                } else {
+                    var hashLink = sections.filter(function(s){ return '#' + s.el.id === location.hash; })[0];
+                    setActive(hashLink ? hashLink.link : sections[0].link);
+                }
+            }
+        })();
+        </script>
     </body>
 </html>

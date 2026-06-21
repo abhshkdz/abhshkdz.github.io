@@ -1,9 +1,9 @@
 encoding: utf-8
 name: Abhishek Das
-url: http://abhishekdas.com
+url: https://abhishekdas.com
 author:
   name: Abhishek Das
   email: das.abhshk@gmail.com
-description: Research Scientist at Facebook AI Research. Learning to build machines that can see, think, talk and act.
+description: Co-CEO and Co-Founder of Yutori, building AI agents that browse and act on the web for you. Previously a PhD at Georgia Tech and a Research Scientist at FAIR (Meta).
 permalink: /posts/:title/
 include: ['_pages']

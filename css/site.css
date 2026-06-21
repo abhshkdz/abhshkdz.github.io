@@ -1,0 +1,228 @@
+/* =========================================================
+   Abhishek Das — personal site
+   Monochrome, sidebar layout. Content centered on viewport.
+   ========================================================= */
+
+:root{
+  --ink:#181818;
+  --soft:#5c5c5c;
+  --muted:#9a9a9a;
+  --hair:#ececec;
+  --hover:#f2f2f0;
+  --bg:#ffffff;
+  --side:250px;
+  --content:680px;
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.62;letter-spacing:-.005em;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+}
+img{max-width:100%;height:auto;}
+
+a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--hair);
+  text-decoration-thickness:1px;text-underline-offset:2px;
+  transition:color .15s;}
+a:hover,a:focus{color:var(--ink);}
+a:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:1px;}
+
+/* ---------- Layout ---------- */
+.layout{position:relative;}
+
+/* ---------- Sidebar ---------- */
+aside.sidebar{
+  position:fixed;left:44px;top:72px;width:var(--side);
+  height:calc(100vh - 144px);
+  display:flex;flex-direction:column;gap:26px;
+}
+aside.sidebar .intro{display:flex;flex-direction:column;gap:4px;}
+aside.sidebar .photo-link{text-decoration:none;display:inline-block;line-height:0;}
+aside.sidebar .photo{
+  width:58px;height:58px;border-radius:50%;object-fit:cover;
+  margin-bottom:12px;border:none;
+}
+aside.sidebar h1.name{font-size:19px;font-weight:500;letter-spacing:-.01em;margin:0;line-height:1.2;}
+aside.sidebar h1.name a{text-decoration:none;color:var(--ink);}
+aside.sidebar .role{font-size:14px;color:var(--soft);line-height:1.4;margin:0;white-space:nowrap;}
+aside.sidebar .role a{text-decoration:none;color:var(--soft);}
+aside.sidebar .role a:hover{color:var(--ink);}
+
+aside.sidebar nav{display:flex;flex-direction:column;gap:3px;margin-bottom:auto;}
+aside.sidebar nav a{
+  color:var(--ink);font-size:15px;font-weight:400;text-decoration:none;opacity:.5;
+  display:flex;align-items:center;gap:9px;padding:2px 0;
+  transition:opacity .1s ease;
+}
+aside.sidebar nav a .ind{width:6px;height:6px;background:transparent;flex-shrink:0;transition:background .1s ease;}
+aside.sidebar nav a:hover{opacity:.85;}
+aside.sidebar nav a.active{opacity:1;}
+aside.sidebar nav a.active .ind{background:var(--ink);}
+aside.sidebar .nav-icons{display:flex;flex-wrap:wrap;gap:2px;margin:16px 0 0 9px;}
+aside.sidebar .nav-icons a{
+  color:var(--ink);opacity:.5;text-decoration:none;line-height:0;
+  display:inline-flex;padding:6px;border-radius:2px;
+  transition:opacity .1s ease,background-color .1s ease-out,border-radius .1s ease-out;
+}
+aside.sidebar .nav-icons a:hover{opacity:1;background:var(--hover);border-radius:8px;}
+aside.sidebar .nav-icons svg{width:17px;height:17px;fill:currentColor;display:block;}
+
+/* ---------- Main / content ---------- */
+main.main{padding:72px 28px 96px;display:flex;justify-content:center;}
+.content-col{width:100%;max-width:var(--content);}
+
+/* article wrapper from page/post layouts */
+.post{width:100%;}
+.post-content{width:100%;}
+
+/* page title (page.html outputs h1.content); hide when empty (homepage) */
+h1.content{
+  font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  font-weight:600;margin:0 0 26px;line-height:1.3;border:none;
+}
+h1.content:empty{display:none;}
+
+/* ---------- Markdown content headings ---------- */
+/* top-level section headers: "Bio", "Talks and Interviews", "Publications" */
+.post-content h1{
+  font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  font-weight:600;margin:56px 0 22px;line-height:1.3;
+}
+.post-content > h1:first-child{margin-top:0;}
+.post-content h2{
+  font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.3;
+  margin:40px 0 12px;color:var(--ink);
+}
+.post-content h3{
+  font-size:16px;font-weight:600;letter-spacing:-.005em;line-height:1.35;
+  margin:36px 0 14px;color:var(--ink);
+}
+.post-content h3 a{text-decoration:none;}
+.post-content h4,.post-content h5,.post-content h6{
+  font-size:14px;font-weight:600;margin:28px 0 10px;color:var(--ink);
+}
+
+.post-content p{margin:0 0 16px;color:#222;}
+.post-content ul,.post-content ol{margin:0 0 16px;padding-left:20px;}
+.post-content li{margin-bottom:6px;}
+.post-content a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--hair);}
+
+/* generic content images */
+.post-content img{
+  width:100%;margin:14px 0 4px;border:1px solid var(--hair);border-radius:3px;display:block;
+}
+
+/* dividers between blocks (publications, sections) */
+.post-content hr{
+  border:none;border-top:1px solid var(--hair);margin:26px 0;
+}
+
+/* ---------- Bio timeline logos ---------- */
+#timeline-logos{margin:26px 0 8px;}
+#timeline-logos .logo-wrap{
+  height:64px;display:flex;align-items:center;justify-content:center;margin-bottom:6px;
+}
+#timeline-logos .logo-wrap img{
+  width:auto;max-height:42px;border:none;margin:0;border-radius:0;
+  filter:grayscale(1);opacity:.8;transition:opacity .15s,filter .15s;
+}
+#timeline-logos a:hover img{filter:grayscale(0);opacity:1;}
+#timeline-logos .logo-wrap a{text-decoration:none;}
+#timeline-logos .helper{display:none;}
+#timeline-logos .logo-desc{
+  font-size:11.5px;line-height:1.4;color:var(--muted);text-align:center;
+}
+
+/* ---------- Talks ---------- */
+.talkd{margin:0 0 8px;}
+.talkd a:has(img){text-decoration:none;display:block;line-height:0;}
+.talkd img{margin:0;border:1px solid var(--hair);border-radius:3px;}
+.talkt{
+  display:flex;gap:16px;padding:11px 0;border-top:1px solid var(--hair);
+  align-items:baseline;
+}
+.talkt:first-of-type{border-top:none;}
+/* projects reuse .talkt on an h2; drop the inherited .post-content h2 margin */
+.post-content h2.talkt{margin:0;}
+.talkt a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--hair);font-weight:500;}
+.talkt .talkdate{
+  flex:0 0 84px;color:var(--muted);font-size:13px;font-weight:400;
+}
+
+/* ---------- Publications ---------- */
+.pub-intro{color:var(--soft);font-size:14px;margin:0 0 36px;}
+/* image + text side-by-side for a more compact list */
+.pub{display:flex;flex-direction:row;gap:20px;align-items:flex-start;margin:0;}
+.pub .pub-fig{flex:0 0 330px;order:-1;}
+.pub .pub-fig img,.pub .pub-fig video{margin:0;width:100%;border:none;border-radius:3px;display:block;}
+.pub .pub-fig img + img{margin-top:8px;}
+.pub .pub-body{flex:1 1 0;min-width:0;}
+.pub .pub-body .pubt{margin-top:0;}
+
+.post-content h2.pubt{
+  font-size:15px;font-weight:600;line-height:1.4;letter-spacing:-.005em;
+  margin:0 0 5px;color:var(--ink);
+}
+.pubd{margin:0 0 4px;font-size:14px;line-height:1.55;}
+.pubd .authors{display:block;color:var(--muted);font-size:13px;margin-bottom:4px;}
+.pubd .conf{display:block;color:var(--soft);font-size:12.5px;font-weight:500;margin-bottom:3px;}
+.pubd .links{display:block;font-size:12.5px;}
+.pubd .links a{
+  color:var(--muted);text-decoration:underline;text-decoration-color:var(--hair);
+}
+.pubd .links a:hover{color:var(--ink);}
+
+/* press mentions inside a publication */
+.pressdiv{margin:10px 0 0;display:flex;flex-direction:column;gap:7px;}
+.pressdiv a{text-decoration:none;display:flex;align-items:center;gap:11px;}
+.press-logo{flex:0 0 60px;height:18px;display:flex;align-items:center;}
+.press-logo img{
+  max-width:60px;max-height:18px;width:auto;height:auto;
+  margin:0;border:none;border-radius:0;background:transparent;
+}
+.presslink{color:var(--muted);font-size:12px;line-height:1.4;}
+.pressdiv a:hover .presslink{color:var(--ink);}
+/* full-width press list (spans content column, two columns when wide) */
+.pressdiv-wide{margin-top:16px;}
+@media(min-width:620px){
+  .pressdiv-wide{display:grid;grid-template-columns:1fr 1fr;column-gap:28px;row-gap:8px;}
+}
+
+/* project image helper */
+.project-img{width:100%;border:1px solid var(--hair);border-radius:3px;}
+
+/* ---------- Read-more (news) ---------- */
+#read-more-button{margin:8px 0;}
+#read-more-button a{color:var(--muted);text-decoration:none;cursor:pointer;font-size:14px;}
+#read-more-button a:hover{color:var(--ink);}
+
+/* ---------- Post meta (blog) ---------- */
+.post .excerpt{font-size:16px;color:var(--soft);font-weight:400;margin:0 0 18px;}
+.post .when{color:var(--muted);font-size:13px;margin-top:24px;}
+.post .share{margin-top:18px;}
+
+/* ---------- Responsive: collapse rail to centered top bar ---------- */
+@media(max-width:1240px){
+  aside.sidebar{
+    position:static;height:auto;width:100%;max-width:calc(var(--content) + 56px);margin:0 auto;
+    padding:44px 28px 0;gap:12px;
+  }
+  aside.sidebar .role{white-space:normal;}
+  aside.sidebar nav{flex-direction:row;flex-wrap:wrap;gap:6px 18px;margin:0;}
+  aside.sidebar nav a .ind{display:none;}
+  aside.sidebar .nav-icons{order:-1;flex-basis:100%;gap:0;margin:0 0 2px -5px;}
+  aside.sidebar .nav-icons a{padding:5px;}
+  main.main{padding:12px 28px 72px;}
+}
+@media(max-width:560px){
+  aside.sidebar{padding:34px 22px 0;}
+  main.main{padding:10px 22px 56px;}
+  .talkt{flex-direction:column;gap:2px;}
+  .talkt .talkdate{flex-basis:auto;}
+  .pub{flex-direction:column;gap:10px;}
+  .pub .pub-fig{flex-basis:auto;width:100%;}
+}

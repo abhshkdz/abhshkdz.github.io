@@ -4,18 +4,6 @@ title:
 permalink:  /
 ---
 
-<div class="row">
-    <div class="col-sm-6 col-xs-12">
-        <img src="/img/cover2.jpg">
-    </div>
-    <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        abhshkdz at gmail dot com
-        <br>
-        Co-founder and Co-CEO, <a href="https://yutori.com">Yutori</a>
-    </div>
-</div>
-<hr>
-
 {% comment %}
 <a name="/news"></a>
 
@@ -63,164 +51,62 @@ permalink:  /
 <hr>
 {% endcomment %}
 
-<a name="/bio"></a>
-
 # Bio
 
-I am the Co-founder and Co-CEO of [Yutori](https://yutori.com), where we're building state-of-the-art
-web agents -- AI agents that can reliably take actions and execute tasks on the web. 
+I'm the Co-CEO and Co-Founder of [Yutori](https://yutori.com).
+Almost everything in computing has been reinvented in the last thirty years, except how we
+interact with the web. It's still a person, a browser, and endless clicking, scrolling, filling
+forms, fighting popups and ads. At Yutori, we're building agents that browse and act on the web
+for you, autonomously.
 
-Previously, I was a Research Scientist at Fundamental AI Research (FAIR) at Meta working on deep neural
-networks and its applications in climate change, specifically focusing on
-electrocatalyst discovery for renewable energy storage as part of the [Open Catalyst Project][ocp].
+During my PhD at Georgia Tech (2016–2020), I did some of the earliest work on agents that
+can [<i>see</i>, <i>talk</i>, and <i>act</i>][thesis-pdf], e.g.
+[visual chatbots](//arxiv.org/abs/1611.08669)
+[trained with deep reinforcement learning](//arxiv.org/abs/1703.06585),
+[embodied agents that navigate and answer questions](https://embodiedqa.org/), and
+[attention-based multi-agent communication](https://arxiv.org/abs/1810.11187). My labmates and I
+also developed [Grad-CAM](//arxiv.org/abs/1610.02391) (40k+ citations), a general method for
+interpreting neural networks. Along the way, I interned at FAIR, DeepMind, and Tesla Autopilot.
 
-Before that, I was a Computer Science PhD student at Georgia Tech, advised by [Dhruv Batra][2],
-and working closely with [Devi Parikh][3], where I focused on developing
-artificial agents that can [<i>see</i> (computer vision), <i>talk</i> (language modeling), and <i>act</i> (reinforcement learning)][thesis-pdf].
+My PhD thesis was a runner-up for the [2020 AAAI/ACM SIGAI Doctoral Dissertation Award][aaai-dissertation-award].
 
-<div class="row" id="timeline-logos">
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="//iitr.ac.in"><img src="/img/logos/iitr.jpg"></a>
-        </div>
-        <div class="logo-desc">
-            IIT Roorkee<br>
-            2011 - 2015
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="//qbi.uq.edu.au"><img style="width:120px;" src="/img/logos/uq.png"></a>
-        </div>
-        <div class="logo-desc">
-            Queensland Brain Institute<br>
-            Summer 2015
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a href="//vt.edu"><img src="/img/logos/vt.png"></a>
-        </div>
-        <div class="logo-desc">
-            Virginia Tech<br>
-            2015 - 2016
-        </div>
-    </div>
-    <div class="col-xs-2">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
-        </div>
-        <div class="logo-desc">
-            Georgia Tech<br>
-            2017 - 2020
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
-        </div>
-        <div class="logo-desc">
-            Facebook AI Research<br>
-            S2017, W2018, S2018
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//deepmind.com"><img style="width:120px;" src="/img/logos/deepmind.png"></a>
-        </div>
-        <div class="logo-desc">
-            DeepMind<br>
-            Winter 2019
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//www.tesla.com/autopilotAI"><img style="width:120px;" src="/img/logos/tesla.jpg"></a>
-        </div>
-        <div class="logo-desc">
-            Tesla Autopilot<br>
-            Summer 2019
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
-        </div>
-        <div class="logo-desc">
-            Facebook AI Research<br>
-            2020-2024
-        </div>
-    </div>
-</div>
+I've also spent time at Fundamental AI Research (FAIR) at Meta, where I helped
+start the [Open Catalyst Project][ocp] (now [FAIR Chemistry](https://fair-chem.github.io/)) to accelerate electrocatalyst discovery.
+My teammates and I developed large datasets like [OC20](https://arxiv.org/abs/2010.09990) and
+[OC22](https://arxiv.org/abs/2206.08917), and state-of-the-art models like
+[GemNet-OC](https://arxiv.org/abs/2204.02782), [EquiformerV2](https://arxiv.org/abs/2306.12059), and
+[UMA](https://arxiv.org/abs/2506.23971),
+which [have sped up DFT calculations by over 2000x](https://www.nature.com/articles/s41524-023-01121-5).
 
-During my PhD, I interned thrice at Facebook AI Research — Summer 2017 and Spring 2018
-at Menlo Park, working with [Georgia Gkioxari][46],
-[Devi Parikh][47] and [Dhruv Batra][48] on training embodied agents for navigation and
-question-answering in simulated environments (see [embodiedqa.org][40]), and Summer
-2018 at Montréal, working with [Mike Rabbat][55] and [Joelle Pineau][56] on
-<a target="_blank" href="https://arxiv.org/abs/1810.11187">communication protocols in multi-agent reinforcement learning</a>.
-In 2019, I interned at DeepMind in London working on grounded language learning
-with [Felix Hill][felix-hill], [Laura Rimell][laura-rimell],
-and [Stephen Clark][stephen-clark], and at Tesla Autopilot in Palo Alto working on
-differentiable neural architecture search with [Andrej Karpathy][andrej-karpathy].
-
-My PhD research was supported by fellowships from [Facebook][fb-fellow-page],
-[Adobe][39], and [Snap][36].
-
-Prior to joining grad school, I worked on neural coding in zebrafish tectum
-as an intern under [Prof. Geoffrey Goodhill][4] and [Lilach Avitan][5]
-at the [Goodhill Lab][6], Queensland Brain Institute.
-
-I got my Bachelor's at [IIT Roorkee][31] in 2015.
-During my undergrad, I took part in
-Google Summer of Code ([2013][8] and [2014][9]),
-won several competitions ([Yahoo! HackU!][10],
-[Microsoft Code.Fun.Do.][11], Deloitte CCTC [2013][12] and [2014][13]),
-and owe most of my programming/tinkering bent to [SDSLabs][16].
-
-On the side, I built [aideadlin.es][34] (countdowns to a bunch of CV/NLP/ML/AI conference deadlines)
-and [aipaygrad.es][aipaygrad.es] (statistics of industry job offers in AI),
-[neural-vqa][19] and its extension [neural-vqa-attention][35],
-[HackFlowy][20], [graf][21], [Erdős][17], [etc][22].
-I also occasionally dabble in [generative art](/art).
-I like [this map][conquerearth] tracking the places I've been to.
-[Blog posts from a previous life](/archive).
+I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es][34],
+[aipaygrad.es][aipaygrad.es], and [other things][22], and I occasionally dabble in
+[generative art](/art).
 
 ---
-
-<a name="/talks"></a>
 
 # Talks and Interviews
 
 <div class="row">
     <div class="col-xs-6">
         <p class="talkd">
-            <img src="/img/talks/eo_interview_2026.jpg">
+            <a target="_blank" href="https://www.youtube.com/watch?v=wRDk9_JoIic"><img src="/img/talks/eo_interview_2026.jpg"></a>
         </p>
     </div>
     <div class="col-xs-6">
         <p class="talkd">
-            <img src="/img/talks/focal_interview_2025.jpg">
+            <a target="_blank" href="https://www.youtube.com/watch?v=TR4KskhnIFU"><img src="/img/talks/focal_interview_2025.jpg"></a>
         </p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-6">
         <p class="talkd">
-            <img src="/img/talks/visdial_rl_iccv17.jpg">
+            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s"><img src="/img/talks/visdial_rl_iccv17.jpg"></a>
         </p>
     </div>
     <div class="col-xs-6">
         <p class="talkd">
-            <img src="/img/talks/embodiedqa_cvpr18_4.jpg">
+            <a target="_blank" href="https://youtu.be/gz2VoDrvX-A?t=1h19m58s"><img src="/img/talks/embodiedqa_cvpr18_4.jpg"></a>
         </p>
     </div>
 </div>
@@ -327,11 +213,15 @@ I like [this map][conquerearth] tracking the places I've been to.
 </div>
 <hr>
 
-<a name="/publications"></a>
-
 # Publications
 
+<p class="pub-intro">
+{% if site.data.scholar.citations %}My papers have been cited {{ site.data.scholar.citations }} times. {% endif %}See <a target="_blank" href="https://scholar.google.com/citations?user=t6exkOAAAAAJ">Google Scholar</a> for an up-to-date list.
+</p>
+
 <a name="/uma"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">UMA: A Family of Universal Models for Atoms</h2>
 <p class="pubd">
     <span class="authors">Brandon M. Wood*, Misko Dzamba*, Xiang Fu*, Meng Gao*, Muhammed Shuaibi*, Luis Barroso-Luque, Kareem Abdelmaqsoud, Vahe Gharakhanyan, John R. Kitchin, Daniel S. Levine, Kyle Michel, Anuroop Sriram, Taco Cohen, Abhishek Das, Sushree Jagriti Sahoo, Ammar Rizvi, Zachary W. Ulissi, C. Lawrence Zitnick</span><br>
@@ -341,10 +231,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
-<img src="/img/ocp/uma.png">
+</div>
+<div class="pub-fig"><img src="/img/ocp/uma.png"></div>
+</div>
 <hr>
 
 <a name="/dens"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Generalizing Denoising to Non-Equilibrium Structures Improves Equivariant Force Fields</h2>
 <p class="pubd">
     <span class="authors">Yi-Lun Liao, Tess Smidt, Muhammed Shuaibi*, Abhishek Das*</span><br>
@@ -353,10 +247,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://arxiv.org/abs/2403.09549">Paper</a>
     </span>
 </p>
-<img src="/img/ocp/dens.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/dens.jpg"></div>
+</div>
 <hr>
 
 <a name="/odac23"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">The Open DAC 2023 Dataset and Challenges for Sorbent Discovery in Direct Air Capture</h2>
 <p class="pubd">
     <span class="authors">Anuroop Sriram, Sihoon Choi, Xiaohan Yu, Logan M. Brabson, Abhishek Das, Zachary Ulissi, Matt Uyttendaele, Andrew J. Medford, David S. Sholl</span><br>
@@ -367,10 +265,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://open-dac.github.io">Website</a>
     </span>
 </p>
-<img src="/img/ocp/odac23.jpeg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/odac23.jpeg"></div>
+</div>
 <hr>
 
 <a name="/equiformer2"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations</h2>
 <p class="pubd">
     <span class="authors">Yi-Lun Liao, Brandon Wood, Abhishek Das*, Tess Smidt*</span><br>
@@ -380,10 +282,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/atomicarchitects/equiformer_v2">Code</a>
     </span>
 </p>
-<img src="/img/ocp/equiformer_v2.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/equiformer_v2.jpg"></div>
+</div>
 <hr>
 
 <a name="/adsorbml"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">AdsorbML: Accelerating Adsorption Energy Calculations with Machine Learning</h2>
 <p class="pubd">
     <span class="authors">Janice Lan*, Aini Palizhati*, Muhammed Shuaibi*, Brandon M. Wood*, Brook Wander, Abhishek Das, Matt Uyttendaele, C. Lawrence Zitnick, Zachary W. Ulissi</span><br>
@@ -393,10 +299,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/open-catalyst-project/adsorbml">Code</a>
     </span>
 </p>
-<img src="/img/ocp/adsorbml.png">
+</div>
+<div class="pub-fig"><img src="/img/ocp/adsorbml.png"></div>
+</div>
 <hr>
 
 <a name="/pirlnav"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
 <p class="pubd">
     <span class="authors">Ram Ramrakhya, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
@@ -407,10 +317,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://ram81.github.io/projects/pirlnav.html">Website</a>
     </span>
 </p>
-<img src="/img/habitat/pirlnav.png">
+</div>
+<div class="pub-fig"><img src="/img/habitat/pirlnav.png"></div>
+</div>
 <hr>
 
 <a name="/oc22"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis</h2>
 <p class="pubd">
     <span class="authors">Richard Tran*, Janice Lan*, Muhammed Shuaibi*, Siddharth Goyal*, Brandon M. Wood*, Abhishek Das, Javier Heras-Domingo, Adeesh Kolluru, Ammar Rizvi, Nima Shoghi, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
@@ -420,21 +334,18 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/open-catalyst-project/ocp">Code</a>
         <a target="_blank" href="https://fair-chem.github.io">Dataset</a>
     </span>
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"... new dataset for green hydrogen fuel" by Janice, Siddharth, Ammar, Larry</span>
-            </div>
-        </a>
-    </div>
 </p>
-<img src="/img/ocp/oc22.jpg">
+<div class="pressdiv">
+    <a target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/"><span class="press-logo"><img src="/img/logos/fair2.png"></span><span class="presslink">"... new dataset for green hydrogen fuel" by Janice, Siddharth, Ammar, Larry</span></a>
+</div>
+</div>
+<div class="pub-fig"><img src="/img/ocp/oc22.jpg"></div>
+</div>
 <hr>
 
 <a name="/gemnet-oc"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">GemNet-OC: Developing Graph Neural Networks for Large and Diverse Molecular Simulation Datasets</h2>
 <p class="pubd">
     <span class="authors">Johannes Gasteiger, Muhammed Shuaibi, Anuroop Sriram, Stephan Günnemann, Zachary Ulissi, C. Lawrence Zitnick, Abhishek Das</span><br>
@@ -444,10 +355,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
-<img src="/img/ocp/gemnet_oc.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/gemnet_oc.jpg"></div>
+</div>
 <hr>
 
 <a name="/scn"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Spherical Channels for Modeling Atomic Interactions</h2>
 <p class="pubd">
     <span class="authors">C. Lawrence Zitnick, Abhishek Das, Adeesh Kolluru, Janice Lan, Muhammed Shuaibi, Anuroop Sriram, Zachary Ulissi, Brandon Wood</span><br>
@@ -457,9 +372,13 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
-<img src="/img/ocp/scn.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/scn.jpg"></div>
+</div>
 <hr>
 
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
 <p class="pubd">
     <span class="authors">Adeesh Kolluru*, Muhammed Shuaibi*, Aini Palizhati, Nima Shoghi, Abhishek Das, Brandon Wood, C. Lawrence Zitnick, John R. Kitchin, Zachary Ulissi</span><br>
@@ -468,13 +387,15 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acscatal.2c02291">Paper</a>
     </span>
 </p>
-<img src="/img/ocp/perspective.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/perspective.jpg"></div>
+</div>
 <hr>
 
 <a name="/taag"></a>
 <h2 class="pubt">Transfer learning using attentions across atomic systems with graph neural networks (TAAG)</h2>
 <p class="pubd">
-    <span class="authors">Adeesh Kolluru, Nima Shoghi, Muhammed Shuaibi, Siddharth Goyal, Abhishek Das, C. Lawrence Zitnick, Zachary Ulissi</span><br>
+    <span class="authors">Adeesh Kolluru, Nima Shoghi, Muhammed Shuaibi, Siddharth Goyal, Abhishek Das, C. Lawrence Zitnick, Zachary Ulissi</span>
     <span class="conf">The Journal of Chemical Physics 2022</span>
     <span class="links">
         <a target="_blank" href="https://aip.scitation.org/doi/abs/10.1063/5.0088019?cookieSet=1">Paper</a>
@@ -484,6 +405,8 @@ I like [this map][conquerearth] tracking the places I've been to.
 <hr>
 
 <a name="/habitat-web"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
 <p class="pubd">
     <span class="authors">Ram Ramrakhya, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
@@ -495,10 +418,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
     </span>
 </p>
-<img src="/img/habitat/habitat-web.gif">
+</div>
+<div class="pub-fig"><img src="/img/habitat/habitat-web.gif"></div>
+</div>
 <hr>
 
 <a name="/graph-parallel"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Towards Training Billion Parameter Graph Neural Networks for Atomic Simulations</h2>
 <p class="pubd">
     <span class="authors">Anuroop Sriram, Abhishek Das, Brandon M. Wood, Siddharth Goyal, C. Lawrence Zitnick</span><br>
@@ -508,10 +435,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/facebookresearch/fairchem">Code</a>
     </span>
 </p>
-<img src="/img/ocp/graph_parallel.png">
+</div>
+<div class="pub-fig"><img src="/img/ocp/graph_parallel.png"></div>
+</div>
 <hr>
 
 <a name="/spinconv"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Rotation Invariant Graph Neural Networks using Spin Convolutions</h2>
 <p class="pubd">
     <span class="authors">Muhammed Shuaibi, Adeesh Kolluru, Abhishek Das, Aditya Grover, Anuroop Sriram, Zachary Ulissi, C. Lawrence Zitnick</span><br>
@@ -520,10 +451,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/Open-Catalyst-Project/ocp">Code</a>
     </span>
 </p>
-<img src="/img/ocp/spinconv.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/spinconv.jpg"></div>
+</div>
 <hr>
 
 <a name="/youdescribe-descriptions-1"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Automated Video Description for Blind and Low Vision Users</h2>
 <p class="pubd">
     <span class="authors">Aditya Bodi, Pooyan Fazli, Shasta Ihorn, Yue-Ting Siu, Andrew T Scott, Lothar Narins, Yash Kant, Abhishek Das, Ilmi Yoon</span><br>
@@ -532,10 +467,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://dl.acm.org/doi/10.1145/3411763.3451810">Paper</a>
     </span>
 </p>
-<img src="/img/youdescribe/chi_ea_system.png">
+</div>
+<div class="pub-fig"><img src="/img/youdescribe/chi_ea_system.png"></div>
+</div>
 <hr>
 
 <a name="/habitat-objnav"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Auxiliary Tasks and Exploration Enable ObjectNav</h2>
 <p class="pubd">
     <span class="authors">Joel Ye, Dhruv Batra, Abhishek Das, Erik Wijmans</span><br>
@@ -546,10 +485,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://joel99.github.io/objectnav/">Website</a>
     </span>
 </p>
-<img src="/img/habitat/habitat-objnav.png">
+</div>
+<div class="pub-fig"><img src="/img/habitat/habitat-objnav.png"></div>
+</div>
 <hr>
 
 <a name="/forcenet"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">ForceNet: A Graph Neural Network for Large-Scale Quantum Calculations</h2>
 <p class="pubd">
     <span class="authors">Weihua Hu, Muhammed Shuaibi, Abhishek Das, Siddharth Goyal, Anuroop Sriram, Jure Leskovec, Devi Parikh, C. Lawrence Zitnick</span><br>
@@ -560,10 +503,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://slideslive.com/38955314/forcenet-a-graph-neural-network-for-largescale-quantum-calculations?ref=speaker-22639-latest">Presentation video</a>
     </span>
 </p>
-<img src="/img/ocp/forcenet.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ocp/forcenet.jpg"></div>
+</div>
 <hr>
 
 <a name="/ocp-dataset"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">The Open Catalyst 2020 (OC20) Dataset and Community Challenges</h2>
 <p class="pubd">
     <span class="authors">Lowik Chanussot<sup>*</sup>, Abhishek Das<sup>*</sup>, Siddharth Goyal<sup>*</sup>, Thibaut Lavril<sup>*</sup>, Muhammed Shuaibi<sup>*</sup>, Morgane Riviére, Kevin Tran, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Aini Palizhati, Anuroop Sriram, Brandon Wood, Junwoong Yoon, Devi Parikh, C. Lawrence Zitnick, Zachary Ulissi</span><br>
@@ -575,81 +522,39 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
 </p>
-<img src="/img/ocp/dataset.png">
+</div>
+<div class="pub-fig"><img src="/img/ocp/dataset.png"></div>
+</div>
 <hr>
 
 <a name="/ocp-whitepaper"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">An Introduction to Electrocatalyst Design using Machine Learning for Renewable Energy Storage</h2>
 <p class="pubd">
-    <span class="authors">C. Lawrence Zitnick, Lowik Chanussot, Abhishek Das, Siddharth Goyal, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Thibaut Lavril, Aini Palizhati, Morgane Riviére, Muhammed Shuaibi, Anuroop Sriram, Kevin Tran, Brandon Wood, Junwoong Yoon, Devi Parikh, Zachary Ulissi</span><br>
+    <span class="authors">C. Lawrence Zitnick, Lowik Chanussot, Abhishek Das, Siddharth Goyal, Javier Heras-Domingo, Caleb Ho, Weihua Hu, Thibaut Lavril, Aini Palizhati, Morgane Riviére, Muhammed Shuaibi, Anuroop Sriram, Kevin Tran, Brandon Wood, Junwoong Yoon, Devi Parikh, Zachary Ulissi</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2010.09435">Paper</a>
         <a target="_blank" href="https://opencatalystproject.org/">opencatalystproject.org</a>
     </span>
-    <!-- Press: -->
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="https://ai.facebook.com/blog/facebook-and-carnegie-mellon-launch-the-open-catalyst-project-to-find-new-ways-to-store-renewable-energy">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook and Carnegie Mellon launch .. to ... store renewable energy" by Larry Zitnick</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/fortune.jpg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook A.I. researchers push for a breakthrough in renewable energy storage" by Jeremy Kahn</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/engadget.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook deploys its AI to find green energy storage solutions" by Andrew Tarantola</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.cnbc.com/2020/10/14/facebook-to-use-ai-in-bid-to-improve-renewable-energy-storage.html">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/cnbc.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook to use artificial intelligence in bid to improve renewable energy storage" by Sam Shead</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/venturebeat.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook and Carnegie Mellon launch project to ... store renewable energy" by Kyle Wiggers</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.cnet.com/news/facebook-plans-to-use-ai-to-help-fight-climate-change/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0 18px;">
-                <img src="/img/logos/cnet.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook plans to use AI to help fight climate change" by Queenie Wong</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://syncedreview.com/2020/10/15/facebook-cmu-open-catalyst-project-applies-ai-to-renewable-energy-storage/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/synced.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Facebook & CMU Open Catalyst Project Applies AI to Renewable Energy Storage" by Fangyu Cai</span>
-            </div>
-        </a>
-    </div>
 </p>
-<video autoplay loop src="/img/ocp/relaxation.mp4" width="95%"></video>
+</div>
+<div class="pub-fig"><video autoplay loop muted playsinline src="/img/ocp/relaxation.mp4"></video></div>
+</div>
+<div class="pressdiv pressdiv-wide">
+    <a target="_blank" href="https://ai.facebook.com/blog/facebook-and-carnegie-mellon-launch-the-open-catalyst-project-to-find-new-ways-to-store-renewable-energy"><span class="press-logo"><img src="/img/logos/fair2.png"></span><span class="presslink">"Facebook and Carnegie Mellon launch .. to ... store renewable energy" by Larry Zitnick</span></a>
+    <a target="_blank" href="https://fortune.com/2020/10/14/facebook-ai-open-catalyst-dataset-chemistry-renewable-energy/"><span class="press-logo"><img src="/img/logos/fortune.jpg"></span><span class="presslink">"Facebook A.I. researchers push for a breakthrough in renewable energy storage" by Jeremy Kahn</span></a>
+    <a target="_blank" href="https://engadget.com/facebook-deploys-its-ai-to-find-green-energy-storage-solutions-130041147.html"><span class="press-logo"><img src="/img/logos/engadget.png"></span><span class="presslink">"Facebook deploys its AI to find green energy storage solutions" by Andrew Tarantola</span></a>
+    <a target="_blank" href="https://www.cnbc.com/2020/10/14/facebook-to-use-ai-in-bid-to-improve-renewable-energy-storage.html"><span class="press-logo"><img src="/img/logos/cnbc.png"></span><span class="presslink">"Facebook to use artificial intelligence in bid to improve renewable energy storage" by Sam Shead</span></a>
+    <a target="_blank" href="https://venturebeat.com/2020/10/14/facebook-and-carnegie-mellon-launch-project-to-discover-better-ways-to-store-renewable-energy/"><span class="press-logo"><img src="/img/logos/venturebeat.png"></span><span class="presslink">"Facebook and Carnegie Mellon launch project to ... store renewable energy" by Kyle Wiggers</span></a>
+    <a target="_blank" href="https://www.cnet.com/news/facebook-plans-to-use-ai-to-help-fight-climate-change/"><span class="press-logo"><img src="/img/logos/cnet.png"></span><span class="presslink">"Facebook plans to use AI to help fight climate change" by Queenie Wong</span></a>
+    <a target="_blank" href="https://syncedreview.com/2020/10/15/facebook-cmu-open-catalyst-project-applies-ai-to-renewable-energy-storage/"><span class="press-logo"><img src="/img/logos/synced.png"></span><span class="presslink">"Facebook & CMU Open Catalyst Project Applies AI to Renewable Energy Storage" by Fangyu Cai</span></a>
+</div>
 <hr>
 
 <a name="/habitat-pointnav-aux"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Auxiliary Tasks Speed Up Learning PointGoal Navigation</h2>
 <p class="pubd">
     <span class="authors">Joel Ye, Dhruv Batra, Erik Wijmans*, Abhishek Das*</span><br>
@@ -659,10 +564,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/joel99/habitat-pointnav-aux">Code</a>
     </span>
 </p>
-<img src="/img/habitat/habitat-pointnav-aux.jpg">
+</div>
+<div class="pub-fig"><img src="/img/habitat/habitat-pointnav-aux.jpg"></div>
+</div>
 <hr>
 
 <a name="/visdial-bert"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline</h2>
 <p class="pubd">
     <span class="authors">Vishvak Murahari, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
@@ -672,25 +581,27 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/vmurahari3/visdial-bert">Code</a>
     </span>
 </p>
-<img src="/img/visdial/visdial-bert.jpg">
+</div>
+<div class="pub-fig"><img src="/img/visdial/visdial-bert.jpg"></div>
+</div>
 <hr>
 
 <a name="/phd-thesis-1"></a>
 <h2 class="pubt">Building agents that can see, talk, and act</h2>
 <p class="pubd">
-    <span class="authors">
-        Abhishek Das
-    </span><br>
+    <span class="authors">Abhishek Das</span>
+    <span class="conf">AAAI/ACM SIGAI Doctoral Dissertation Award, Runner-up</span>
+    <span class="conf">Georgia Tech Sigma Xi Best PhD Thesis Award</span>
+    <span class="conf">Georgia Tech College of Computing Dissertation Award</span>
     <span class="links">
         <a target="_blank" href="https://drive.google.com/file/d/11D27ZmxllBWbxOYSaBfSHaAI6s9Dav7B/view?usp=sharing">PhD Thesis</a>
     </span>
-    <span class="conf">AAAI/ACM SIGAI Doctoral Dissertation Award, Runner-up</span><br>
-    <span class="conf">Georgia Tech Sigma Xi Best PhD Thesis Award</span><br>
-    <span class="conf">Georgia Tech College of Computing Dissertation Award</span>
 </p>
 <hr>
 
 <a name="/qa-probing"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Probing Emergent Semantics in Predictive Agents via Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das<sup>*</sup>, Federico Carnevale<sup>*</sup>,
@@ -704,10 +615,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://docs.google.com/presentation/d/1yjfu2YBLTwJZXG4IiBiws4Z0EIts4X0J5DrYmYpBQ0A/edit?usp=sharing">Slides</a>
     </span>
 </p>
-<img src="/img/qa-probing/qa-probing-teaser.jpg">
+</div>
+<div class="pub-fig"><img src="/img/qa-probing/qa-probing-teaser.jpg"></div>
+</div>
 <hr>
 
 <a name="/dancing-agents"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Feel The Music: Automatically Generating A Dance For An Input Song</h2>
 <p class="pubd">
     <span class="authors">Purva Tendulkar, Abhishek Das, Aniruddha Kembhavi, Devi Parikh</span><br>
@@ -718,10 +633,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://sites.google.com/view/dancing-agents">Videos</a>
     </span>
 </p>
-<img src="/img/dancing-agents/dancing-agents-teaser.jpg">
+</div>
+<div class="pub-fig"><img src="/img/dancing-agents/dancing-agents-teaser.jpg"></div>
+</div>
 <hr>
 
 <a name="/ds-vic"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</h2>
 <p class="pubd">
     <span class="authors">Nirbhay Modhe, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam</span><br>
@@ -730,10 +649,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://arxiv.org/abs/1907.10580">Paper</a>
     </span>
 </p>
-<img src="/img/ds-vic/teaser.jpg">
+</div>
+<div class="pub-fig"><img src="/img/ds-vic/teaser.jpg"></div>
+</div>
 <hr>
 
 <a name="/visdial-rl-plus-plus"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Improving Generative Visual Dialog by Answering Diverse Questions</h2>
 <p class="pubd">
     <span class="authors">Vishvak Murahari, Prithvijit Chattopadhyay, Dhruv Batra, Devi Parikh, Abhishek Das</span><br>
@@ -743,10 +666,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://github.com/vmurahari3/visdial-diversity">Code</a>
     </span>
 </p>
-<img src="/img/visdial/visdial-rl-plus-plus.png">
+</div>
+<div class="pub-fig"><img src="/img/visdial/visdial-rl-plus-plus.png"></div>
+</div>
 <hr>
 
 <a name="/multi-agent-comm"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">TarMAC: Targeted Multi-Agent Communication</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Théophile Gervet, Joshua Romoff, Dhruv Batra, Devi Parikh, Michael Rabbat, Joelle Pineau</span><br>
@@ -756,12 +683,17 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://drive.google.com/open?id=1ZjKogiYrqFVuBmad3IzkNW18pvP2QcIG">Slides</a>
     </span>
 </p>
+</div>
+<div class="pub-fig">
 <img src="/img/multi-agent-comm/model.jpg">
-<br><br>
 <img src="/img/multi-agent-comm/shapes.gif">
+</div>
+</div>
 <hr>
 
 <a name="/eqa-mp3d"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Embodied Question Answering in Photorealistic Environments with Point Clouds</h2>
 <p class="pubd">
     <span class="authors">
@@ -772,10 +704,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://arxiv.org/abs/1904.03461">Paper</a>
     </span>
 </p>
-<img src="/img/eqa/eqa-mp3d.png">
+</div>
+<div class="pub-fig"><img src="/img/eqa/eqa-mp3d.png"></div>
+</div>
 <hr>
 
 <a name="/avsd"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Audio-Visual Scene-Aware Dialog</h2>
 <p class="pubd">
     <span class="authors">
@@ -790,10 +726,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
     </span>
 </p>
-<img src="/img/avsd/avsd.jpg">
+</div>
+<div class="pub-fig"><img src="/img/avsd/avsd.jpg"></div>
+</div>
 <hr>
 
 <a name="/avsd_icassp"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">End-to-end Audio Visual Scene-Aware Dialog Using Multimodal Attention-based Video Features</h2>
 <p class="pubd">
     <span class="authors">
@@ -805,10 +745,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="http://video-dialog.com/">video-dialog.com</a>
     </span>
 </p>
-<img src="/img/avsd/avsd_icassp.jpg">
+</div>
+<div class="pub-fig"><img src="/img/avsd/avsd_icassp.jpg"></div>
+</div>
 <hr>
 
 <a name="/eqa-modular"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Neural Modular Control for Embodied Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
@@ -820,11 +764,14 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://drive.google.com/open?id=1xTvgpVNxG7MPZQe6jtXuYUIT2WPtoh0U">Slides</a>
     </span>
 </p>
-
-<img src="/img/eqa/eqa-modular.png">
+</div>
+<div class="pub-fig"><img src="/img/eqa/eqa-modular.png"></div>
+</div>
 
 <hr>
 <a name="/embodied-qa"></a>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Embodied Question Answering</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, Dhruv Batra</span><br>
@@ -836,38 +783,19 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="//youtu.be/gz2VoDrvX-A?t=1h19m58s">Presentation video</a>
         <a target="_blank" href="https://drive.google.com/open?id=1UacybW4p_8PDPNUvnEl05_89tbeG0ItP">Slides</a>
     </span>
-    <!-- Press: -->
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="https://mlatgt.blog/2018/02/26/embodied-question-answering/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/mlgt.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Embodied Question Answering" by Abhishek Das</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://code.facebook.com/posts/1622140391226436/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/fair2.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"... a goal-driven approach to autonomous agents" by Dhruv Batra, Devi Parikh</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/611040/facebook-helped-create-an-ai-scavenger-hunt-that-could-lead-to-the-first-useful-home-robots/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
-                <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"... an AI scavenger hunt that could lead to the first useful home robots" by Will Knight</span>
-            </div>
-        </a>
-    </div>
 </p>
-
-<img src="/img/eqa/teaser.jpg">
+</div>
+<div class="pub-fig"><img src="/img/eqa/teaser.jpg"></div>
+</div>
+<div class="pressdiv pressdiv-wide">
+    <a target="_blank" href="https://mlatgt.blog/2018/02/26/embodied-question-answering/"><span class="press-logo"><img src="/img/logos/mlgt.png"></span><span class="presslink">"Embodied Question Answering" by Abhishek Das</span></a>
+    <a target="_blank" href="https://code.facebook.com/posts/1622140391226436/"><span class="press-logo"><img src="/img/logos/fair2.png"></span><span class="presslink">"... a goal-driven approach to autonomous agents" by Dhruv Batra, Devi Parikh</span></a>
+    <a target="_blank" href="https://www.technologyreview.com/s/611040/facebook-helped-create-an-ai-scavenger-hunt-that-could-lead-to-the-first-useful-home-robots/"><span class="press-logo"><img src="/img/logos/mittechreview.svg"></span><span class="presslink">"... an AI scavenger hunt that could lead to the first useful home robots" by Will Knight</span></a>
+</div>
 
 <hr>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Evaluating Visual Conversational Agents via Cooperative Human-AI Games</h2>
 <p class="pubd">
     <span class="authors">Prithvijit Chattopadhyay<sup>*</sup>, Deshraj Yadav<sup>*</sup>, Viraj Prabhu, Arjun Chandrasekaran, Abhishek Das, Stefan Lee, Dhruv Batra, Devi Parikh</span><br>
@@ -877,12 +805,15 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="//github.com/VT-vision-lab/guesswhich">Code</a>
     </span>
 </p>
-
-<img src="/img/guesswhich/teaser.jpg">
+</div>
+<div class="pub-fig"><img src="/img/guesswhich/teaser.jpg"></div>
+</div>
 
 <a name="/visdial-rl"></a>
 
 <hr>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning</h2>
 <p class="pubd">
     <span class="authors">Abhishek Das<sup>*</sup>, Satwik Kottur<sup>*</sup>, Stefan Lee, José M.F. Moura, Dhruv Batra</span><br>
@@ -894,10 +825,13 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSaVBESEFHQW9vUk0">Slides</a>
     </span>
 </p>
-
-<img src="/img/visdial/qbot_abot.jpg">
+</div>
+<div class="pub-fig"><img src="/img/visdial/qbot_abot.jpg"></div>
+</div>
 
 <hr>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</h2>
 <p class="pubd">
     <span class="authors">Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra</span><br>
@@ -908,12 +842,15 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="http://gradcam.cloudcv.org/">Demo</a>
     </span>
 </p>
-
-<img src="/img/grad-cam/teaser.png">
+</div>
+<div class="pub-fig"><img src="/img/grad-cam/teaser.png"></div>
+</div>
 
 <a name="/visdial"></a>
 
 <hr>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Visual Dialog</h2>
 <p class="pubd" style="margin-bottom:20px;">
     <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M.F. Moura, Devi Parikh, Dhruv Batra</span><br>
@@ -928,68 +865,37 @@ I like [this map][conquerearth] tracking the places I've been to.
         <a target="_blank" href="https://drive.google.com/open?id=0B70NAN5i4ZHSTWhRTTlMdVVIcFU">Slides</a>
     </span>
 </p>
-
-<img src="/img/visdial/teaser.png">
+</div>
+<div class="pub-fig"><img src="/img/visdial/teaser.png"></div>
+</div>
 
 <!-- <div id="vimeo-embed">
     <iframe src="https://player.vimeo.com/video/193092429?byline=0&portrait=0&color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div> -->
 
 <hr>
+<div class="pub">
+<div class="pub-body">
 <h2 class="pubt">Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?</h2>
-
 <p class="pubd">
-    <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span> <br>
-    <span class="conf">CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span><br>
+    <span class="authors">Abhishek Das<sup>*</sup>, Harsh Agrawal<sup>*</sup>, C. Lawrence Zitnick, Devi Parikh, Dhruv Batra</span>
+    <span class="conf">CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning</span>
     <span class="links">
         <a target="_blank" href="//arxiv.org/abs/1606.03556">Paper</a>
         <a target="_blank" href="https://abhishekdas.com/vqa-hat/">Project+Dataset</a>
         <a target="_blank" href="https://github.com/abhshkdz/neural-vqa-attention">neural-vqa-attention</a>
     </span>
-    <!-- Press: -->
-    <div class="row pressdiv" style="margin: 5px 0 0 0; line-height: 1.4em;">
-        <a style="border-bottom: 0;" target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0; line-height: 1.1em;">
-                <img src="/img/logos/nautilus.png" style="background: white; width: 57px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Is Artificial Intelligence Permanently Inscrutable?" by Aaron Bornstein</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/theverge.png" style="margin-right: 5px; background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Deep learning is creating computer systems we don't fully understand" by James Vincent</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/newscientist.jpg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Robot eyes and humans fix on different things to decode a scene" by Aviva Rutkin</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 0;">
-                <img src="/img/logos/techradar.png" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"Robots and humans see the world differently – but we don't know why" by Duncan Geere</span>
-            </div>
-        </a>
-        <a style="border-bottom: 0;" target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/">
-            <div class="col-lg-1 col-md-1 col-xs-2" style="padding: 3px 0;">
-                <img src="/img/logos/mittechreview.svg" style="background: white; width: 60px;">
-            </div>
-            <div class="col-lg-11 col-md-11 col-xs-10">
-                <span class="presslink">"AI Is Learning to See the World—But Not the Way Humans Do" by Jamie Condliffe</span>
-            </div>
-        </a>
-    </div>
-</p><img src="/img/vqa-hat/teaser.jpg">
+</p>
+</div>
+<div class="pub-fig"><img src="/img/vqa-hat/teaser.jpg"></div>
+</div>
+<div class="pressdiv pressdiv-wide">
+    <a target="_blank" href="http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable"><span class="press-logo"><img src="/img/logos/nautilus.png"></span><span class="presslink">"Is Artificial Intelligence Permanently Inscrutable?" by Aaron Bornstein</span></a>
+    <a target="_blank" href="http://www.theverge.com/2016/7/12/12158238/first-click-deep-learning-algorithmic-black-boxes"><span class="press-logo"><img src="/img/logos/theverge.png"></span><span class="presslink">"Deep learning is creating computer systems we don't fully understand" by James Vincent</span></a>
+    <a target="_blank" href="https://www.newscientist.com/article/2095616-robot-eyes-and-humans-fix-on-different-things-to-decode-a-scene/"><span class="press-logo"><img src="/img/logos/newscientist.jpg"></span><span class="presslink">"Robot eyes and humans fix on different things to decode a scene" by Aviva Rutkin</span></a>
+    <a target="_blank" href="http://www.techradar.com/news/world-of-tech/robots-and-humans-see-the-world-differently-but-we-don-t-know-why-1324165"><span class="press-logo"><img src="/img/logos/techradar.png"></span><span class="presslink">"Robots and humans see the world differently – but we don't know why" by Duncan Geere</span></a>
+    <a target="_blank" href="https://www.technologyreview.com/s/601819/ai-is-learning-to-see-the-world-but-not-the-way-humans-do/"><span class="press-logo"><img src="/img/logos/mittechreview.svg"></span><span class="presslink">"AI Is Learning to See the World—But Not the Way Humans Do" by Jamie Condliffe</span></a>
+</div>
 <hr>
 
 <a name="/projects"></a>

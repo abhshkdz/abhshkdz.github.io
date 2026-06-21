@@ -1,0 +1,28 @@
+# Abhishek Das
+
+> Co-CEO and Co-Founder of Yutori, building AI agents that browse and act on the
+> web for you, autonomously. Previously a PhD at Georgia Tech (early work on
+> agents that see, talk, and act, and on Grad-CAM) and a Research Scientist at
+> FAIR (Meta), where he helped start the Open Catalyst Project.
+
+## Profile
+
+- Name: Abhishek Das
+- Role: Co-CEO and Co-Founder, Yutori (https://yutori.com)
+- Education: PhD, Georgia Tech (2016–2020); B.Tech, IIT Roorkee
+- Email: abhshkdz@gmail.com
+
+## Site
+
+- Home / bio: https://abhishekdas.com/
+- Talks and interviews: https://abhishekdas.com/#talks-and-interviews
+- Publications: https://abhishekdas.com/#publications
+- Generative art: https://abhishekdas.com/art/
+- Bookshelf: https://abhishekdas.com/bookshelf/
+
+## Elsewhere
+
+- Google Scholar: https://scholar.google.com/citations?user=t6exkOAAAAAJ
+- GitHub: https://github.com/abhshkdz
+- X / Twitter: https://twitter.com/abhshkdz
+- LinkedIn: https://www.linkedin.com/in/abhshkdz/
