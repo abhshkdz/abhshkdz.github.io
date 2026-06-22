@@ -168,6 +168,9 @@ h1.content:empty{display:none;}
   margin:0 0 5px;color:var(--ink);
 }
 .pubd{margin:0 0 4px;font-size:14px;line-height:1.55;}
+/* author/conf/link spans are block-level; drop redundant <br>s (present in
+   some entries, not others) so spacing is consistent across all papers */
+.pubd br{display:none;}
 .pubd .authors{display:block;color:var(--muted);font-size:13px;margin-bottom:4px;}
 .pubd .conf{display:block;color:var(--soft);font-size:12.5px;font-weight:500;margin-bottom:3px;}
 .pubd .links{display:block;font-size:12.5px;}
@@ -184,7 +187,7 @@ h1.content:empty{display:none;}
   max-width:60px;max-height:18px;width:auto;height:auto;
   margin:0;border:none;border-radius:0;background:transparent;
 }
-.presslink{color:var(--muted);font-size:12px;line-height:1.4;}
+.presslink{color:var(--muted);font-size:12px;line-height:1.4;text-decoration:underline;text-decoration-color:var(--hair);transition:color .15s;}
 .pressdiv a:hover .presslink{color:var(--ink);}
 /* full-width press list (spans content column, two columns when wide) */
 .pressdiv-wide{margin-top:16px;}
@@ -224,5 +227,6 @@ h1.content:empty{display:none;}
   .talkt{flex-direction:column;gap:2px;}
   .talkt .talkdate{flex-basis:auto;}
   .pub{flex-direction:column;gap:10px;}
-  .pub .pub-fig{flex-basis:auto;width:100%;}
+  /* stack text above the figure (override desktop's figure-first order) */
+  .pub .pub-fig{flex-basis:auto;width:100%;order:0;}
 }

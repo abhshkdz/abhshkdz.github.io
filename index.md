@@ -219,6 +219,8 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
 {% if site.data.scholar.citations %}My papers have been cited {{ site.data.scholar.citations }} times. {% endif %}See <a target="_blank" href="https://scholar.google.com/citations?user=t6exkOAAAAAJ">Google Scholar</a> for an up-to-date list.
 </p>
 
+<hr>
+
 <a name="/uma"></a>
 <div class="pub">
 <div class="pub-body">
@@ -335,11 +337,11 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
         <a target="_blank" href="https://fair-chem.github.io">Dataset</a>
     </span>
 </p>
-<div class="pressdiv">
-    <a target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/"><span class="press-logo"><img src="/img/logos/fair2.png"></span><span class="presslink">"... new dataset for green hydrogen fuel" by Janice, Siddharth, Ammar, Larry</span></a>
-</div>
 </div>
 <div class="pub-fig"><img src="/img/ocp/oc22.jpg"></div>
+</div>
+<div class="pressdiv pressdiv-wide">
+    <a target="_blank" href="https://ai.facebook.com/blog/accelerating-renewable-energy-with-a-new-data-set-for-green-hydrogen-fuel/"><span class="press-logo"><img src="/img/logos/fair2.png"></span><span class="presslink">"... new dataset for green hydrogen fuel" by Janice, Siddharth, Ammar, Larry</span></a>
 </div>
 <hr>
 
