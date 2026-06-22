@@ -65,7 +65,7 @@ can [<i>see</i>, <i>talk</i>, and <i>act</i>][thesis-pdf], e.g.
 [trained with deep reinforcement learning](//arxiv.org/abs/1703.06585),
 [embodied agents that navigate and answer questions](https://embodiedqa.org/), and
 [attention-based multi-agent communication](https://arxiv.org/abs/1810.11187). My labmates and I
-also developed [Grad-CAM](//arxiv.org/abs/1610.02391) (40k+ citations), a general method for
+also developed [Grad-CAM](//arxiv.org/abs/1610.02391) ({% if site.data.scholar.gradcam %}{{ site.data.scholar.gradcam }}{% else %}40k+{% endif %} citations), a general method for
 interpreting neural networks. Along the way, I interned at FAIR, DeepMind, and Tesla Autopilot.
 
 My PhD thesis was a runner-up for the [2020 AAAI/ACM SIGAI Doctoral Dissertation Award][aaai-dissertation-award].

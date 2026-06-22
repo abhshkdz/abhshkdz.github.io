@@ -25,7 +25,8 @@ jobs:
             exit 0
           fi
           # SerpApi Google Scholar Author API (reliable; Scholar blocks direct CI scraping).
-          URL="https://serpapi.com/search.json?engine=google_scholar_author&author_id=t6exkOAAAAAJ&hl=en&api_key=${SERPAPI_KEY}"
+          # One call returns both the total citation count and the per-article counts.
+          URL="https://serpapi.com/search.json?engine=google_scholar_author&author_id=t6exkOAAAAAJ&hl=en&num=100&api_key=${SERPAPI_KEY}"
           JSON=$(curl -s "$URL" || true)
           # Total citations live at .cited_by.table[0].citations.all
           COUNT=$(printf '%s' "$JSON" | jq -r '.cited_by.table[0].citations.all // empty' 2>/dev/null)
@@ -40,20 +41,34 @@ jobs:
           echo "ok=true" >> "$GITHUB_OUTPUT"
           echo "formatted=$FORMATTED" >> "$GITHUB_OUTPUT"
 
+          # Grad-CAM paper, matched by its citation_id; floor to nearest thousand -> "41k+".
+          GRADCAM=$(printf '%s' "$JSON" | jq -r '.articles[]? | select(.citation_id=="t6exkOAAAAAJ:u-x6o8ySG0sC") | .cited_by.value // empty' 2>/dev/null)
+          if printf '%s' "$GRADCAM" | grep -qE '^[0-9]+$'; then
+            GRADCAM_FMT="$(( GRADCAM / 1000 ))k+"
+            echo "Parsed Grad-CAM citations: $GRADCAM ($GRADCAM_FMT)"
+          else
+            # Keep the existing value if the article wasn't found.
+            GRADCAM_FMT=$(grep -E '^gradcam:' _data/scholar.yml | sed -E 's/^[^"]*"([^"]*)".*$/\1/')
+            echo "Could not parse Grad-CAM citations; keeping existing value ($GRADCAM_FMT)."
+          fi
+          echo "gradcam=$GRADCAM_FMT" >> "$GITHUB_OUTPUT"
+
       - name: Write _data/scholar.yml
         if: steps.fetch.outputs.ok == 'true'
         run: |
           cat > _data/scholar.yml <<EOF
           # Auto-updated daily by .github/workflows/scholar.yml
           # \`citations\` is the total citation count from Google Scholar, comma-formatted.
+          # \`gradcam\` is the Grad-CAM paper's citation count, floored to the nearest thousand (e.g. "41k+").
           citations: "${{ steps.fetch.outputs.formatted }}"
+          gradcam: "${{ steps.fetch.outputs.gradcam }}"
           EOF
 
       - name: Commit if changed
         if: steps.fetch.outputs.ok == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Abhishek Das"
+          git config user.email "das.abhshk@gmail.com"
           if git diff --quiet -- _data/scholar.yml; then
             echo "No change in citation count."
           else
