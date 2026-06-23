@@ -995,15 +995,6 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
     </div>
 </div>
 
-<script src="/js/jquery.min.js"></script>
-<script type="text/javascript">
-    $('ul:gt(0) li:gt(12)').hide();
-    $('#read-more-button > a').click(function() {
-        $('ul:gt(0) li:gt(12)').show();
-        $('#read-more-button').hide();
-    });
-</script>
-
 ---
 
 [1]: //mlp.cc.gatech.edu
