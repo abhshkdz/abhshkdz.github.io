@@ -74,5 +74,6 @@ jobs:
           else
             git add _data/scholar.yml
             git commit -m "Update Google Scholar citation count"
+            git pull --rebase origin master
             git push
           fi
