@@ -1,7 +1,7 @@
 ---
 layout:     art
 title:      Tatters
-permalink:  /art/tatters
+permalink:  /art/tatters/
 ---
 
 <html lang="en">
