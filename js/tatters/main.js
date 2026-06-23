@@ -105,7 +105,7 @@ function setup() {
 
 function draw() {
     let done = true;
-    for (i = 0; i < strokes_per_frame; i++) {
+    for (let i = 0; i < strokes_per_frame; i++) {
         for (let i = 0; i < blocks.length; i++) {
             if (!blocks[i].isDone()) {
                 blocks[i].addStroke();
