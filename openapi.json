@@ -28,7 +28,8 @@
                 "schema": { "$ref": "#/components/schemas/ApiIndex" }
               }
             }
-          }
+          },
+          "404": { "$ref": "#/components/responses/NotFound" }
         }
       }
     },
@@ -45,7 +46,8 @@
                 "schema": { "$ref": "#/components/schemas/Profile" }
               }
             }
-          }
+          },
+          "404": { "$ref": "#/components/responses/NotFound" }
         }
       }
     },
@@ -62,12 +64,23 @@
                 "schema": { "$ref": "#/components/schemas/PublicationList" }
               }
             }
-          }
+          },
+          "404": { "$ref": "#/components/responses/NotFound" }
         }
       }
     }
   },
   "components": {
+    "responses": {
+      "NotFound": {
+        "description": "Path not found. The API is served as static files from GitHub Pages, so error responses have an HTML body rather than JSON. There is no authentication (auth errors cannot occur) and no rate limiting beyond the host's defaults; treat any non-200 response as 'not found' and fall back to the endpoint catalog at /api/index.json.",
+        "content": {
+          "text/html": {
+            "schema": { "type": "string" }
+          }
+        }
+      }
+    },
     "schemas": {
       "ApiIndex": {
         "type": "object",
