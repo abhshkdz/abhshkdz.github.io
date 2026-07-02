@@ -1,5 +1,5 @@
 # Auto-updated daily by .github/workflows/scholar.yml
 # `citations` is the total citation count from Google Scholar, comma-formatted.
 # `gradcam` is the Grad-CAM paper's citation count, floored to the nearest thousand (e.g. "41k+").
-citations: "52,877"
+citations: "52,889"
 gradcam: "43k+"
