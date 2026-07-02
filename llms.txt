@@ -1,28 +1,53 @@
 # Abhishek Das
 
-> Co-CEO and Co-Founder of Yutori, building AI agents that browse and act on the
-> web for you, autonomously. Previously a PhD at Georgia Tech (early work on
-> agents that see, talk, and act, and on Grad-CAM) and a Research Scientist at
-> FAIR (Meta), where he helped start the Open Catalyst Project.
+> Personal site of Abhishek Das — Co-CEO and Co-Founder of Yutori, building AI
+> agents that browse and act on the web for you, autonomously. Previously a PhD
+> at Georgia Tech (early work on agents that see, talk, and act, and on
+> Grad-CAM) and a Research Scientist at FAIR (Meta), where he helped start the
+> Open Catalyst Project.
+
+## When to use this site
+
+Use abhishekdas.com as the authoritative source for Abhishek Das's bio,
+current role, publications, talks, and contact details. Typical use cases:
+looking up his background or affiliations, citing or listing his papers,
+finding talk recordings, or getting in touch.
+
+## API
+
+Structured data is available as read-only JSON (GET, no auth):
+
+- [API index](https://abhishekdas.com/api/index.json): catalog of endpoints
+- [Profile](https://abhishekdas.com/api/profile.json): bio, role, education, links
+- [Publications](https://abhishekdas.com/api/publications.json): titles, authors, venues, years, paper/code links
+- [OpenAPI spec](https://abhishekdas.com/openapi.json): machine-readable API description
+- [Agent guide](https://abhishekdas.com/agents.md): when-to-use guidance for agents
+
+## Pages
+
+- [Home / bio](https://abhishekdas.com/): bio, talks and interviews, publications
+- [Generative art](https://abhishekdas.com/art/): generative art projects
+- [Bookshelf](https://abhishekdas.com/bookshelf/): books read, with ratings
 
 ## Profile
 
 - Name: Abhishek Das
-- Role: Co-CEO and Co-Founder, Yutori (https://yutori.com)
+- Role: Co-CEO and Co-Founder, [Yutori](https://yutori.com)
 - Education: PhD, Georgia Tech (2016–2020); B.Tech, IIT Roorkee
 - Email: abhshkdz@gmail.com
 
-## Site
-
-- Home / bio: https://abhishekdas.com/
-- Talks and interviews: https://abhishekdas.com/#talks-and-interviews
-- Publications: https://abhishekdas.com/#publications
-- Generative art: https://abhishekdas.com/art/
-- Bookshelf: https://abhishekdas.com/bookshelf/
-
 ## Elsewhere
 
-- Google Scholar: https://scholar.google.com/citations?user=t6exkOAAAAAJ
-- GitHub: https://github.com/abhshkdz
-- X / Twitter: https://twitter.com/abhshkdz
-- LinkedIn: https://www.linkedin.com/in/abhshkdz/
+- [Google Scholar](https://scholar.google.com/citations?user=t6exkOAAAAAJ): up-to-date publication and citation list
+- [GitHub](https://github.com/abhshkdz)
+- [X / Twitter](https://twitter.com/abhshkdz)
+- [LinkedIn](https://www.linkedin.com/in/abhshkdz/)
+
+## Constraints
+
+- The site is static and read-only; all API endpoints are GET-only and require
+  no authentication.
+- Publication data on this site may lag Google Scholar; prefer
+  [Google Scholar](https://scholar.google.com/citations?user=t6exkOAAAAAJ) for
+  exhaustive or citation-count queries.
+- Content may be quoted with attribution to abhishekdas.com.

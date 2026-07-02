@@ -1,0 +1,172 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "abhishekdas.com API",
+    "version": "1.0.0",
+    "summary": "Read-only JSON API for Abhishek Das's personal site",
+    "description": "Static, read-only JSON endpoints exposing Abhishek Das's profile and publications. All endpoints are GET-only, require no authentication, and are served as static files from GitHub Pages. Use these instead of scraping the HTML homepage when you need structured data.",
+    "contact": {
+      "name": "Abhishek Das",
+      "url": "https://abhishekdas.com",
+      "email": "abhshkdz@gmail.com"
+    }
+  },
+  "servers": [
+    { "url": "https://abhishekdas.com", "description": "Production" }
+  ],
+  "paths": {
+    "/api/index.json": {
+      "get": {
+        "operationId": "getApiIndex",
+        "summary": "List available endpoints",
+        "description": "Returns a machine-readable catalog of the JSON endpoints available on this site.",
+        "responses": {
+          "200": {
+            "description": "Catalog of available endpoints.",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiIndex" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profile.json": {
+      "get": {
+        "operationId": "getProfile",
+        "summary": "Get Abhishek Das's profile",
+        "description": "Returns bio, current role and organization, education history, contact email, and links to profiles elsewhere (Google Scholar, GitHub, X/Twitter, LinkedIn).",
+        "responses": {
+          "200": {
+            "description": "Profile information.",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Profile" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/publications.json": {
+      "get": {
+        "operationId": "listPublications",
+        "summary": "List publications",
+        "description": "Returns the publications listed on abhishekdas.com, newest first, with titles, author lists, venues, years, and links to papers, code, and project pages. An asterisk (*) in an author name marks equal contribution. For an exhaustive, always-current list, see Google Scholar.",
+        "responses": {
+          "200": {
+            "description": "Publication list.",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PublicationList" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApiIndex": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "openapi": { "type": "string", "format": "uri" },
+          "documentation": { "type": "string", "format": "uri" },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "method": { "type": "string" },
+                "description": { "type": "string" }
+              },
+              "required": ["path", "method"]
+            }
+          }
+        },
+        "required": ["name", "endpoints"]
+      },
+      "Profile": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "organization": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "description": { "type": "string" }
+            }
+          },
+          "bio": { "type": "string" },
+          "education": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "degree": { "type": "string" },
+                "institution": { "type": "string" },
+                "years": { "type": "string" }
+              }
+            }
+          },
+          "email": { "type": "string", "format": "email" },
+          "website": { "type": "string", "format": "uri" },
+          "profiles": {
+            "type": "object",
+            "additionalProperties": { "type": "string", "format": "uri" }
+          },
+          "links": {
+            "type": "object",
+            "additionalProperties": { "type": "string", "format": "uri" }
+          }
+        },
+        "required": ["name", "role", "bio"]
+      },
+      "PublicationList": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string", "format": "uri" },
+          "author": { "type": "string" },
+          "note": { "type": "string" },
+          "google_scholar": { "type": "string", "format": "uri" },
+          "count": { "type": "integer" },
+          "publications": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Publication" }
+          }
+        },
+        "required": ["count", "publications"]
+      },
+      "Publication": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "authors": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Author names in order; an asterisk (*) marks equal contribution."
+          },
+          "venue": {
+            "type": ["string", "null"],
+            "description": "Publication venue(s), e.g. 'NeurIPS 2025'. Null for preprints."
+          },
+          "year": { "type": ["integer", "null"] },
+          "url": { "type": "string", "format": "uri", "description": "Anchor link to this publication on abhishekdas.com." },
+          "links": {
+            "type": "object",
+            "additionalProperties": { "type": "string", "format": "uri" },
+            "description": "Related links keyed by label, e.g. paper, code, website, demo."
+          }
+        },
+        "required": ["title", "authors"]
+      }
+    }
+  }
+}
