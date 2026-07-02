@@ -85,23 +85,53 @@
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Abhishek Das",
-          "url": "{{ site.url }}",
-          "image": "{{ site.url }}/img/avatar.jpg",
-          "description": "{{ site.description }}",
-          "jobTitle": "Co-CEO and Co-Founder",
-          "worksFor": { "@type": "Organization", "name": "Yutori", "url": "https://yutori.com" },
-          "alumniOf": [
-            { "@type": "CollegeOrUniversity", "name": "Georgia Institute of Technology" },
-            { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Roorkee" }
-          ],
-          "sameAs": [
-            "https://scholar.google.com/citations?user=t6exkOAAAAAJ",
-            "https://github.com/abhshkdz",
-            "https://twitter.com/abhshkdz",
-            "https://www.linkedin.com/in/abhshkdz/",
-            "https://instagram.com/abhshkdz"
+          "@graph": [
+            {
+              "@type": "Person",
+              "@id": "{{ site.url }}/#person",
+              "name": "Abhishek Das",
+              "url": "{{ site.url }}",
+              "image": "{{ site.url }}/img/avatar.jpg",
+              "description": "{{ site.description }}",
+              "jobTitle": "Co-CEO and Co-Founder",
+              "email": "mailto:abhshkdz@gmail.com",
+              "worksFor": { "@id": "https://yutori.com/#organization" },
+              "alumniOf": [
+                { "@type": "CollegeOrUniversity", "name": "Georgia Institute of Technology" },
+                { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Roorkee" }
+              ],
+              "sameAs": [
+                "https://scholar.google.com/citations?user=t6exkOAAAAAJ",
+                "https://github.com/abhshkdz",
+                "https://twitter.com/abhshkdz",
+                "https://www.linkedin.com/in/abhshkdz/",
+                "https://instagram.com/abhshkdz"
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://yutori.com/#organization",
+              "name": "Yutori",
+              "url": "https://yutori.com",
+              "description": "Building AI agents that browse and act on the web for you, autonomously.",
+              "founder": { "@id": "{{ site.url }}/#person" }
+            },
+            {
+              "@type": "WebSite",
+              "@id": "{{ site.url }}/#website",
+              "url": "{{ site.url }}",
+              "name": "Abhishek Das",
+              "description": "{{ site.description }}",
+              "publisher": { "@id": "{{ site.url }}/#person" }
+            },
+            {
+              "@type": "ProfilePage",
+              "@id": "{{ site.url }}/#profilepage",
+              "url": "{{ site.url }}",
+              "name": "Abhishek Das",
+              "isPartOf": { "@id": "{{ site.url }}/#website" },
+              "mainEntity": { "@id": "{{ site.url }}/#person" }
+            }
           ]
         }
         </script>

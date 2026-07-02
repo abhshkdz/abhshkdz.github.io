@@ -26,6 +26,36 @@ to log into, purchase, or submit.
 - All content is server-rendered HTML; no JavaScript is required to read any
   page.
 
+## Quickstart
+
+No signup, API keys, or authentication — plain GET requests:
+
+```bash
+# Discover available endpoints
+curl -s https://abhishekdas.com/api/index.json
+
+# Profile: bio, role, education, links
+curl -s https://abhishekdas.com/api/profile.json
+
+# Publications: titles, authors, venues, years, paper/code links
+curl -s https://abhishekdas.com/api/publications.json
+
+# Most recent publication, in Python
+python3 -c "import json, urllib.request; \
+  d = json.load(urllib.request.urlopen('https://abhishekdas.com/api/publications.json')); \
+  print(d['publications'][0]['title'])"
+```
+
+## Errors and limits
+
+- There is no authentication, so auth failures cannot occur; there are no
+  rate limits beyond the static host's (GitHub Pages) defaults.
+- Unknown paths return HTTP 404 with an HTML body, not JSON — treat any
+  non-200 response as "not found" and fall back to the endpoint catalog at
+  [/api/index.json](https://abhishekdas.com/api/index.json).
+- All responses are static and cacheable; if a request fails transiently,
+  retry with backoff.
+
 ## Constraints
 
 - Read-only: there are no POST/PUT/DELETE endpoints, forms, or transactions.
