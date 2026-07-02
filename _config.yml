@@ -7,3 +7,4 @@ author:
 description: Co-CEO and Co-Founder of Yutori, building AI agents that browse and act on the web for you. Previously a PhD at Georgia Tech and a Research Scientist at FAIR (Meta).
 permalink: /posts/:title/
 include: ['_pages']
+exclude: ['scripts']

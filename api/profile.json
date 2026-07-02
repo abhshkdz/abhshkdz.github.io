@@ -1,0 +1,28 @@
+{
+  "name": "Abhishek Das",
+  "role": "Co-CEO and Co-Founder",
+  "organization": {
+    "name": "Yutori",
+    "url": "https://yutori.com",
+    "description": "Building AI agents that browse and act on the web for you, autonomously."
+  },
+  "bio": "Co-CEO and Co-Founder of Yutori, building AI agents that browse and act on the web for you. During his PhD at Georgia Tech (2016-2020), he did some of the earliest work on agents that can see, talk, and act, and co-developed Grad-CAM, a widely used method for interpreting neural networks. He was later a Research Scientist at FAIR (Meta), where he helped start the Open Catalyst Project to accelerate electrocatalyst discovery.",
+  "education": [
+    { "degree": "PhD, Computer Science", "institution": "Georgia Institute of Technology", "years": "2016-2020" },
+    { "degree": "B.Tech", "institution": "Indian Institute of Technology Roorkee" }
+  ],
+  "email": "abhshkdz@gmail.com",
+  "website": "https://abhishekdas.com",
+  "profiles": {
+    "google_scholar": "https://scholar.google.com/citations?user=t6exkOAAAAAJ",
+    "github": "https://github.com/abhshkdz",
+    "twitter": "https://twitter.com/abhshkdz",
+    "linkedin": "https://www.linkedin.com/in/abhshkdz/"
+  },
+  "links": {
+    "publications": "https://abhishekdas.com/api/publications.json",
+    "talks": "https://abhishekdas.com/#talks-and-interviews",
+    "art": "https://abhishekdas.com/art/",
+    "bookshelf": "https://abhishekdas.com/bookshelf/"
+  }
+}

@@ -14,6 +14,9 @@
         <meta name="description" content="{{ site.description }}">
         {% endif %}
         <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
+        <link rel="service-desc" type="application/json" href="{{ site.url }}/openapi.json" title="OpenAPI description" />
+        <link rel="describedby" type="text/plain" href="{{ site.url }}/llms.txt" title="llms.txt" />
+        <link rel="alternate" type="application/json" href="{{ site.url }}/api/profile.json" title="Profile (JSON)" />
         <!--Open Graph Related Stuff-->
         <meta property="fb:app_id" content="1666933880208467"/>
         <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}"/>
@@ -29,6 +32,8 @@
         <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
         <meta property="article:publisher" content="https://www.facebook.com/abhshkdz"/>
         <meta property="article:author" content="abhshkdz"/>
+        {% else %}
+        <meta property="og:type" content="website"/>
         {% endif %}
         <meta property="og:site_name" content="{{ site.name }}"/>
         {% if page.logo %}

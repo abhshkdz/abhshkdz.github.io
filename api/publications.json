@@ -1,0 +1,757 @@
+{
+  "$schema": "https://abhishekdas.com/openapi.json",
+  "source": "https://abhishekdas.com/",
+  "author": "Abhishek Das",
+  "note": "Author lists preserve the site's markup; an asterisk (*) marks equal contribution. See Google Scholar for an exhaustive, up-to-date list.",
+  "google_scholar": "https://scholar.google.com/citations?user=t6exkOAAAAAJ",
+  "count": 37,
+  "publications": [
+    {
+      "title": "UMA: A Family of Universal Models for Atoms",
+      "authors": [
+        "Brandon M. Wood*",
+        "Misko Dzamba*",
+        "Xiang Fu*",
+        "Meng Gao*",
+        "Muhammed Shuaibi*",
+        "Luis Barroso-Luque",
+        "Kareem Abdelmaqsoud",
+        "Vahe Gharakhanyan",
+        "John R. Kitchin",
+        "Daniel S. Levine",
+        "Kyle Michel",
+        "Anuroop Sriram",
+        "Taco Cohen",
+        "Abhishek Das",
+        "Sushree Jagriti Sahoo",
+        "Ammar Rizvi",
+        "Zachary W. Ulissi",
+        "C. Lawrence Zitnick"
+      ],
+      "venue": "NeurIPS 2025",
+      "year": 2025,
+      "url": "https://abhishekdas.com/#/uma",
+      "links": {
+        "paper": "https://arxiv.org/abs/2506.23971",
+        "code": "https://github.com/facebookresearch/fairchem"
+      }
+    },
+    {
+      "title": "Generalizing Denoising to Non-Equilibrium Structures Improves Equivariant Force Fields",
+      "authors": [
+        "Yi-Lun Liao",
+        "Tess Smidt",
+        "Muhammed Shuaibi*",
+        "Abhishek Das*"
+      ],
+      "venue": "TMLR 2024",
+      "year": 2024,
+      "url": "https://abhishekdas.com/#/dens",
+      "links": {
+        "paper": "https://arxiv.org/abs/2403.09549"
+      }
+    },
+    {
+      "title": "The Open DAC 2023 Dataset and Challenges for Sorbent Discovery in Direct Air Capture",
+      "authors": [
+        "Anuroop Sriram",
+        "Sihoon Choi",
+        "Xiaohan Yu",
+        "Logan M. Brabson",
+        "Abhishek Das",
+        "Zachary Ulissi",
+        "Matt Uyttendaele",
+        "Andrew J. Medford",
+        "David S. Sholl"
+      ],
+      "venue": "ACS Central Science 2024",
+      "year": 2024,
+      "url": "https://abhishekdas.com/#/odac23",
+      "links": {
+        "paper": "https://arxiv.org/abs/2311.00341",
+        "code": "https://github.com/open-catalyst-project/ocp",
+        "website": "https://open-dac.github.io"
+      }
+    },
+    {
+      "title": "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations",
+      "authors": [
+        "Yi-Lun Liao",
+        "Brandon Wood",
+        "Abhishek Das*",
+        "Tess Smidt*"
+      ],
+      "venue": "ICLR 2024",
+      "year": 2024,
+      "url": "https://abhishekdas.com/#/equiformer2",
+      "links": {
+        "paper": "https://arxiv.org/abs/2306.12059",
+        "code": "https://github.com/atomicarchitects/equiformer_v2"
+      }
+    },
+    {
+      "title": "AdsorbML: Accelerating Adsorption Energy Calculations with Machine Learning",
+      "authors": [
+        "Janice Lan*",
+        "Aini Palizhati*",
+        "Muhammed Shuaibi*",
+        "Brandon M. Wood*",
+        "Brook Wander",
+        "Abhishek Das",
+        "Matt Uyttendaele",
+        "C. Lawrence Zitnick",
+        "Zachary W. Ulissi"
+      ],
+      "venue": "npj Computational Materials 2023",
+      "year": 2023,
+      "url": "https://abhishekdas.com/#/adsorbml",
+      "links": {
+        "paper": "https://arxiv.org/abs/2211.16486",
+        "code": "https://github.com/open-catalyst-project/adsorbml"
+      }
+    },
+    {
+      "title": "PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav",
+      "authors": [
+        "Ram Ramrakhya",
+        "Dhruv Batra",
+        "Erik Wijmans",
+        "Abhishek Das"
+      ],
+      "venue": "CVPR 2023, RRL workshop at ICLR 2023",
+      "year": 2023,
+      "url": "https://abhishekdas.com/#/pirlnav",
+      "links": {
+        "paper": "https://arxiv.org/abs/2301.07302",
+        "code": "https://github.com/Ram81/pirlnav",
+        "website": "https://ram81.github.io/projects/pirlnav.html"
+      }
+    },
+    {
+      "title": "The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysis",
+      "authors": [
+        "Richard Tran*",
+        "Janice Lan*",
+        "Muhammed Shuaibi*",
+        "Siddharth Goyal*",
+        "Brandon M. Wood*",
+        "Abhishek Das",
+        "Javier Heras-Domingo",
+        "Adeesh Kolluru",
+        "Ammar Rizvi",
+        "Nima Shoghi",
+        "Anuroop Sriram",
+        "Zachary Ulissi",
+        "C. Lawrence Zitnick"
+      ],
+      "venue": "ACS Catalysis 2023",
+      "year": 2023,
+      "url": "https://abhishekdas.com/#/oc22",
+      "links": {
+        "paper": "https://arxiv.org/abs/2206.08917",
+        "code": "https://github.com/open-catalyst-project/ocp",
+        "dataset": "https://fair-chem.github.io"
+      }
+    },
+    {
+      "title": "GemNet-OC: Developing Graph Neural Networks for Large and Diverse Molecular Simulation Datasets",
+      "authors": [
+        "Johannes Gasteiger",
+        "Muhammed Shuaibi",
+        "Anuroop Sriram",
+        "Stephan Günnemann",
+        "Zachary Ulissi",
+        "C. Lawrence Zitnick",
+        "Abhishek Das"
+      ],
+      "venue": "TMLR 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/gemnet-oc",
+      "links": {
+        "paper": "https://arxiv.org/abs/2204.02782",
+        "code": "https://github.com/facebookresearch/fairchem"
+      }
+    },
+    {
+      "title": "Spherical Channels for Modeling Atomic Interactions",
+      "authors": [
+        "C. Lawrence Zitnick",
+        "Abhishek Das",
+        "Adeesh Kolluru",
+        "Janice Lan",
+        "Muhammed Shuaibi",
+        "Anuroop Sriram",
+        "Zachary Ulissi",
+        "Brandon Wood"
+      ],
+      "venue": "NeurIPS 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/scn",
+      "links": {
+        "paper": "https://arxiv.org/abs/2206.14331",
+        "code": "https://github.com/facebookresearch/fairchem"
+      }
+    },
+    {
+      "title": "Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery",
+      "authors": [
+        "Adeesh Kolluru*",
+        "Muhammed Shuaibi*",
+        "Aini Palizhati",
+        "Nima Shoghi",
+        "Abhishek Das",
+        "Brandon Wood",
+        "C. Lawrence Zitnick",
+        "John R. Kitchin",
+        "Zachary Ulissi"
+      ],
+      "venue": "ACS Catalysis (Perspective) 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/scn",
+      "links": {
+        "paper": "https://pubs.acs.org/doi/10.1021/acscatal.2c02291"
+      }
+    },
+    {
+      "title": "Transfer learning using attentions across atomic systems with graph neural networks (TAAG)",
+      "authors": [
+        "Adeesh Kolluru",
+        "Nima Shoghi",
+        "Muhammed Shuaibi",
+        "Siddharth Goyal",
+        "Abhishek Das",
+        "C. Lawrence Zitnick",
+        "Zachary Ulissi"
+      ],
+      "venue": "The Journal of Chemical Physics 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/taag",
+      "links": {
+        "paper": "https://aip.scitation.org/doi/abs/10.1063/5.0088019?cookieSet=1",
+        "code": "https://github.com/Open-Catalyst-Project/ocp/tree/transfer_learning"
+      }
+    },
+    {
+      "title": "Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale",
+      "authors": [
+        "Ram Ramrakhya",
+        "Eric Undersander",
+        "Dhruv Batra",
+        "Abhishek Das"
+      ],
+      "venue": "CVPR 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/habitat-web",
+      "links": {
+        "paper": "https://arxiv.org/abs/2204.03514",
+        "code": "https://github.com/Ram81/habitat-web",
+        "website": "https://ram81.github.io/projects/habitat-web.html",
+        "presentation video": "https://www.youtube.com/watch?v=oeteCENMZDA"
+      }
+    },
+    {
+      "title": "Towards Training Billion Parameter Graph Neural Networks for Atomic Simulations",
+      "authors": [
+        "Anuroop Sriram",
+        "Abhishek Das",
+        "Brandon M. Wood",
+        "Siddharth Goyal",
+        "C. Lawrence Zitnick"
+      ],
+      "venue": "ICLR 2022",
+      "year": 2022,
+      "url": "https://abhishekdas.com/#/graph-parallel",
+      "links": {
+        "paper": "https://arxiv.org/abs/2203.09697",
+        "code": "https://github.com/facebookresearch/fairchem"
+      }
+    },
+    {
+      "title": "Rotation Invariant Graph Neural Networks using Spin Convolutions",
+      "authors": [
+        "Muhammed Shuaibi",
+        "Adeesh Kolluru",
+        "Abhishek Das",
+        "Aditya Grover",
+        "Anuroop Sriram",
+        "Zachary Ulissi",
+        "C. Lawrence Zitnick"
+      ],
+      "venue": null,
+      "year": null,
+      "url": "https://abhishekdas.com/#/spinconv",
+      "links": {
+        "paper": "https://arxiv.org/abs/2106.09575",
+        "code": "https://github.com/Open-Catalyst-Project/ocp"
+      }
+    },
+    {
+      "title": "Automated Video Description for Blind and Low Vision Users",
+      "authors": [
+        "Aditya Bodi",
+        "Pooyan Fazli",
+        "Shasta Ihorn",
+        "Yue-Ting Siu",
+        "Andrew T Scott",
+        "Lothar Narins",
+        "Yash Kant",
+        "Abhishek Das",
+        "Ilmi Yoon"
+      ],
+      "venue": "CHI EA 2021",
+      "year": 2021,
+      "url": "https://abhishekdas.com/#/youdescribe-descriptions-1",
+      "links": {
+        "paper": "https://dl.acm.org/doi/10.1145/3411763.3451810"
+      }
+    },
+    {
+      "title": "Auxiliary Tasks and Exploration Enable ObjectNav",
+      "authors": [
+        "Joel Ye",
+        "Dhruv Batra",
+        "Abhishek Das",
+        "Erik Wijmans"
+      ],
+      "venue": "ICCV 2021",
+      "year": 2021,
+      "url": "https://abhishekdas.com/#/habitat-objnav",
+      "links": {
+        "paper": "https://arxiv.org/abs/2104.04112",
+        "code": "https://github.com/joel99/objectnav",
+        "website": "https://joel99.github.io/objectnav/"
+      }
+    },
+    {
+      "title": "ForceNet: A Graph Neural Network for Large-Scale Quantum Calculations",
+      "authors": [
+        "Weihua Hu",
+        "Muhammed Shuaibi",
+        "Abhishek Das",
+        "Siddharth Goyal",
+        "Anuroop Sriram",
+        "Jure Leskovec",
+        "Devi Parikh",
+        "C. Lawrence Zitnick"
+      ],
+      "venue": "ICLR 2021 Deep Learning for Simulation Workshop",
+      "year": 2021,
+      "url": "https://abhishekdas.com/#/forcenet",
+      "links": {
+        "paper": "https://arxiv.org/abs/2103.01436",
+        "opencatalystproject.org": "https://opencatalystproject.org/",
+        "presentation video": "https://slideslive.com/38955314/forcenet-a-graph-neural-network-for-largescale-quantum-calculations?ref=speaker-22639-latest"
+      }
+    },
+    {
+      "title": "The Open Catalyst 2020 (OC20) Dataset and Community Challenges",
+      "authors": [
+        "Lowik Chanussot*",
+        "Abhishek Das*",
+        "Siddharth Goyal*",
+        "Thibaut Lavril*",
+        "Muhammed Shuaibi*",
+        "Morgane Riviére",
+        "Kevin Tran",
+        "Javier Heras-Domingo",
+        "Caleb Ho",
+        "Weihua Hu",
+        "Aini Palizhati",
+        "Anuroop Sriram",
+        "Brandon Wood",
+        "Junwoong Yoon",
+        "Devi Parikh",
+        "C. Lawrence Zitnick",
+        "Zachary Ulissi"
+      ],
+      "venue": "ACS Catalysis 2021",
+      "year": 2021,
+      "url": "https://abhishekdas.com/#/ocp-dataset",
+      "links": {
+        "paper": "https://arxiv.org/abs/2010.09990",
+        "code": "https://github.com/open-catalyst-project/ocp",
+        "dataset": "https://fair-chem.github.io",
+        "opencatalystproject.org": "https://opencatalystproject.org/"
+      }
+    },
+    {
+      "title": "An Introduction to Electrocatalyst Design using Machine Learning for Renewable Energy Storage",
+      "authors": [
+        "C. Lawrence Zitnick",
+        "Lowik Chanussot",
+        "Abhishek Das",
+        "Siddharth Goyal",
+        "Javier Heras-Domingo",
+        "Caleb Ho",
+        "Weihua Hu",
+        "Thibaut Lavril",
+        "Aini Palizhati",
+        "Morgane Riviére",
+        "Muhammed Shuaibi",
+        "Anuroop Sriram",
+        "Kevin Tran",
+        "Brandon Wood",
+        "Junwoong Yoon",
+        "Devi Parikh",
+        "Zachary Ulissi"
+      ],
+      "venue": null,
+      "year": null,
+      "url": "https://abhishekdas.com/#/ocp-whitepaper",
+      "links": {
+        "paper": "https://arxiv.org/abs/2010.09435",
+        "opencatalystproject.org": "https://opencatalystproject.org/"
+      }
+    },
+    {
+      "title": "Auxiliary Tasks Speed Up Learning PointGoal Navigation",
+      "authors": [
+        "Joel Ye",
+        "Dhruv Batra",
+        "Erik Wijmans*",
+        "Abhishek Das*"
+      ],
+      "venue": "CoRL 2020",
+      "year": 2020,
+      "url": "https://abhishekdas.com/#/habitat-pointnav-aux",
+      "links": {
+        "paper": "https://arxiv.org/abs/2007.04561",
+        "code": "https://github.com/joel99/habitat-pointnav-aux"
+      }
+    },
+    {
+      "title": "Large-scale Pretraining for Visual Dialog: A Simple State-of-the-Art Baseline",
+      "authors": [
+        "Vishvak Murahari",
+        "Dhruv Batra",
+        "Devi Parikh",
+        "Abhishek Das"
+      ],
+      "venue": "ECCV 2020",
+      "year": 2020,
+      "url": "https://abhishekdas.com/#/visdial-bert",
+      "links": {
+        "paper": "https://arxiv.org/abs/1912.02379",
+        "code": "https://github.com/vmurahari3/visdial-bert"
+      }
+    },
+    {
+      "title": "Building agents that can see, talk, and act",
+      "authors": [
+        "Abhishek Das"
+      ],
+      "venue": "AAAI/ACM SIGAI Doctoral Dissertation Award, Runner-up",
+      "year": null,
+      "url": "https://abhishekdas.com/#/phd-thesis-1",
+      "links": {
+        "phd thesis": "https://drive.google.com/file/d/11D27ZmxllBWbxOYSaBfSHaAI6s9Dav7B/view?usp=sharing"
+      }
+    },
+    {
+      "title": "Probing Emergent Semantics in Predictive Agents via Question Answering",
+      "authors": [
+        "Abhishek Das*",
+        "Federico Carnevale*",
+        "Hamza Merzic",
+        "Laura Rimell",
+        "Rosalia Schneider",
+        "Josh Abramson",
+        "Alden Hung",
+        "Arun Ahuja",
+        "Stephen Clark",
+        "Gregory Wayne",
+        "Felix Hill"
+      ],
+      "venue": "ICML 2020",
+      "year": 2020,
+      "url": "https://abhishekdas.com/#/qa-probing",
+      "links": {
+        "paper": "https://arxiv.org/abs/2006.01016",
+        "presentation video": "https://slideslive.com/38928261/probing-emergent-semantics-in-predictive-agents-via-question-answering",
+        "slides": "https://docs.google.com/presentation/d/1yjfu2YBLTwJZXG4IiBiws4Z0EIts4X0J5DrYmYpBQ0A/edit?usp=sharing"
+      }
+    },
+    {
+      "title": "Feel The Music: Automatically Generating A Dance For An Input Song",
+      "authors": [
+        "Purva Tendulkar",
+        "Abhishek Das",
+        "Aniruddha Kembhavi",
+        "Devi Parikh"
+      ],
+      "venue": "ICCC 2020",
+      "year": 2020,
+      "url": "https://abhishekdas.com/#/dancing-agents",
+      "links": {
+        "paper": "https://arxiv.org/abs/2006.11905",
+        "code": "https://github.com/purvaten/feel-the-music",
+        "videos": "https://sites.google.com/view/dancing-agents"
+      }
+    },
+    {
+      "title": "IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL",
+      "authors": [
+        "Nirbhay Modhe",
+        "Prithvijit Chattopadhyay",
+        "Mohit Sharma",
+        "Abhishek Das",
+        "Devi Parikh",
+        "Dhruv Batra",
+        "Ramakrishna Vedantam"
+      ],
+      "venue": "IJCAI-PRICAI 2020, ICLR 2019 Task-Agnostic RL Workshop",
+      "year": 2020,
+      "url": "https://abhishekdas.com/#/ds-vic",
+      "links": {
+        "paper": "https://arxiv.org/abs/1907.10580"
+      }
+    },
+    {
+      "title": "Improving Generative Visual Dialog by Answering Diverse Questions",
+      "authors": [
+        "Vishvak Murahari",
+        "Prithvijit Chattopadhyay",
+        "Dhruv Batra",
+        "Devi Parikh",
+        "Abhishek Das"
+      ],
+      "venue": "EMNLP 2019",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/visdial-rl-plus-plus",
+      "links": {
+        "paper": "https://arxiv.org/abs/1909.10470",
+        "code": "https://github.com/vmurahari3/visdial-diversity"
+      }
+    },
+    {
+      "title": "TarMAC: Targeted Multi-Agent Communication",
+      "authors": [
+        "Abhishek Das",
+        "Théophile Gervet",
+        "Joshua Romoff",
+        "Dhruv Batra",
+        "Devi Parikh",
+        "Michael Rabbat",
+        "Joelle Pineau"
+      ],
+      "venue": "ICML 2019",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/multi-agent-comm",
+      "links": {
+        "paper": "https://arxiv.org/abs/1810.11187",
+        "slides": "https://drive.google.com/open?id=1ZjKogiYrqFVuBmad3IzkNW18pvP2QcIG"
+      }
+    },
+    {
+      "title": "Embodied Question Answering in Photorealistic Environments with Point Clouds",
+      "authors": [
+        "Erik Wijmans*",
+        "Samyak Datta*",
+        "Oleksandr Maksymets*",
+        "Abhishek Das",
+        "Georgia Gkioxari",
+        "Stefan Lee",
+        "Irfan Essa",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "CVPR 2019 (Oral)",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/eqa-mp3d",
+      "links": {
+        "paper": "https://arxiv.org/abs/1904.03461"
+      }
+    },
+    {
+      "title": "Audio-Visual Scene-Aware Dialog",
+      "authors": [
+        "Huda Alamri",
+        "Vincent Cartillier",
+        "Abhishek Das",
+        "Jue Wang",
+        "Stefan Lee",
+        "Peter Anderson",
+        "Irfan Essa",
+        "Devi Parikh",
+        "Dhruv Batra",
+        "Anoop Cherian",
+        "Tim K. Marks",
+        "Chiori Hori"
+      ],
+      "venue": "CVPR 2019",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/avsd",
+      "links": {
+        "paper": "https://arxiv.org/abs/1901.09107",
+        "code": "https://github.com/batra-mlp-lab/avsd",
+        "video-dialog.com": "http://video-dialog.com/"
+      }
+    },
+    {
+      "title": "End-to-end Audio Visual Scene-Aware Dialog Using Multimodal Attention-based Video Features",
+      "authors": [
+        "Chiori Hori",
+        "Huda Alamri",
+        "Jue Wang",
+        "Gordon Wichern",
+        "Takaaki Hori",
+        "Anoop Cherian",
+        "Tim K. Marks",
+        "Vincent Cartillier",
+        "Raphael Lopes",
+        "Abhishek Das",
+        "Irfan Essa",
+        "Dhruv Batra",
+        "Devi Parikh"
+      ],
+      "venue": "ICASSP 2019",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/avsd_icassp",
+      "links": {
+        "paper": "https://arxiv.org/abs/1806.08409",
+        "video-dialog.com": "http://video-dialog.com/"
+      }
+    },
+    {
+      "title": "Neural Modular Control for Embodied Question Answering",
+      "authors": [
+        "Abhishek Das",
+        "Georgia Gkioxari",
+        "Stefan Lee",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "CoRL 2018 (Spotlight)",
+      "year": 2018,
+      "url": "https://abhishekdas.com/#/eqa-modular",
+      "links": {
+        "paper": "https://arxiv.org/abs/1810.11181",
+        "embodiedqa.org": "https://embodiedqa.org/",
+        "presentation video": "https://www.youtube.com/watch?v=xoHvho-YRgs&t=7330",
+        "slides": "https://drive.google.com/open?id=1xTvgpVNxG7MPZQe6jtXuYUIT2WPtoh0U"
+      }
+    },
+    {
+      "title": "Embodied Question Answering",
+      "authors": [
+        "Abhishek Das",
+        "Samyak Datta",
+        "Georgia Gkioxari",
+        "Stefan Lee",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "CVPR 2018 (Oral)",
+      "year": 2018,
+      "url": "https://abhishekdas.com/#/embodied-qa",
+      "links": {
+        "paper": "https://embodiedqa.org/paper.pdf",
+        "embodiedqa.org": "https://embodiedqa.org/",
+        "code": "https://github.com/facebookresearch/EmbodiedQA",
+        "presentation video": "//youtu.be/gz2VoDrvX-A?t=1h19m58s",
+        "slides": "https://drive.google.com/open?id=1UacybW4p_8PDPNUvnEl05_89tbeG0ItP"
+      }
+    },
+    {
+      "title": "Evaluating Visual Conversational Agents via Cooperative Human-AI Games",
+      "authors": [
+        "Prithvijit Chattopadhyay*",
+        "Deshraj Yadav*",
+        "Viraj Prabhu",
+        "Arjun Chandrasekaran",
+        "Abhishek Das",
+        "Stefan Lee",
+        "Dhruv Batra",
+        "Devi Parikh"
+      ],
+      "venue": "HCOMP 2017",
+      "year": 2017,
+      "url": "https://abhishekdas.com/#/embodied-qa",
+      "links": {
+        "paper": "//arxiv.org/abs/1708.05122",
+        "code": "//github.com/VT-vision-lab/guesswhich"
+      }
+    },
+    {
+      "title": "Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning",
+      "authors": [
+        "Abhishek Das*",
+        "Satwik Kottur*",
+        "Stefan Lee",
+        "José M.F. Moura",
+        "Dhruv Batra"
+      ],
+      "venue": "ICCV 2017 (Oral)",
+      "year": 2017,
+      "url": "https://abhishekdas.com/#/visdial-rl",
+      "links": {
+        "paper": "//arxiv.org/abs/1703.06585",
+        "code": "//github.com/batra-mlp-lab/visdial-rl",
+        "presentation video": "//www.youtube.com/watch?v=R4hugGnNr7s",
+        "slides": "https://drive.google.com/open?id=0B70NAN5i4ZHSaVBESEFHQW9vUk0"
+      }
+    },
+    {
+      "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization",
+      "authors": [
+        "Ramprasaath R. Selvaraju",
+        "Michael Cogswell",
+        "Abhishek Das",
+        "Ramakrishna Vedantam",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "IJCV 2019, ICCV 2017, NIPS 2016 Interpretable ML for Complex Systems Workshop",
+      "year": 2019,
+      "url": "https://abhishekdas.com/#/visdial-rl",
+      "links": {
+        "paper": "//arxiv.org/abs/1610.02391",
+        "code": "https://github.com/ramprs/grad-cam",
+        "demo": "http://gradcam.cloudcv.org/"
+      }
+    },
+    {
+      "title": "Visual Dialog",
+      "authors": [
+        "Abhishek Das",
+        "Satwik Kottur",
+        "Khushi Gupta",
+        "Avi Singh",
+        "Deshraj Yadav",
+        "José M.F. Moura",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "PAMI 2018, CVPR 2017 (Spotlight)",
+      "year": 2018,
+      "url": "https://abhishekdas.com/#/visdial",
+      "links": {
+        "paper": "//arxiv.org/abs/1611.08669",
+        "code": "//github.com/batra-mlp-lab/visdial",
+        "visualdialog.org": "http://visualdialog.org/",
+        "amt chat interface": "https://github.com/batra-mlp-lab/visdial-amt-chat",
+        "demo": "http://demo.visualdialog.org",
+        "presentation video": "//www.youtube.com/watch?v=I9OlorMh7wU",
+        "slides": "https://drive.google.com/open?id=0B70NAN5i4ZHSTWhRTTlMdVVIcFU"
+      }
+    },
+    {
+      "title": "Human Attention in Visual Question Answering: Do Humans and Deep Networks Look at the Same Regions?",
+      "authors": [
+        "Abhishek Das*",
+        "Harsh Agrawal*",
+        "C. Lawrence Zitnick",
+        "Devi Parikh",
+        "Dhruv Batra"
+      ],
+      "venue": "CVIU 2017, EMNLP 2016, ICML 2016 Workshop on Visualization for Deep Learning",
+      "year": 2017,
+      "url": "https://abhishekdas.com/#/visdial",
+      "links": {
+        "paper": "//arxiv.org/abs/1606.03556",
+        "project+dataset": "https://abhishekdas.com/vqa-hat/",
+        "neural-vqa-attention": "https://github.com/abhshkdz/neural-vqa-attention"
+      }
+    }
+  ]
+}
