@@ -131,6 +131,12 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
             </a>
         </div>
         <div class="talkt">
+            <span class="talkdate">Apr 2026</span>
+            <a target="_blank" href="https://youtu.be/i7N_-ctMQgI?t=2h23m35s">
+                TBPN: Building Web Agents That Act on Your Behalf
+            </a>
+        </div>
+        <div class="talkt">
             <span class="talkdate">Dec 2025</span>
             <a target="_blank" href="https://www.youtube.com/watch?v=TR4KskhnIFU">
                 focal podcast: Why Horizontal Beats Vertical in AI Agents
