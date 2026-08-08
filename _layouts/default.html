@@ -157,6 +157,9 @@
         </script>
     </head>
     <body>
+        {% if page.url == '/' %}
+        <a id="header-art" class="header-art" href="/art/tatters/" title="Tatters — generated fresh for this visit"><canvas></canvas></a>
+        {% endif %}
         <div class="layout">
             <aside class="sidebar">
                 <div class="intro">
@@ -286,5 +289,8 @@
             }
         })();
         </script>
+        {% if page.url == '/' %}
+        <script src="/js/header-art.js?v=2" defer></script>
+        {% endif %}
     </body>
 </html>

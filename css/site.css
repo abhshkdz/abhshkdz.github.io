@@ -34,10 +34,43 @@ a:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:1p
 /* ---------- Layout ---------- */
 .layout{position:relative;}
 
+/* ---------- Generated header art (mini Tatters, unique per visit) ---------- */
+.header-art{
+  display:block;height:150px;line-height:0;position:relative;
+  visibility:hidden;opacity:0;transition:opacity .8s ease;
+}
+.header-art.is-ready{visibility:visible;opacity:1;}
+.header-art canvas{width:100%;height:100%;display:block;filter:saturate(.72);}
+/* melt into the page background towards the bottom; a uniform white veil
+   keeps the piece muted, and the stops approximate a smoothstep curve so
+   the fade has no visible start or end edge */
+.header-art::after{
+  content:"";position:absolute;left:0;right:0;top:0;bottom:0;
+  background:linear-gradient(to bottom,
+    rgba(255,255,255,.15) 0%,
+    rgba(255,255,255,.15) 8%,
+    rgba(255,255,255,.18) 18%,
+    rgba(255,255,255,.257) 28%,
+    rgba(255,255,255,.37) 39%,
+    rgba(255,255,255,.504) 49%,
+    rgba(255,255,255,.641) 59%,
+    rgba(255,255,255,.78) 69%,
+    rgba(255,255,255,.893) 80%,
+    rgba(255,255,255,.97) 90%,
+    var(--bg) 100%);
+  pointer-events:none;
+}
+@media (prefers-reduced-motion:reduce){.header-art{transition:none;}}
+
 /* ---------- Sidebar ---------- */
+/* Sticky with zero height: starts below the header art (when present),
+   pins 72px from the viewport top while scrolling, and — being 0 tall —
+   doesn't push main.main down. translateY provides the 72px offset
+   without affecting flow. */
 aside.sidebar{
-  position:fixed;left:44px;top:72px;width:var(--side);
-  height:calc(100vh - 144px);
+  position:sticky;top:0;height:0;overflow:visible;z-index:2;
+  margin-left:44px;width:var(--side);
+  transform:translateY(72px);
   display:flex;flex-direction:column;gap:26px;
 }
 aside.sidebar .intro{display:flex;flex-direction:column;gap:4px;}
@@ -213,8 +246,9 @@ h1.content:empty{display:none;}
 @media(max-width:1240px){
   aside.sidebar{
     position:static;height:auto;width:100%;max-width:calc(var(--content) + 56px);margin:0 auto;
-    padding:44px 28px 0;gap:12px;
+    padding:44px 28px 0;gap:12px;transform:none;
   }
+  .header-art{height:110px;}
   aside.sidebar .role{white-space:normal;}
   aside.sidebar nav{flex-direction:row;flex-wrap:wrap;gap:6px 18px;margin:0;}
   aside.sidebar nav a .ind{display:none;}
@@ -224,6 +258,7 @@ h1.content:empty{display:none;}
 }
 @media(max-width:560px){
   aside.sidebar{padding:34px 22px 0;}
+  .header-art{height:88px;}
   main.main{padding:10px 22px 56px;}
   .talkt{flex-direction:column;gap:2px;}
   .talkt .talkdate{flex-basis:auto;}
