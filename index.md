@@ -113,6 +113,12 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
 <div class="row">
     <div class="col-xs-12">
         <div class="talkt">
+            <span class="talkdate">Aug 2026</span>
+            <a target="_blank" href="https://open.spotify.com/episode/6DdB6UmgkyGQfdG9kuSE8p">
+                ThinkData: Building the AI Agents That Could Change the Internet
+            </a>
+        </div>
+        <div class="talkt">
             <span class="talkdate">May 2026</span>
             <a target="_blank" href="https://www.youtube.com/watch?v=wRDk9_JoIic">
                 EO: The Problem with AI Agents No One is Talking About
