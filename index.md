@@ -56,7 +56,8 @@ permalink:  /
 I'm the Co-CEO and Co-Founder of [Yutori](https://yutori.com).
 Almost everything in computing has been reinvented in the last thirty years, except how we
 interact with the web. It's still a person, a browser, and endless clicking, scrolling, filling
-forms, fighting popups and ads. At Yutori, we're building agents that browse and act on the web
+forms, fighting popups and ads. At Yutori, we're building computer-use agents (see
+[Navigator](https://yutori.com/blog/introducing-n1-5)) that browse and act on live websites
 for you, autonomously.
 
 During my PhD at Georgia Tech (2016–2020), I did some of the earliest work on agents that
