@@ -1,7 +1,8 @@
 /* Header art — a miniature Tatters (see /art/tatters/), regenerated on every
    visit. Vanilla-JS adaptation of js/tatters/main.js: same palettes, paper
    grid, and flow-field strokes with circle packing, scaled to a small strip.
-   Renders in requestAnimationFrame chunks, then fades in via .is-ready. */
+   Paints the background and paper grid synchronously, fades in right away via
+   .is-ready, and draws the strokes live in requestAnimationFrame chunks. */
 (function () {
     'use strict';
 
@@ -87,36 +88,39 @@
         return 'hsla(' + c[0] + ',' + c[1] + '%,' + c[2] + '%,' + (a === undefined ? 1 : a) + ')';
     }
 
-    /* ---------- Circle packer (spatial hash; strokes stop where others live) ---------- */
+    /* ---------- Circle packer (spatial hash; strokes stop where others live) ----------
+       Hot path: integer Map keys and inlined cell loops — no string keys or
+       per-call closures. Bounds checks keep i/j non-negative and j < 4096. */
     function Packer(w, h, cell) {
-        this.w = w; this.h = h; this.cell = cell; this.map = {};
+        this.w = w; this.h = h; this.cell = cell; this.map = new Map();
     }
-    Packer.prototype.eachCell = function (x, y, r, fn) {
-        var x0 = Math.floor((x - r) / this.cell), x1 = Math.floor((x + r) / this.cell);
-        var y0 = Math.floor((y - r) / this.cell), y1 = Math.floor((y + r) / this.cell);
-        for (var i = x0; i <= x1; i++) {
-            for (var j = y0; j <= y1; j++) fn(i + ',' + j);
-        }
-    };
     Packer.prototype.tryAdd = function (x, y, r) {
         if (x - r < 0 || x + r > this.w || y - r < 0 || y + r > this.h) return null;
-        var map = this.map, hit = false;
-        this.eachCell(x, y, r, function (k) {
-            if (hit) return;
-            var cell = map[k];
-            if (!cell) return;
-            for (var i = 0; i < cell.length; i++) {
-                var c = cell[i], dx = c.x - x, dy = c.y - y, rr = c.r + r;
-                if (dx * dx + dy * dy < rr * rr) { hit = true; return; }
+        var cs = this.cell, map = this.map;
+        var x0 = ((x - r) / cs) | 0, x1 = ((x + r) / cs) | 0;
+        var y0 = ((y - r) / cs) | 0, y1 = ((y + r) / cs) | 0;
+        for (var i = x0; i <= x1; i++) {
+            for (var j = y0; j <= y1; j++) {
+                var cell = map.get(i * 4096 + j);
+                if (!cell) continue;
+                for (var k = 0; k < cell.length; k++) {
+                    var c = cell[k], dx = c.x - x, dy = c.y - y, rr = c.r + r;
+                    if (dx * dx + dy * dy < rr * rr) return null;
+                }
             }
-        });
-        return hit ? null : { x: x, y: y, r: r };
+        }
+        return { x: x, y: y, r: r };
     };
     Packer.prototype.add = function (c) {
-        var map = this.map;
-        this.eachCell(c.x, c.y, c.r, function (k) {
-            (map[k] || (map[k] = [])).push(c);
-        });
+        var cs = this.cell, map = this.map;
+        var x0 = ((c.x - c.r) / cs) | 0, x1 = ((c.x + c.r) / cs) | 0;
+        var y0 = ((c.y - c.r) / cs) | 0, y1 = ((c.y + c.r) / cs) | 0;
+        for (var i = x0; i <= x1; i++) {
+            for (var j = y0; j <= y1; j++) {
+                var key = i * 4096 + j, cell = map.get(key);
+                if (cell) cell.push(c); else map.set(key, [c]);
+            }
+        }
     };
 
     /* ---------- Generation ---------- */
@@ -195,6 +199,9 @@
         var sw = ((1 + rand() * b.sw_base) | 0) * pt;
         var pts = [], added = [];
 
+        // one fillStyle parse per stroke; per-dot opacity rides on globalAlpha
+        if (b.style !== 'constant') ctx.fillStyle = hsl(b.fg);
+
         for (var j = 0; j < numSteps; j++) {
             var angle = noise(x / w * b.nst, y / w * b.nst) * TWO_PI;
             x += b.step_mult * b.stroke_dir * Math.cos(angle);
@@ -212,12 +219,13 @@
             if (b.style === 'constant') {
                 pts.push(x, y);
             } else if (rand() < 0.7 && sww > 0) {
-                ctx.fillStyle = hsl(b.fg, 0.25 + rand() * 0.75);
+                ctx.globalAlpha = 0.25 + rand() * 0.75;
                 ctx.beginPath();
                 ctx.arc(x, y, sww / 2, 0, TWO_PI);
                 ctx.fill();
             }
         }
+        ctx.globalAlpha = 1;
 
         if (b.style === 'constant' && pts.length > 3) {
             ctx.strokeStyle = hsl(strokeClr);
@@ -243,7 +251,7 @@
         if (w < 20 || h < 20) return;
         cssW = w;
 
-        var dpr = Math.min(2.5, window.devicePixelRatio || 1);
+        var dpr = Math.min(2, window.devicePixelRatio || 1);
         canvas.width = Math.round(w * dpr);
         canvas.height = Math.round(h * dpr);
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -264,18 +272,19 @@
             blocks.push(buildBlock(i, i ? blocks[i - 1] : null, fgs, margin, w - margin, margin, h - margin));
         }
 
-        // graph-paper grid of jittered dots, in the first block's color
+        // graph-paper grid of jittered dots, in the first block's color.
+        // fillRect stands in for arc: at ~2px the shape is invisible and it
+        // keeps the per-dot alpha stacking, at a fraction of the cost
         var grid_gap = choice([12, 16, 22]) * pt;
         var gclr = hsl(blocks[0].fg, 0.125);
         ctx.fillStyle = gclr;
-        var gx, gy, off;
+        var gx, gy, off, gr;
         for (gx = grid_gap; gx < w; gx += grid_gap) {
             off = choice([-1, 1]) * h / 50 * rand();
             for (gy = 0; gy < h; gy += 1) {
                 if (rand() < 0.5) {
-                    ctx.beginPath();
-                    ctx.arc(gx, off + gy, (pt + rand()) / 2, 0, TWO_PI);
-                    ctx.fill();
+                    gr = (pt + rand()) / 2;
+                    ctx.fillRect(gx - gr, off + gy - gr, gr * 2, gr * 2);
                 }
             }
         }
@@ -283,19 +292,22 @@
             off = choice([-1, 1]) * w / 50 * rand();
             for (gx = 0; gx < w; gx += 1) {
                 if (rand() < 0.5) {
-                    ctx.beginPath();
-                    ctx.arc(off + gx, gy, (pt + rand()) / 2, 0, TWO_PI);
-                    ctx.fill();
+                    gr = (pt + rand()) / 2;
+                    ctx.fillRect(off + gx - gr, gy - gr, gr * 2, gr * 2);
                 }
             }
         }
 
         packer = new Packer(w, h, 8);
 
+        // background and grid are in — fade in now and let the strokes draw
+        // live, so the banner never sits blank while the piece generates
+        wrap.classList.add('is-ready');
+
         // round-robin the blocks a stroke at a time, in rAF-sized chunks
         function frame() {
-            var t0 = Date.now(), busy = true;
-            while (busy && Date.now() - t0 < 10) {
+            var t0 = performance.now(), busy = true;
+            while (busy && performance.now() - t0 < 10) {
                 busy = false;
                 for (var i = 0; i < blocks.length; i++) {
                     if (blocks[i].k < blocks[i].numStrokes) {
@@ -304,12 +316,8 @@
                     }
                 }
             }
-            if (busy) {
-                raf = requestAnimationFrame(frame);
-            } else {
-                raf = 0;
-                wrap.classList.add('is-ready');
-            }
+            if (busy) raf = requestAnimationFrame(frame);
+            else raf = 0;
         }
         raf = requestAnimationFrame(frame);
     }
