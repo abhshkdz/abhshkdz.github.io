@@ -58,7 +58,7 @@ Almost everything in computing has been reinvented in the last thirty years, exc
 interact with the web. It's still a person, a browser, and endless clicking, scrolling, filling
 forms, fighting popups and ads. At Yutori, we're building computer-use agents (see
 [Navigator](https://yutori.com/blog/introducing-n1-5)) that browse and act on live websites
-for you, autonomously.
+for you.
 
 During my PhD at Georgia Tech (2016–2020), I did some of the earliest work on agents that
 can [<i>see</i>, <i>talk</i>, and <i>act</i>][thesis-pdf], e.g.
