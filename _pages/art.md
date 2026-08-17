@@ -4,14 +4,12 @@ title:      Generative Art
 permalink:  /art/
 ---
 
-I'm new to generative art. If you see something you like, or want to collaborate,
-[get in touch](https://twitter.com/abhshkdz). I'd love that.
-
 I find the physical world fascinating, and my art comes from the impulse to mimic
 textures from it: sand dunes, torn cloth, ink on paper, waves on water.
-Everything here was made in [p5.js](https://p5js.org).
+A few selected projects are below. Everything here was made in
+[p5.js](https://p5js.org). If you see something you like, or want to
+collaborate, [get in touch](https://twitter.com/abhshkdz). I’d love that.
 
-A few selected projects are below.
 I also had a lot of fun with [#genuary2022](https://twitter.com/search?q=%23genuary2022%20from%3Aabhshkdz&src=typed_query).
 
 ### Aragnation <span style="font-size:0.6em;color:#AAA;">(on [ArtBlocks](https://www.artblocks.io/collections/presents/projects/0x99a9b7c1116f9ceeb1652de04d5969cce509b069/401))</span>
