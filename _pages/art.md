@@ -6,6 +6,7 @@ permalink:  /art/
 
 I find the physical world fascinating, and my art comes from the impulse to mimic
 textures from it: sand dunes, torn cloth, ink on paper, waves on water.
+
 A few selected projects are below. Everything here was made in
 [p5.js](https://p5js.org). If you see something you like, or want to
 collaborate, [get in touch](https://twitter.com/abhshkdz). I’d love that.
