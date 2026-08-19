@@ -90,19 +90,19 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
 <div class="row">
     <div class="col-xs-6">
         <p class="talkd">
-            <a target="_blank" href="https://www.youtube.com/watch?v=wRDk9_JoIic"><img src="/img/talks/eo_interview_2026.jpg"></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=j-rGKQCDPKo"><img src="/img/talks/raise_summit_2026.jpg"></a>
         </p>
     </div>
     <div class="col-xs-6">
         <p class="talkd">
-            <a target="_blank" href="https://www.youtube.com/watch?v=TR4KskhnIFU"><img src="/img/talks/focal_interview_2025.jpg"></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=wRDk9_JoIic"><img src="/img/talks/eo_interview_2026.jpg"></a>
         </p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-6">
         <p class="talkd">
-            <a target="_blank" href="https://www.youtube.com/watch?v=R4hugGnNr7s"><img src="/img/talks/visdial_rl_iccv17.jpg"></a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=TR4KskhnIFU"><img src="/img/talks/focal_interview_2025.jpg"></a>
         </p>
     </div>
     <div class="col-xs-6">
@@ -117,6 +117,12 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
             <span class="talkdate">Aug 2026</span>
             <a target="_blank" href="https://open.spotify.com/episode/6DdB6UmgkyGQfdG9kuSE8p">
                 ThinkData: Building the AI Agents That Could Change the Internet
+            </a>
+        </div>
+        <div class="talkt">
+            <span class="talkdate">Jul 2026</span>
+            <a target="_blank" href="https://www.youtube.com/watch?v=j-rGKQCDPKo">
+                RAISE Summit 2026: The Agentic Web is Next
             </a>
         </div>
         <div class="talkt">
