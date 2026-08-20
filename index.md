@@ -134,7 +134,7 @@ I got my Bachelor's at [IIT Roorkee][31]. On the side, I've built [aideadlin.es]
         <div class="talkt">
             <span class="talkdate">Apr 2026</span>
             <a target="_blank" href="https://www.youtube.com/watch?v=rZXUawHDGzE">
-                Startup Project: Push Notifications to Pull Systems &mdash; How AI Will Help You Reclaim Control Over Web Content
+                Startup Project: Push Notifications to Pull Systems
             </a>
         </div>
         <div class="talkt">
